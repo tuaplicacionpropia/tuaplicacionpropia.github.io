@@ -44,7 +44,7 @@ function DAO () {
       for (i = 0; i < postsId.length; i++) { 
         var index = i;
         var postId = postsId[i];
-        self.loadData(postId + '.hjson', function (post) {
+        self.loadData('posts/' + postId + '.hjson', function (post) {
           post['id'] = postId;
           console.log("LOADED POST = " + postId);
           _callback(post);
