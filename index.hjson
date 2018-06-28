@@ -1,10 +1,14 @@
 title: Título de la página
 
+mainPost: culture/culture2
+
 postsWeek: 
 [
-  videos/video1
-  reviews/review1
-  tech/tech1
+  design/design2
+  culture/culture3
+  design/design1
+  culture/culture1
+  science/science1
 ]
 
 posts:
@@ -13,6 +17,21 @@ posts:
   design/design1
   science/science1
 ]
+
+tags: {
+  linux: {
+    label: Linux
+  }
+  java: {
+    label: Java
+  }
+  python: {
+    label: Python
+  }
+  games: {
+    label: Juegos
+  }
+}
 
 options: 
 [
@@ -95,6 +114,37 @@ options:
   {
     id: contact
     label: Contact
+  }
+]
+
+quickLinks: [
+  {
+    label: Canterbury School
+    url: http://www.canterburyschool.com
+  }
+  {
+    label: Idecnet
+    url: http://www.idecnet.com
+  }
+  {
+    label: Godot Engine
+    url: https://godot-engine.zeef.com/andre.antonio.schmitz
+  }
+  {
+    label: Python
+    url: https://python.zeef.com/alan.richmond
+  }
+  {
+    label: Java
+    url: https://java.zeef.com/chandra.sekhar
+  }
+  {
+    label: Linux
+    url: https://linux.zeef.com/paul.reiber
+  }
+  {
+    label: Game Assets
+    url: https://game-assets.zeef.com/andre.antonio.schmitz
   }
 ]
 
