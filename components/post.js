@@ -166,7 +166,7 @@ Vue.component('post', {
 //    +     '<h3><a href="singlepage.html">{{ value.title }}</a></h3>'
     +     '<h3 v-if="value.title"><a href="#" v-on:click="readArticle()">{{ value.title }}</a></h3>'
     +     '<p v-for="line in lines">{{ line }}</p>'
-    +     '<p v-if="content" v-html="content"></p>'
+//    +     '<p v-if="content" v-html="content"></p>'
 
 /*
     +     '<p v-if="value.subtitle1">{{ value.subtitle1 }}</p>'
