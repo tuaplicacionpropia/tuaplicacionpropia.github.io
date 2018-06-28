@@ -1,10 +1,10 @@
 title: NETAPI
 
-mainPost: culture/culture2
+mainPost: presentaciones/slideshow_primaria.hjson
 
 postsWeek: 
 [
-  design/design2
+  presentaciones/slideshow_primaria.hjson
   culture/culture3
   design/design1
   culture/culture1
