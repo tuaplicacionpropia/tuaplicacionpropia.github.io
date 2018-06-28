@@ -30,18 +30,29 @@ Efecto parallax
 Hyperlapse con carteles de cada alumno en el suelo y paredes.
 
 
-WATERCOLOUR BACKGROUND: https://www.freepik.com/index.php?goto=2&searchform=1&k=Watercolour&type=&is_selection=&is_premium=&color=&order=
-FRAMES: https://www.freepik.com/index.php?goto=2&searchform=1&k=frame&type=&is_selection=0&is_premium=0&color=&order=0
-BORDER: https://www.freepik.com/index.php?goto=2&searchform=1&k=border&type=&is_selection=0&is_premium=0&color=&order=0
-SCHOOL: https://www.freepik.com/index.php?goto=2&searchform=1&k=school&type=&is_selection=0&is_premium=0&color=&order=2
-COMIC: https://www.freepik.com/index.php?goto=2&searchform=1&k=comic&type=&is_selection=&is_premium=&color=&order=2
-FILM: https://www.freepik.com/index.php?goto=2&searchform=1&k=film&type=&is_selection=&is_premium=&color=&order=
-POSTER: https://www.freepik.com/index.php?goto=2&searchform=1&k=poster&type=&is_selection=0&is_premium=0&color=&order=0
-LIGHT: https://www.freepik.com/index.php?goto=2&searchform=1&k=light&type=&is_selection=0&is_premium=0&color=&order=2
-SCRATCHES (rayones): https://www.freepik.com/index.php?goto=2&searchform=1&k=+scratches&type=&is_selection=&is_premium=&color=&order=2
-brightness: https://www.freepik.com/index.php?goto=2&searchform=1&k=+brightness&type=&is_selection=0&is_premium=0&color=&order=2
-WATER: https://www.freepik.com/index.php?goto=2&searchform=1&k=water&type=vectores&is_selection=&is_premium=&color=&order=
-GLASS: https://www.freepik.com/index.php?goto=2&searchform=1&k=glass&type=&is_selection=&is_premium=&color=&order=2
+
+## Marcos para fotos
+
+- [Watercolour][WATERCOLOUR-BACKGROUND]
+- [Marcos][FRAMES]
+- [BORDER][Bordes]
+
+[sd-logo]: https://raw.githubusercontent.com/showdownjs/logo/master/dist/logo.readme.png
+[releases]: https://github.com/showdownjs/showdown/releases
+
+
+[WATERCOLOUR-BACKGROUND]: https://www.freepik.com/index.php?goto=2&searchform=1&k=Watercolour&type=&is_selection=&is_premium=&color=&order=
+[FRAMES]: https://www.freepik.com/index.php?goto=2&searchform=1&k=frame&type=&is_selection=0&is_premium=0&color=&order=0
+[BORDER]: https://www.freepik.com/index.php?goto=2&searchform=1&k=border&type=&is_selection=0&is_premium=0&color=&order=0
+[SCHOOL]: https://www.freepik.com/index.php?goto=2&searchform=1&k=school&type=&is_selection=0&is_premium=0&color=&order=2
+[COMIC]: https://www.freepik.com/index.php?goto=2&searchform=1&k=comic&type=&is_selection=&is_premium=&color=&order=2
+[FILM]: https://www.freepik.com/index.php?goto=2&searchform=1&k=film&type=&is_selection=&is_premium=&color=&order=
+[POSTER]: https://www.freepik.com/index.php?goto=2&searchform=1&k=poster&type=&is_selection=0&is_premium=0&color=&order=0
+[LIGHT]: https://www.freepik.com/index.php?goto=2&searchform=1&k=light&type=&is_selection=0&is_premium=0&color=&order=2
+[SCRATCHES-rayones]: https://www.freepik.com/index.php?goto=2&searchform=1&k=+scratches&type=&is_selection=&is_premium=&color=&order=2
+[brightness]: https://www.freepik.com/index.php?goto=2&searchform=1&k=+brightness&type=&is_selection=0&is_premium=0&color=&order=2
+[WATER]: https://www.freepik.com/index.php?goto=2&searchform=1&k=water&type=vectores&is_selection=&is_premium=&color=&order=
+[GLASS]: https://www.freepik.com/index.php?goto=2&searchform=1&k=glass&type=&is_selection=&is_premium=&color=&order=2
 
 
 Colores:
