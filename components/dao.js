@@ -81,7 +81,9 @@ function DAO () {
     //Vue.http.options.root = 'https://my-json-server.typicode.com/tuaplicacionpropia/mydbjson';
     //https://github.com/tuaplicacionpropia/mydbjson/raw/master/index.hjson
     //Vue.http.options.root = 'https://github.com/tuaplicacionpropia/mydbjson/raw/master';
-    Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/mydbjson/master';
+    //Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/mydbjson/master';
+    //Vue.http.options.root = 'https://github.com/tuaplicacionpropia/tuaplicacionpropia.github.io/raw/master';
+    Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/tuaplicacionpropia.github.io/raw/master';
     Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
     Vue.http.headers.common['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept';
     
