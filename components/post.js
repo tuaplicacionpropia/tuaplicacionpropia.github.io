@@ -99,6 +99,14 @@ Vue.component('post', {
       return result;
     },
     
+    image () {
+      var result = null;
+      if (this.value.image) {
+        result = 'posts/' + this.value.image;
+      }
+      return result;
+    },
+    
     tagLabel() {
       var result = null;
       result = this.value.tag.charAt(0).toUpperCase() + this.value.tag.slice(1);
@@ -142,8 +150,8 @@ Vue.component('post', {
 
     +     '<div class="tch-img postImg postImg_horizontal">'
     +       '<a href="#" v-on:click="readArticle()">'
-    +         '<img v-if="!value.image" src="images/2.jpg" class="img-responsive" alt=""/>'
-    +         '<img v-if="value.image" v-bind:src="value.image" class="img-responsive" alt=""/>'
+    +         '<img v-if="!image" src="images/2.jpg" class="img-responsive" alt=""/>'
+    +         '<img v-if="image" v-bind:src="image" class="img-responsive" alt=""/>'
     +         '<div class="postBorder"></div>'
     +         '<div class="postDescription">'
     +           '<div class="postTitle hit-the-floor">{{ value.title }}'
@@ -182,8 +190,8 @@ Vue.component('post', {
     +   '<div class="blog-grid-left">'
     +     '<a href="#">'
 //    +       '<img src="images/6.jpg" class="img-responsive" alt=""/>'
-    +       '<img v-if="!value.image" src="images/2.jpg" class="img-responsive" alt=""/>'
-    +       '<img v-if="value.image" v-bind:src="value.image" class="img-responsive" alt=""/>'
+    +       '<img v-if="!image" src="images/2.jpg" class="img-responsive" alt=""/>'
+    +       '<img v-if="image" v-bind:src="image" class="img-responsive" alt=""/>'
     +     '</a>'
     +   '</div>'
     +   '<div class="blog-grid-right" v-if="fullTitle">'
@@ -194,8 +202,8 @@ Vue.component('post', {
     
     + '<div v-else-if="moldResume" class="tech-btm">'
 //    +   '<img src="images/banner1.jpg" class="img-responsive" alt=""/>'
-    +   '<img v-if="!value.image" src="images/banner1.jpg" class="img-responsive" alt=""/>'
-    +   '<img v-if="value.image" v-bind:src="value.image" class="img-responsive" alt=""/>'
+    +   '<img v-if="!image" src="images/banner1.jpg" class="img-responsive" alt=""/>'
+    +   '<img v-if="image" v-bind:src="image" class="img-responsive" alt=""/>'
     + '</div>'
     
 //background: url(../images/2.jpg) no-repeat 0px 0px
@@ -211,8 +219,8 @@ Vue.component('post', {
     + '  <div class=" blog-grid2">'
     +     '<div class="tch-img postImg postImg_horizontal">'
     +       '<a href="#" v-on:click="readArticle()">'
-    +         '<img v-if="!value.image" src="images/2.jpg" class="img-responsive" alt=""/>'
-    +         '<img v-if="value.image" v-bind:src="value.image" class="img-responsive" alt=""/>'
+    +         '<img v-if="!image" src="images/2.jpg" class="img-responsive" alt=""/>'
+    +         '<img v-if="image" v-bind:src="image" class="img-responsive" alt=""/>'
     +         '<div class="postBorder"></div>'
     +         '<div class="postDescription">'
     +           '<div class="postTitle hit-the-floor">{{ value.title }}'
