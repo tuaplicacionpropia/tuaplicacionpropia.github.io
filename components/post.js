@@ -102,7 +102,12 @@ Vue.component('post', {
     image () {
       var result = null;
       if (this.value.image) {
-        result = 'posts/' + this.value.image;
+        if (this.value.image.startsWith('http')) {
+          result = this.value.image;
+        }
+        else {
+          result = 'posts/' + this.value.image;
+        }
       }
       return result;
     },
