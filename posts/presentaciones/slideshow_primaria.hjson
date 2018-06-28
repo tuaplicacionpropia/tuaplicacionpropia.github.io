@@ -31,14 +31,20 @@ Hyperlapse con carteles de cada alumno en el suelo y paredes.
 
 
 
-## Marcos para fotos
+### Marcos para fotos
 
 - [Watercolour][WATERCOLOUR-BACKGROUND]
 - [Marcos][FRAMES]
-- [BORDER][Bordes]
-
-[sd-logo]: https://raw.githubusercontent.com/showdownjs/logo/master/dist/logo.readme.png
-[releases]: https://github.com/showdownjs/showdown/releases
+- [Bordes][BORDER]
+- [Colegio][SCHOOL]
+- [Comic][COMIC]
+- [Película][FILM]
+- [Póster][POSTER]
+- [Luces][LIGHT]
+- [Rayones][SCRATCHES]
+- [Brillos][BRIGHTNESS]
+- [Agua][WATER]
+- [Cristal][GLASS]
 
 
 [WATERCOLOUR-BACKGROUND]: https://www.freepik.com/index.php?goto=2&searchform=1&k=Watercolour&type=&is_selection=&is_premium=&color=&order=
@@ -49,8 +55,8 @@ Hyperlapse con carteles de cada alumno en el suelo y paredes.
 [FILM]: https://www.freepik.com/index.php?goto=2&searchform=1&k=film&type=&is_selection=&is_premium=&color=&order=
 [POSTER]: https://www.freepik.com/index.php?goto=2&searchform=1&k=poster&type=&is_selection=0&is_premium=0&color=&order=0
 [LIGHT]: https://www.freepik.com/index.php?goto=2&searchform=1&k=light&type=&is_selection=0&is_premium=0&color=&order=2
-[SCRATCHES-rayones]: https://www.freepik.com/index.php?goto=2&searchform=1&k=+scratches&type=&is_selection=&is_premium=&color=&order=2
-[brightness]: https://www.freepik.com/index.php?goto=2&searchform=1&k=+brightness&type=&is_selection=0&is_premium=0&color=&order=2
+[SCRATCHES]: https://www.freepik.com/index.php?goto=2&searchform=1&k=+scratches&type=&is_selection=&is_premium=&color=&order=2
+[BRIGHTNESS]: https://www.freepik.com/index.php?goto=2&searchform=1&k=+brightness&type=&is_selection=0&is_premium=0&color=&order=2
 [WATER]: https://www.freepik.com/index.php?goto=2&searchform=1&k=water&type=vectores&is_selection=&is_premium=&color=&order=
 [GLASS]: https://www.freepik.com/index.php?goto=2&searchform=1&k=glass&type=&is_selection=&is_premium=&color=&order=2
 
