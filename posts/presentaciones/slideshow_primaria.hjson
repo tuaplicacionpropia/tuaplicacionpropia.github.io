@@ -18,16 +18,39 @@ Algunas de ellas son: Parallax, Marcos, Green Screen, STROMOTION, Hyperlapse.
   '''
 content:
   '''
-  
-PROPUESTA: Pase de diapositivas al estilo Blender (ejemplos https://www.youtube.com/watch?v=EbOq7UJYgfY  https://www.youtube.com/watch?v=ugLkuFTUucA)
 
+### Animación Blender
 
-IDEAS:
-Incorporar videos a base de colocar el audio parcial de profesores y alumnos junto con capturas de pantalla del video
-Efecto parallax
-Hyperlapse con carteles de cada alumno en el suelo y paredes.
+Una técnica básica para el pase de diapositivas se basa en emplear Blender. Algunos ejemplos son: [UNO][blender1] o [DOS][blender2].
 
+[blender1]: https://www.youtube.com/watch?v=EbOq7UJYgfY
+[blender2]: https://www.youtube.com/watch?v=ugLkuFTUucA)
 
+### Hyperlapse
+
+Crear un hyperlapse de la entrada al colegio de los alumnos. Desde la calle hasta la clase. Algunos ejemplos de esto son: [UNO][hyperlapse1], [DOS][hyperlapse2] o [TRES][hyperlapse3].
+Además se podrían colocar los carteles de los alumnos en el suelo y en las paredes.
+En el lateral grande del edificio del colegio, se puede colocar la foto de la clase.
+Para incrustar imágenes en vídeos en movimiento hay que usar la técnica ['motion tracking'][trackinghyperlapse].
+
+[hyperlapse1]: https://www.youtube.com/watch?v=b65rfT54-Uw
+[hyperlapse2]: https://www.youtube.com/watch?v=DcylVx2ex78
+[hyperlapse3]: https://www.youtube.com/watch?v=NnSAdTc8-ug
+[trackinghyperlapse]: https://www.youtube.com/watch?v=U5xsknddF2E
+
+### Realce de imágenes
+
+A veces las fotografías son de mala calidad. Existen algunas [técnicas][realce1] que permiten mejorar la imagen.
+
+[realce1]: https://www.youtube.com/watch?v=QbWghBFQ9Bo
+
+### Parallax
+
+Esta técnica consiste en animar una imagen estática. Algunos ejemplos de ello son [UNO][parallax1], [DOS][parallax2] o [TRES][parallax3].
+
+[parallax1]: https://www.youtube.com/watch?v=qPGDoJcaVyg
+[parallax2]: https://www.youtube.com/watch?v=BiUguu-24co
+[parallax3]: https://www.youtube.com/watch?v=BtlcbC4gx0w
 
 ### Marcos para fotos
 
