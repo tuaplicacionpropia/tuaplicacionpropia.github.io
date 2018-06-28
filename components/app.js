@@ -73,8 +73,8 @@ var page = url.searchParams.get("page");
     _dao.loadOptions(function (data) { 
       var options = data['options'];
       self.options = options; 
-      console.log(">>>>options<<<<"); 
-      console.log(Hjson.stringify(options)); 
+      //console.log(">>>>options<<<<"); 
+      //console.log(Hjson.stringify(options)); 
       self.selectMenu('index');
       self.title = data['title'];
       self.quickLinks = data['quickLinks'];
@@ -94,7 +94,7 @@ var page = url.searchParams.get("page");
         var postId = refPostsWeek[i];
         _dao.loadData('posts/' + postId + '.hjson', function (post) {
           post['id'] = postId;
-          console.log("LOADED POST = " + postId);
+          //console.log("LOADED POST = " + postId);
           self.postsWeek.push(post);
         });
       }
@@ -104,8 +104,8 @@ var page = url.searchParams.get("page");
       _dao.loadData(refMainPost, function (post) {
         post['id'] = data['mainPost'];
         self.mainPost = post;
-        console.log(">>>>MAIN POST<<<<"); 
-        console.log(Hjson.stringify(post)); 
+        //console.log(">>>>MAIN POST<<<<"); 
+        //console.log(Hjson.stringify(post)); 
       });
       
     });
@@ -133,7 +133,7 @@ var page = url.searchParams.get("page");
       var self = this;
       //this.$emit('open', menu)
       //alert(menu)
-      alert(option.id);
+      //alert(option.id);
       self.openMenu(option.id);
     },
     
