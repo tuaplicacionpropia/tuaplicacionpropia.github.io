@@ -53,7 +53,7 @@ var page = url.searchParams.get("page");
 //alert(page);
 //?page=design/design1    
     if (page != null && page.indexOf('/') >= 0) {
-      _dao.loadData(page + '.hjson', function (post) {
+      _dao.loadData('posts/' + page + '.hjson', function (post) {
         post['id'] = page;
         self.currentPost = post;
         document.title = self.title + " - " + self.currentPost.title;
@@ -64,7 +64,7 @@ var page = url.searchParams.get("page");
     else {
       var menu = 'index.hjson';
       if (page != null) {
-        menu = page + '.hjson';
+        menu = 'posts/' + page + '.hjson';
       }
       _dao.loadPosts(menu, function (posts) { self.posts.push(posts);/*console.log(">>>>posts<<<<"); console.log(Hjson.stringify(posts)); self.posts = posts;*/ });
     }
@@ -92,15 +92,15 @@ var page = url.searchParams.get("page");
       for (i = 0; i < refPostsWeek.length; i++) { 
         var index = i;
         var postId = refPostsWeek[i];
-        _dao.loadData(postId + '.hjson', function (post) {
+        _dao.loadData('posts/' + postId + '.hjson', function (post) {
           post['id'] = postId;
           console.log("LOADED POST = " + postId);
           self.postsWeek.push(post);
         });
       }
       
-      var refMainPost = data['mainPost'] + '.hjson';
-      refMainPost = 'culture/culture1' + '.hjson';
+      var refMainPost = 'posts/' + data['mainPost'] + '.hjson';
+      //refMainPost = 'culture/culture1' + '.hjson';
       _dao.loadData(refMainPost, function (post) {
         post['id'] = data['mainPost'];
         self.mainPost = post;
@@ -164,7 +164,7 @@ var page = url.searchParams.get("page");
     openMenu: function (id) {
       var self = this;
       self.posts = [];
-      _dao.loadPosts(id + '.hjson', function (posts) { console.log('>>>>>>>>>>>>>>>> POST ID = ' + posts.id); self.posts.push(posts);/*console.log(">>>>posts<<<<"); console.log(Hjson.stringify(posts)); self.posts = posts;*/ });
+      _dao.loadPosts('posts/' + id + '.hjson', function (posts) { console.log('>>>>>>>>>>>>>>>> POST ID = ' + posts.id); self.posts.push(posts);/*console.log(">>>>posts<<<<"); console.log(Hjson.stringify(posts)); self.posts = posts;*/ });
       self.selectMenu(id);
       self.currentPost = null;
       window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
