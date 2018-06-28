@@ -20,45 +20,75 @@ Muchas versiones han evolucionado a través de los años, algunas veces por acci
   '''
 content:
   '''
-![Showdown][sd-logo]
-
-IDEAS para Para realizar presentaciones de fotografía, se puede utilizar BLENDER para lo siguiente:
-
-
-# Installation
-
-## Download tarball
-
-You can download the latest release tarball directly from [releases][releases]
-
-## Bower
-
-    bower install showdown
-
-## npm (server-side)
-
-    npm install showdown
-
-## CDN
-
-You can also use one of several CDNs available: 
-
-* rawgit CDN
-
-        https://cdn.rawgit.com/showdownjs/showdown/<version tag>/dist/showdown.min.js
-
-* cdnjs
-
-        https://cdnjs.cloudflare.com/ajax/libs/showdown/<version tag>/showdown.min.js
+  
+PROPUESTA: Pase de diapositivas al estilo Blender (ejemplos https://www.youtube.com/watch?v=EbOq7UJYgfY  https://www.youtube.com/watch?v=ugLkuFTUucA)
 
 
-[sd-logo]: https://raw.githubusercontent.com/showdownjs/logo/master/dist/logo.readme.png
-[releases]: https://github.com/showdownjs/showdown/releases
-[atx]: http://www.aaronsw.com/2002/atx/intro
-[setext]: https://en.wikipedia.org/wiki/Setext
+IDEAS:
+Incorporar videos a base de colocar el audio parcial de profesores y alumnos junto con capturas de pantalla del video
+Efecto parallax
+Hyperlapse con carteles de cada alumno en el suelo y paredes.
 
----------
 
-# Syntax  
+WATERCOLOUR BACKGROUND: https://www.freepik.com/index.php?goto=2&searchform=1&k=Watercolour&type=&is_selection=&is_premium=&color=&order=
+FRAMES: https://www.freepik.com/index.php?goto=2&searchform=1&k=frame&type=&is_selection=0&is_premium=0&color=&order=0
+BORDER: https://www.freepik.com/index.php?goto=2&searchform=1&k=border&type=&is_selection=0&is_premium=0&color=&order=0
+SCHOOL: https://www.freepik.com/index.php?goto=2&searchform=1&k=school&type=&is_selection=0&is_premium=0&color=&order=2
+COMIC: https://www.freepik.com/index.php?goto=2&searchform=1&k=comic&type=&is_selection=&is_premium=&color=&order=2
+FILM: https://www.freepik.com/index.php?goto=2&searchform=1&k=film&type=&is_selection=&is_premium=&color=&order=
+POSTER: https://www.freepik.com/index.php?goto=2&searchform=1&k=poster&type=&is_selection=0&is_premium=0&color=&order=0
+LIGHT: https://www.freepik.com/index.php?goto=2&searchform=1&k=light&type=&is_selection=0&is_premium=0&color=&order=2
+SCRATCHES (rayones): https://www.freepik.com/index.php?goto=2&searchform=1&k=+scratches&type=&is_selection=&is_premium=&color=&order=2
+brightness: https://www.freepik.com/index.php?goto=2&searchform=1&k=+brightness&type=&is_selection=0&is_premium=0&color=&order=2
+WATER: https://www.freepik.com/index.php?goto=2&searchform=1&k=water&type=vectores&is_selection=&is_premium=&color=&order=
+GLASS: https://www.freepik.com/index.php?goto=2&searchform=1&k=glass&type=&is_selection=&is_premium=&color=&order=2
+
+
+Colores:
+http://pinetools.com/es/c-colores/
+http://pinetools.com/es/color-complementario
+http://pinetools.com/es/colores-split-complementarios
+
+IDEAS DE FOTO:
+   TIRADO DESDE EL SUELO SACAR FOTO A CUATRO NIÑOS CON CABEZAS PEGADAS DIBUJANDO UNA CRUZ Y DE FONDO EL CIELO. (ver https://www.youtube.com/watch?v=EbOq7UJYgfY)
+
+
+PROFESORA: ME LAS APAÑO, PERO SERÍA DESEABLE: RECREO, FLASH y PRIMEROS PLANOS
+
+
+PARALLAX
+
+GREEN SCREEN: La capa invisible. Los niños entran por la pizarra.
+   Green screen lens flares
+   Green screen Cartoon effect
+   https://www.youtube.com/watch?v=wwnroqLGHrw
+   https://www.youtube.com/watch?v=mNHGSxO7kNU
+   
+   
+
+
+POSTER: 
+  3 veces mismo niño con numero lista y efecto pop out
+  padre niño poster
+  
+
+STROMOTION:
+   PIRUETAS (como Nira)
+   TEJE
+   CARRERA
+   CARRERA CON SALTO
+   BAILE???
+   SALTAR TRAMPOLIN???
+   LANZAMIENTO BALONCESTO
+   LANZAMIENTO FUTBOL
+   TIRARSE EL COLCHONETA DESDE ESPALDERA
+   SALTAR DESDE ALTURA PREVIA CARRERA
+   CAMINAR
+   
+USAR VIDEOS: SECUENCIA DE VIDEOS DE 4/6 SEGUNDOS SIN AUDIO (CON MUSICA DE FONDO). EJEMPLO: Anuncio booking.com
+   (https://www.youtube.com/watch?v=zlvXnIq1Yhs) (https://www.youtube.com/watch?v=C92ehydtBp8) (https://www.youtube.com/watch?v=_jLx_Z8mV2g) Eventual sonido original. Voz de profesora o alumnos hablando.
+
+  
+  
   '''
   
