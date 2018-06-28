@@ -1,0 +1,164 @@
+.w3-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.w3-margin-bottom {
+    margin-bottom: 16px!important;
+}
+
+.w3-black {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.w3-grey {
+    color: #000!important;
+    background-color: #9e9e9e!important;
+}
+
+.blog-text p {
+    color: #777;
+    font-size: 0.875em;
+    line-height: 1.8em;
+    margin: 1em 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.tc-ch p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.postImg {
+    position: relative;
+    width: auto;
+    height: auto;
+    /*border: 3px solid #73AD21;*/
+    word-wrap: normal;
+} 
+
+.postImg_vertical .postDescription {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.postImg_horizontal .postDescription {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+}
+
+.postImg .postDescription {
+    background-color: #fa4b2b;
+    opacity: 0.8;
+}
+
+.postImg .postLogo {
+/*    background-color: #FFFF21;*/
+}
+
+.postImg_vertical .postLogo {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: auto;
+    height: auto;
+/*    background-color: #FFFF21;*/
+}
+
+.postImg_horizontal .postLogo {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: auto;
+    height: auto;
+/*    background-color: #FFFF21;*/
+}
+
+.postImg .postBorder {
+    position: absolute;
+    top: 2%;
+    bottom: 2%;
+    left: 1%;
+    right: 1%;
+    width: auto;
+    height: auto;
+    border: 1px solid #D4D4D4;
+}
+
+.postLogo img {
+    height: 32px;
+}
+
+.postImg_vertical .postTitle {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+}
+
+.postImg_horizontal .postTitle {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 5%;
+  top: 5%;
+}
+
+.postImg .postSeparator {
+  right: 24px;
+  background-color: #888888;
+  width: 60%;
+  height: 8px;
+  position: absolute;
+  margin-top: 12px;
+}
+
+.hit-the-floor {
+color: #fff;
+font-size: 2em;
+font-weight: bold;
+font-family: Helvetica;
+/*
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+*/
+text-shadow: 1px 1px 2px black, 0 0 0.5em black, 0 0 0.1em #000000;
+}
+
+.hit-the-floor {
+  text-align: center;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+.postImg .postSubtitle {
+  text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+  color: #FFFFFF;
+  opacity: 0.8;
+  font: 700 0.7em 'Bitter';
+}
+
+.postImg_vertical .postSubtitle {
+  margin: 50px auto auto auto;
+  text-align: center;
+}
+
+.postImg_horizontal .postSubtitle {
+  margin: 50px auto auto auto;
+  text-align: start;
+}
