@@ -85,7 +85,7 @@ Vue.component('post', {
     bannerBackground() {
       var result = "";
       if (this.value.image != null) {
-        var valueBackground = 'url(' + this.value.image + ') no-repeat center 0px';
+        var valueBackground = 'url(posts/' + this.value.image + ') no-repeat center 0px';
         result = { 'background': valueBackground };
       }
       return result;
