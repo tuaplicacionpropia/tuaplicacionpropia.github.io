@@ -223,7 +223,7 @@ Vue.component('post', {
     + '<div v-else-if="moldFull" class="business">'
     + '  <div class=" blog-grid2">'
     +     '<div class="tch-img postImg postImg_horizontal">'
-    +       '<a href="#" v-on:click="readArticle()">'
+    +       '<a href="#">'
     +         '<img v-if="!image" src="images/2.jpg" class="img-responsive" alt=""/>'
     +         '<img v-if="image" v-bind:src="image" class="img-responsive" alt=""/>'
     +         '<div class="postBorder"></div>'
