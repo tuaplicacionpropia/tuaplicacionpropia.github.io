@@ -37,6 +37,39 @@ options:
 [
   {
     id: index
+    label: INICIO
+  }
+  {
+    id: python
+    label: Python
+  }
+  {
+    id: java
+    label: Java
+  }
+  {
+    id: games
+    label: Juegos
+  }
+  {
+    id: presentaciones
+    label: Presentaciones
+  }
+  {
+    id: contact
+    label: Contacto
+  }
+]
+
+
+
+
+
+/*
+options: 
+[
+  {
+    id: index
     label: Home
   }
   {
@@ -116,6 +149,7 @@ options:
     label: Contact
   }
 ]
+*/
 
 quickLinks: [
   {
