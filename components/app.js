@@ -327,7 +327,7 @@ var page = url.searchParams.get("page");
     +         '</div>'
     +         '<div class="blo-top">'
     +           '<div class="tech-btm">'
-    +             '<h4>Top stories of the week (Popular posts) (Last posts) (Recomendaciones)</h4>'
+    +             '<h4>---Top stories of the week (Popular posts) (Last posts) (Recomendaciones)</h4>'
     +             '<post v-for="item in postsWeek" v-bind:value="item" :key="item.id" mold="top" @open="openPost(item)" />'
 /*
     +             '<div class="blog-grids">'
