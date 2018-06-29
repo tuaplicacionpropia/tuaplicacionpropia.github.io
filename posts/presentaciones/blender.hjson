@@ -22,10 +22,12 @@ Introducción a Blender:
 [Moviéndonos en el espacio 3D][mov-3d]
 [Operaciones básicas][op-basic]
 [Imagen en un plano][img-plane]
+[Crear/modificar escena con python][script-python]
 
 [mov-3d]: http://www.esi.uclm.es/www/cglez/fundamentos3D/01.05.Practica00.html
 [op-basic]: http://www.esi.uclm.es/www/cglez/fundamentos3D/01.06.Practica01.html
 [img-plane]: https://www.youtube.com/watch?v=il7ajiCepus
+[script-python]: https://www.youtube.com/watch?v=K0yb4sZ7B4g
 
 
   '''
