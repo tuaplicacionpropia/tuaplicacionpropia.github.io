@@ -59,10 +59,12 @@ Las imágenes primeramente hay que procesarlas.
 ### Realce de imágenes
 
 A veces las fotografías son de mala calidad. Existen algunas [técnicas][realce1] que permiten mejorar la imagen.
-Este proceso quizás se pueda automatizar mediante [scripts][gimp-script1]
+Este proceso quizás se pueda automatizar mediante [scripts (1)][gimp-script1] o [scripts (2)][gimp-script2]
 
 [realce1]: https://www.youtube.com/watch?v=QbWghBFQ9Bo
 [gimp-script1]: https://www.youtube.com/watch?v=uSt80abcmJs
+[gimp-script2]: https://www.youtube.com/watch?v=2Oy4AZ-BUps
+
 
 
 ### Parallax
