@@ -45,6 +45,16 @@ Para incrustar imágenes en vídeos en movimiento hay que usar la técnica ['mot
 [hyperlapse3]: https://www.youtube.com/watch?v=NnSAdTc8-ug
 [trackinghyperlapse]: https://www.youtube.com/watch?v=U5xsknddF2E
 
+### Preprocesado de imágenes
+
+Las imágenes primeramente hay que procesarlas.
+1. CROP (cuadrado o rectangular).
+2. [Realce de imagen][realce1].
+3. Enmarcado (colocar dentro de un marco).
+4. Optimizar resolución y peso (reducir AnchoxAlto y megabytes) [(INFO)][opti-jpg].
+
+[opti-jpg]: https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/
+
 
 ### Realce de imágenes
 
