@@ -5,7 +5,7 @@ mainPost: presentaciones/slideshow_primaria
 postsWeek: 
 [
   presentaciones/slideshow_primaria
-  culture/culture3
+  presentaciones/look_better
   design/design1
   culture/culture1
   science/science1
@@ -14,7 +14,7 @@ postsWeek:
 posts:
 [
   presentaciones/slideshow_primaria
-  design/design1
+  presentaciones/look_better
   science/science1
 ]
 
