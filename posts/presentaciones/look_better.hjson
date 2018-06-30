@@ -1,0 +1,129 @@
+title: Plugin GIMP
+subtitle: Make photo look better
+image: https://i.imgur.com/hfc8FYq.jpg
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: linux
+description:
+  '''
+Mejora la apariencia de una imagen tal y como explica el [video de youtube][video-youtube].
+[video-youtube]: https://www.youtube.com/watch?v=QbWghBFQ9Bo
+  '''
+content:
+  '''
+
+Mejora la apariencia de una imagen tal y como explica el [video de youtube][video-youtube]. Más abajo se pueden ver unas muestras y el código fuente del plugin.
+[video-youtube]: https://www.youtube.com/watch?v=QbWghBFQ9Bo
+  
+
+### Instalación
+
+Copiar el fichero python [make_photo_look_better.py][script-py] en ~/.gimp-2.8/plug-ins/, asignarle permisos de ejecución, abrir una imagen con el GIMP y ejecutar la opción 'Filters>Enhance>Make photo look better'.
+
+[script-py]: https://gist.github.com/tuaplicacionpropia/d48b6740b4e638baba04891f256987ad#file-make_photo_look_better-py
+
+
+### Muestra 1 (ANTES/DESPUÉS)
+
+![muestra1][muestra1]
+
+[muestra1]: https://i.imgur.com/gi6l9cQ.jpg
+
+
+### Muestra 2 (ANTES/DESPUÉS)
+
+![muestra2][muestra2]
+
+[muestra2]: https://i.imgur.com/CZJoisT.jpg
+
+
+### Plugin - Código fuente
+
+```md
+#!/usr/bin/env python
+
+#import gimp
+#from pdb import *
+
+#import math, struct
+from gimpfu import *
+
+#    pdb.gimp_invert(layer)
+
+def duplicateLayer (image, drawable):
+  activeLayer = pdb.gimp_image_get_active_layer(image)
+  newLayer = pdb.gimp_layer_copy(activeLayer, 100)
+  pdb.gimp_image_insert_layer(image, newLayer, None, -1)
+  pdb.gimp_image_set_active_layer(image, newLayer)
+
+def desaturate (image, drawable):
+  (numLayers, layers) = pdb.gimp_image_get_layers(image)
+  firstLayer = layers[0]
+  pdb.gimp_image_set_active_layer(image, firstLayer)
+  pdb.gimp_desaturate_full(drawable, 1)
+  pass
+
+def desaturateBase (image, drawable):
+  activeLayer = pdb.gimp_image_get_active_layer(image)
+  pdb.gimp_desaturate_full(activeLayer, DESATURATE_LUMINOSITY)
+  pass
+
+def invertBase (image, drawable):
+  activeLayer = pdb.gimp_image_get_active_layer(image)
+  pdb.gimp_invert(activeLayer)
+  pass
+
+def blur (image, drawable):
+  activeLayer = pdb.gimp_image_get_active_layer(image)
+  pdb.plug_in_gauss_rle2(image, activeLayer, 30.0, 30.0)
+
+def mergeLayers (image, drawable):
+  activeLayer = pdb.gimp_image_get_active_layer(image)
+  pdb.gimp_layer_set_opacity(activeLayer, 35.0)
+  newLayer = pdb.gimp_image_merge_down(image, activeLayer, CLIP_TO_BOTTOM_LAYER)
+  pdb.gimp_layer_set_mode(newLayer, GRAIN_MERGE_MODE)
+
+def enhance_colors(image, drawable):
+  duplicateLayer(image, drawable)
+  duplicateLayer(image, drawable)
+  desaturateBase(image, drawable)
+  invertBase(image, drawable)
+  blur(image, drawable)
+  mergeLayers(image, drawable)
+#  gimp-image-insert-layer
+#  (gimp-image-insert-layer image layer parent position)
+#  (gimp-layer-copy layer add-alpha)
+  pass
+
+register(
+        "python-fu-make-photo-look-better",
+        "Make Photo Look Better",
+        "Make Photo Look Better",
+        "Jesus Maria Ramos Saky (translated from youtube QbWghBFQ9Bo)",
+        "Jesus Maria Ramos Saky",
+        "2018",
+        "Make Photo Look Better",
+        "RGB*, GRAY*",
+        [
+            (PF_IMAGE, "image", "Input image", None),
+            (PF_DRAWABLE, "drawable", "Input drawable", None)
+#            ,
+#            (PF_SLIDER, "whirl", "Whirl angle", 90, (-360, 360, 1)),
+#            (PF_FLOAT, "pinch", "Pinch amount", 0),
+#            (PF_FLOAT, "radius", "radius", 1)
+        ],
+        [],
+        enhance_colors, menu="<Image>/Filters/Enhance")
+
+main()
+```
+  
+  '''
+ 
