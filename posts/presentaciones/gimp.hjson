@@ -24,11 +24,12 @@ Para realizar presentaciones de fotografía, se puede utilizar GIMP para lo sigu
 - [Crear scripts (1)][scripts1]
 - [Crear scripts (2)][scripts2]
 - [Instalanr python scripts][install-script]
+- [Ejemplo de plugin que modifica la imagen abierta][plugin-mod-current-img]
 
 [scripts1]: https://www.gimp.org/docs/python/index.html
 [scripts1]: https://gimpbook.com/scripting/
 [install-script]: https://blog.meetthegimp.org/how-to-install-python-plugins-under-gimp/
-
+[plugin-mod-current-img]: https://gimpbook.com/scripting/gimp-script-templates/whirlpinch.py
 
   '''
   
