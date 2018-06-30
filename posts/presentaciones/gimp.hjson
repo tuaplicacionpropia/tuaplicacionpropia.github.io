@@ -23,9 +23,12 @@ Para realizar presentaciones de fotografía, se puede utilizar GIMP para lo sigu
 
 - [Crear scripts (1)][scripts1]
 - [Crear scripts (2)][scripts2]
+- [Instalanr python scripts][install-script]
 
 [scripts1]: https://www.gimp.org/docs/python/index.html
 [scripts1]: https://gimpbook.com/scripting/
+[install-script]: https://blog.meetthegimp.org/how-to-install-python-plugins-under-gimp/
+
 
   '''
   
