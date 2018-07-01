@@ -1,0 +1,51 @@
+title: HEIC to JPG
+subtitle: Convertir por lotes
+image: https://i.imgur.com/hfc8FYq.jpg
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: linux
+description:
+  '''
+Los iphone pueden sacar fotografías en formato HEIC. Este formato no es muy manipulable por otros sistemas. Para poder manipular dichas imágenes es mejor convertirlas en JPG.
+  '''
+content:
+  '''
+Para convertir una imagen HEIC en JPG se puede utilizar el [comando tifig][comando-tifig]. Un pequeño tutorial se pueden encontrar [aquí][tutorial-tifig].
+
+[comando-tifig]: https://github.com/monostream/tifig
+[tutorial-tifig]: https://linuxmanr4.com/2018/01/11/heic-jpg-linux/
+
+
+### Script - Código fuente
+
+Un pequeño script para convertir por lotes un conjunto de imágenes HEIC en JPG.
+
+```html
+<pre>
+#!/usr/bin/env python
+import os
+
+from os import listdir
+from os.path import isfile, join
+
+mypath = os.path.dirname(os.path.realpath(__file__))
+onlyfiles = [f for f in os.listdir(mypath) if os.path.isfile(join(mypath, f)) and f.endswith('.heic')]
+print onlyfiles
+
+#tifig -v --quality=100 -p IMG_0076.heic IMG_0076_2.jpg
+for f in onlyfiles:
+  cmd = "tifig -v --quality=100 -p " + f + " " + f + ".jpg"
+  print cmd
+  os.system(cmd)
+</pre>
+```
+  
+  '''
+ 
