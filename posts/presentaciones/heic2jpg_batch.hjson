@@ -27,7 +27,7 @@ Para convertir una imagen HEIC en JPG se puede utilizar el [comando tifig][coman
 
 Un pequeño script para convertir por lotes un conjunto de imágenes HEIC en JPG.
 
-```html
+ ```html
 <pre>
 #!/usr/bin/env python
 import os
