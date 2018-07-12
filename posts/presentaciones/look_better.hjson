@@ -136,6 +136,28 @@ register(
 
 main()
 
+### Usar por lotes el anterior script desde la línea de comandos
+
+```md
+
+(let*
+     (
+              (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")
+              (img (car (gimp-file-load RUN-NONINTERACTIVE filename filename)))
+              (drawable (car (gimp-image-get-active-drawable img)))
+              (output (car (string-append filename "b3.jpg")))
+           )
+           (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable)
+           (file-jpeg-save RUN-NONINTERACTIVE img drawable output output 0.9 0 0 0 "" 0 0 0 0)
+           (gimp-quit 0)
+        )
+
+
+
+gimp -ibdf '(let* ( (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (car (gimp-file-load RUN-NONINTERACTIVE filename filename))) (drawable (car (gimp-image-get-active-drawable img))) (output (string-append filename "b3.jpg")) ) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable) (file-jpeg-save RUN-NONINTERACTIVE img drawable output output 0.9 0 0 0 "" 0 0 0 0) (gimp-quit 0) )'
+
+```
+
 ```
   
   '''
