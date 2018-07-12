@@ -8,14 +8,14 @@ postsWeek:
   presentaciones/look_better
   presentaciones/heic2jpg_batch
   presentaciones/intros_outros
-  science/science1
+  presentaciones/gimp_scripts
 ]
 
 posts:
 [
   presentaciones/slideshow_primaria
   presentaciones/look_better
-  science/science1
+  presentaciones/gimp_scripts
 ]
 
 tags: {
