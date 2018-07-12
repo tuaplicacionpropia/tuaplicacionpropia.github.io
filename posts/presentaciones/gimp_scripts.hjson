@@ -1,0 +1,207 @@
+title: Scripts GIMP
+subtitle: Información para el uso de SCRIPTS en GIMP
+image: https://i.imgur.com/GAM0tDn.png
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: linux
+description:
+  '''
+Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
+  '''
+content:
+  '''
+
+
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")))
+(let* ((img (gimp-file-load RUN-NONINTERACTIVE filename filename))))
+gimp -ibdf '(python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE)' '(gimp-quit 1)'
+
+
+
+
+
+
+
+
+
+gimp -ibdf '(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")))' '(let* ((img (gimp-file-load RUN-NONINTERACTIVE filename filename))))' '(python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE)' '(gimp-quit 0)'
+
+
+gimp -ibdf '(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg"))) (let* ((img (gimp-file-load RUN-NONINTERACTIVE filename filename)))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE) (gimp-quit 0)'
+
+
+
+
+
+gimp -ibdf '(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename)))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE) (gimp-quit 0)'
+
+
+
+
+gimp -ibdf '
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename)))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE) (gimp-quit 0)'
+
+
+
+
+gimp -ibdf ''
+
+
+
+(let*
+     (
+              (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")
+              (img (gimp-file-load RUN-NONINTERACTIVE filename filename))
+              (drawable (gimp-image-get-active-drawable img))
+           )
+           (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE)
+           (gimp-quit 0)
+        )
+        
+        
+        
+        
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE) (gimp-quit 0))
+        
+gimp -ibdf '(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img img TRUE) (gimp-quit 0))'
+
+
+
+
+
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename)) (drawable (gimp-image-active-drawable img))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE) (gimp-quit 0))
+
+
+
+
+gimp -ibdf '(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename)) (drawable (gimp-image-active-drawable img))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE) (gimp-quit 0))'
+
+
+
+
+
+
+
+(let*
+     (
+              (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")
+              (img (car (gimp-file-load RUN-NONINTERACTIVE filename filename)))
+              (drawable (car (gimp-image-get-active-drawable img)))
+           )
+           (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE)
+           (gimp-quit 0)
+        )
+        
+        
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename)) (drawable (gimp-image-get-active-drawable img))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE) (gimp-quit 0))
+        
+gimp -ibdf '(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename)) (drawable (gimp-image-get-active-drawable img))) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE) (gimp-quit 0))'
+
+
+
+
+
+
+
+(let*
+     (
+              (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")
+              (img (gimp-file-load RUN-NONINTERACTIVE filename filename))
+           )
+)
+
+
+(let*
+     (
+              (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")
+              (img (gimp-file-load RUN-INTERACTIVE filename filename))
+           )
+        (
+   
+(gimp-display-new img)        
+        )
+)
+
+
+
+
+
+(let* ( (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-INTERACTIVE filename filename)) ) ())
+
+
+
+
+
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (gimp-file-load RUN-NONINTERACTIVE filename filename))) ( (gimp-display-new img) ))
+
+
+
+(let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (file-jpeg-load RUN-NONINTERACTIVE filename filename))) ( (gimp-display-new img) ))
+
+
+
+
+
+FUNCIONA
+
+
+
+
+(define (batch-unsharp-mask pattern radius amount threshold)
+  (let* 
+    (
+      (filelist (cadr (file-glob pattern 1)))
+    )
+    (while (not (null? filelist))
+      (let* 
+        (
+          (filename (car filelist))
+          (image (car (gimp-file-load RUN-NONINTERACTIVE filename filename)))
+          (drawable (car (gimp-image-get-active-layer image)))
+        )
+        (plug-in-unsharp-mask RUN-NONINTERACTIVE image drawable radius amount threshold)
+        (gimp-file-save RUN-NONINTERACTIVE image drawable filename filename)
+        (gimp-image-delete image)
+      )
+      (set! filelist (cdr filelist))
+    )
+  )
+)
+
+
+
+
+
+(let* ( (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (car (gimp-file-load RUN-NONINTERACTIVE filename filename))) (drawable (car (gimp-image-get-active-drawable img))) ) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE) (gimp-quit 0) )
+        
+        
+        
+gimp -ibdf '(let* ( (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg") (img (car (gimp-file-load RUN-NONINTERACTIVE filename filename))) (drawable (car (gimp-image-get-active-drawable img))) ) (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE) (gimp-quit 0) )'
+
+
+
+
+
+FUNCIONA
+
+(let*
+     (
+              (filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")
+              (img (car (gimp-file-load RUN-NONINTERACTIVE filename filename)))
+              (drawable (car (gimp-image-get-active-drawable img)))
+           )
+           (python-fu-make-photo-look-better RUN-NONINTERACTIVE img drawable TRUE)
+           (gimp-quit 0)
+        )
+
+
+
+  '''
+  
