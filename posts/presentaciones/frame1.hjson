@@ -1,0 +1,71 @@
+title: Plugin GIMP Frame
+subtitle: Frame
+image: https://i.imgur.com/hfc8FYq.jpg
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: linux
+description:
+  '''
+Encuaderna una imagen en un marco
+  '''
+content:
+  '''
+
+Encuaderna una imagen en un marco
+
+### Instalación
+
+Copiar el fichero python [frame.py][script-py] en ~/.gimp-2.8/plug-ins/, asignarle permisos de ejecución, abrir una imagen con el GIMP y ejecutar la opción 'Filters>Enhance>Frame'.
+
+[script-py]: https://gist.github.com/tuaplicacionpropia/646cbcfb38f57b4390b62716d7fe9e21#file-frame-py
+
+### Plugin - Código fuente
+
+```md
+#!/usr/bin/env python
+
+from gimpfu import *
+
+def frame2(image, drawable):
+  frameUrl = '/media/jmramoss/ALMACEN/video_12_primaria/frames/touse/square_10x10a.png'
+  
+  newLayer = pdb.gimp_file_load_layer(image, frameUrl)
+  frame = pdb.gimp_file_load(frameUrl, frameUrl)
+  pdb.gimp_image_insert_layer(image, newLayer, None, -1)
+  pdb.gimp_image_resize(image, frame.width, frame.height, 0, 0)  
+  pdb.gimp_image_set_active_layer(image, image.layers[0])
+  pass
+
+register(
+        "python-fu-frame2",
+        "Make Frame2",
+        "Make Frame2",
+        "Jesus Maria Ramos Saky",
+        "Jesus Maria Ramos Saky",
+        "2018",
+        "Make Frame2",
+        "RGB*, GRAY*",
+        [
+            (PF_IMAGE, "image", "Input image", None),
+            (PF_DRAWABLE, "drawable", "Input drawable", None)
+#            (PF_BOOL, "copy", "Make a JPEG copy", TRUE),
+#            ,
+#            (PF_SLIDER, "whirl", "Whirl angle", 90, (-360, 360, 1)),
+#            (PF_FLOAT, "pinch", "Pinch amount", 0),
+#            (PF_FLOAT, "radius", "radius", 1)
+        ],
+        [],
+        frame2, menu="<Image>/Filters/Enhance")
+
+main()
+```
+  
+  '''
+ 
