@@ -18,8 +18,9 @@ Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
 content:
   '''
 
-Una buena [REFERENCIA][ref] para aprender sobre GIMP Python
+Una buena [REFERENCIA][ref] para aprender sobre GIMP Python. Otra es la web [gimper].
 
+[gimper]: https://gimper.net/resources/categories/plugins.1/
 [ref]: https://www.gimp.org/docs/python/index.html
 
 (let* ((filename "/media/jmramoss/ALMACEN/video_12_primaria/TESTS/tras_colegio/IMG-20180106-WA0017.jpg")))
