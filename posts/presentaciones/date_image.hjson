@@ -1,0 +1,64 @@
+title: Fecha de una imagen
+subtitle: Lectura con python de la fecha de la imagen
+image: https://i.imgur.com/hfc8FYq.jpg
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: linux
+description:
+  '''
+Lectura con python de la fecha de la imagen
+  '''
+content:
+  '''
+
+El script se encuentra publicado en [github][script-py].
+[script-py]: https://gist.github.com/tuaplicacionpropia/db4fa7f5026a1d2eee37ef4ed31c0eb9#file-get_date_image-py
+
+
+### Plugin - Código fuente
+
+```md
+#!/usr/bin/env python2.7
+
+import sys
+import locale
+from PIL import Image
+from PIL.ExifTags import TAGS
+from datetime import datetime
+
+
+ 
+def get_exif(fn):
+  ret = {}
+  i = Image.open(fn)
+  info = i._getexif()
+  for tag, value in info.items():
+      decoded = TAGS.get(tag, tag)
+      ret[decoded] = value
+  return ret
+
+#'DateTime': u'2017:12:21 10:52:44'
+def get_fecha (fn):
+  result = None
+  data = get_exif(fn)
+  key = 'DateTime'
+  if key in data:
+    dateTxt = data[key]
+    datetime_object = datetime.strptime(dateTxt, '%Y:%m:%d %H:%M:%S')
+    locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
+    result = datetime_object.strftime("%A %-d de %B de %Y")
+  return result
+
+print get_fecha(sys.argv[1])
+```
+
+  
+  '''
+ 
