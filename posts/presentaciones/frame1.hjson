@@ -31,38 +31,61 @@ Copiar el fichero python [frame.py][script-py] en ~/.gimp-2.8/plug-ins/, asignar
 ```md
 #!/usr/bin/env python
 
-from gimpfu import *
 import random
+from gimpfu import *
+import sys
+import locale
+from PIL import Image
+from PIL.ExifTags import TAGS
+from datetime import datetime
+ 
+def get_exif(fn):
+  ret = {}
+  i = Image.open(fn)
+  info = i._getexif()
+  for tag, value in info.items():
+      decoded = TAGS.get(tag, tag)
+      ret[decoded] = value
+  return ret
 
-def frame2(image, drawable):
+#'DateTime': u'2017:12:21 10:52:44'
+def get_fecha (fn):
+  result = None
+  data = get_exif(fn)
+  key = 'DateTime'
+  if key in data:
+    dateTxt = data[key]
+    datetime_object = datetime.strptime(dateTxt, '%Y:%m:%d %H:%M:%S')
+    locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
+    result = datetime_object.strftime("%A %-d de %B de %Y %H:%M:%S")
+  return result
+
+def frame1(image, drawable):
   options = ['a', 'b', 'c']
   option = random.choice(options)
-  frameUrl = '/media/jmramoss/ALMACEN/video_12_primaria/frames/touse/square_10x10' + option + '.png'
-  
-  imgWidth = image.width
-  imgHeight = image.height
-  
-  offX = (-1)*int(imgWidth / 2)
-  offY = (-1)*int(imgHeight / 2)
+  frameUrl = '/media/jmramoss/ALMACEN/video_12_primaria/frames/touse/rectangle_13x10' + option + '.png'
   
   newLayer = pdb.gimp_file_load_layer(image, frameUrl)
   frame = pdb.gimp_file_load(frameUrl, frameUrl)
+#  activeLayer = pdb.gimp_image_get_active_layer(frame)
+#  newLayer = pdb.gimp_layer_copy(activeLayer, 100)
   pdb.gimp_image_insert_layer(image, newLayer, None, -1)
   pdb.gimp_image_resize(image, frame.width, frame.height, 0, 0)  
   pdb.gimp_image_set_active_layer(image, image.layers[0])
-  pdb.gimp_layer_translate(image.layers[1], offX, offY)
-  pdb.gimp_image_set_active_layer(image, image.layers[1])
-  #pdb.gimp_displays_flush()
+  
+  fecha = get_fecha(image.filename)
+  if fecha is not None:
+    text_layer = pdb.gimp_text_fontname(image, newLayer, 45, 767, fecha, 5, True, 18, PIXELS, 'Sans')  
   pass
 
 register(
-        "python-fu-frame2",
-        "Make Frame2",
-        "Make Frame2",
+        "python-fu-frame1",
+        "Make Frame1",
+        "Make Frame1",
         "Jesus Maria Ramos Saky",
         "Jesus Maria Ramos Saky",
         "2018",
-        "Make Frame2",
+        "Make Frame1",
         "RGB*, GRAY*",
         [
             (PF_IMAGE, "image", "Input image", None),
@@ -74,7 +97,7 @@ register(
 #            (PF_FLOAT, "radius", "radius", 1)
         ],
         [],
-        frame2, menu="<Image>/Filters/Enhance")
+        frame1, menu="<Image>/Filters/Enhance")
 
 main()
 ```
