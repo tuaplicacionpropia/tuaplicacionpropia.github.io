@@ -94,12 +94,15 @@ def mergeLayers (image, drawable):
   pdb.gimp_layer_set_opacity(activeLayer, 35.0)
   newLayer = pdb.gimp_image_merge_down(image, activeLayer, CLIP_TO_BOTTOM_LAYER)
   pdb.gimp_layer_set_mode(newLayer, GRAIN_MERGE_MODE)
+  layer = pdb.gimp_image_flatten(image)
 
 #def saveAs (image, drawable):
 #  pdb.file_jpeg_save(image, drawable, image.name + "b.jpg", image.name + "b.jpg", 0.9, 0, 0, 0, "", 0, 0, 0, 0)
 #  pass
 
 def enhance_colors(image, drawable):
+  pdb.gimp_levels_stretch(drawable)
+  #pdb.plug_in_color_enhance(image, drawable)
   duplicateLayer(image, drawable)
   duplicateLayer(image, drawable)
   desaturateBase(image, drawable)
@@ -135,7 +138,6 @@ register(
         enhance_colors, menu="<Image>/Filters/Enhance")
 
 main()
-
 ```
 
 ### Usar por lotes el anterior script desde la línea de comandos
