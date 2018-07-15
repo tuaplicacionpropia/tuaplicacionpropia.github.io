@@ -32,15 +32,27 @@ Copiar el fichero python [frame.py][script-py] en ~/.gimp-2.8/plug-ins/, asignar
 #!/usr/bin/env python
 
 from gimpfu import *
+import random
 
 def frame2(image, drawable):
-  frameUrl = '/media/jmramoss/ALMACEN/video_12_primaria/frames/touse/square_10x10a.png'
+  options = ['a', 'b', 'c']
+  option = random.choice(options)
+  frameUrl = '/media/jmramoss/ALMACEN/video_12_primaria/frames/touse/square_10x10' + option + '.png'
+  
+  imgWidth = image.width
+  imgHeight = image.height
+  
+  offX = (-1)*int(imgWidth / 2)
+  offY = (-1)*int(imgHeight / 2)
   
   newLayer = pdb.gimp_file_load_layer(image, frameUrl)
   frame = pdb.gimp_file_load(frameUrl, frameUrl)
   pdb.gimp_image_insert_layer(image, newLayer, None, -1)
   pdb.gimp_image_resize(image, frame.width, frame.height, 0, 0)  
   pdb.gimp_image_set_active_layer(image, image.layers[0])
+  pdb.gimp_layer_translate(image.layers[1], offX, offY)
+  pdb.gimp_image_set_active_layer(image, image.layers[1])
+  #pdb.gimp_displays_flush()
   pass
 
 register(
