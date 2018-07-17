@@ -1,6 +1,6 @@
 title: Mi primer juego de plataformas
 subtitle: Mi primer juego de plataformas
-image: https://i.imgur.com/hfc8FYq.jpg
+image: https://i.imgur.com/A9PGxz4.jpg
 tag: games
 description:
   '''
@@ -9,47 +9,45 @@ Mi primer juego de plataformas
 content:
   '''
 
-El script se encuentra publicado en [github][script-py].
-[script-py]: https://gist.github.com/tuaplicacionpropia/db4fa7f5026a1d2eee37ef4ed31c0eb9#file-get_date_image-py
+A continuación se lista una serie de recursos para ayudar en la creación del juego.
+
+### Tutoriales
+
+- [Youtube][tutorial-youtube].
+
+[tutorial-youtube]: https://www.youtube.com/playlist?list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 
-### Plugin - Código fuente
+### GUI: Gráficas para la interfaz de usuario
 
-```md
-#!/usr/bin/env python2.7
+- [ISLAND GAME][gui1].
+- [BUTTONS 2D GAME OBJECTS][gui2].
+- [JUNGLE CARTOON 2D GAME UI][gui3].
+- [LAVA FIELDS LEVEL MAP 2D BACKGROUNDS][gui4].
 
-import sys
-import locale
-from PIL import Image
-from PIL.ExifTags import TAGS
-from datetime import datetime
+[gui1]: https://craftpix.net/freebies/island-game-gui/
+[gui2]: https://craftpix.net/freebies/free-buttons-2d-game-objects/
+[gui3]: https://craftpix.net/freebies/free-jungle-cartoon-2d-game-ui/
+[gui4]: https://craftpix.net/freebies/free-lava-fields-level-map-2d-backgrounds/
 
+### ITEMS: Iconos para el juego
 
- 
-def get_exif(fn):
-  ret = {}
-  i = Image.open(fn)
-  info = i._getexif()
-  for tag, value in info.items():
-      decoded = TAGS.get(tag, tag)
-      ret[decoded] = value
-  return ret
+- [GAME ICONS OF FANTASY THINGS][items1].
+- [GAME ICONS OF FANTASY POTIONS][items2].
+- [CRYSTALS 2D GAME ITEMS][items3].
+- [GAME COINS SPRITE SHEETS][items4].
+- [JUMP GAME ITEMS][items5].
 
-#'DateTime': u'2017:12:21 10:52:44'
-def get_fecha (fn):
-  result = None
-  data = get_exif(fn)
-  key = 'DateTime'
-  if key in data:
-    dateTxt = data[key]
-    datetime_object = datetime.strptime(dateTxt, '%Y:%m:%d %H:%M:%S')
-    locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
-    result = datetime_object.strftime("%A %-d de %B de %Y")
-  return result
+[items1]: https://craftpix.net/freebies/free-game-icons-of-fantasy-things-pack-15/
+[items2]: https://craftpix.net/freebies/free-game-icons-of-fantasy-potions-pack-1/
+[items3]: https://craftpix.net/freebies/free-crystals-2d-game-items/
+[items4]: https://craftpix.net/freebies/free-game-coins-sprite-sheets/
+[items5]: https://craftpix.net/freebies/free-jump-game-items/
 
-print get_fecha(sys.argv[1])
-```
+### BACKGROUNDS: Fondos para cada nivel
 
-  
-  '''
- 
+- [FAIRY-TALE GAME BACKGROUNDS][backgrounds1].
+- [HORIZONTAL 2D GAME BACKGROUNDS][backgrounds2].
+
+[backgrounds1]: https://craftpix.net/freebies/free-fairy-tale-game-backgrounds/
+[backgrounds2]: https://craftpix.net/freebies/free-horizontal-2d-game-backgrounds/
