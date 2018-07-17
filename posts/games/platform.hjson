@@ -35,12 +35,18 @@ A continuación se lista una serie de recursos para ayudar en la creación del j
 - [JUNGLE CARTOON 2D GAME UI][gui3].
 - [Onscreen Controls][gui5].
 - [LAVA FIELDS LEVEL MAP 2D BACKGROUNDS][gui4].
+- [UI Pack][gui6].
+- [UI Pack: RPG Expansion][gui7].
+- [UI Pack: Space Expansion][gui8].
 
 [gui1]: https://craftpix.net/freebies/island-game-gui/
 [gui2]: https://craftpix.net/freebies/free-buttons-2d-game-objects/
 [gui3]: https://craftpix.net/freebies/free-jungle-cartoon-2d-game-ui/
 [gui4]: https://craftpix.net/freebies/free-lava-fields-level-map-2d-backgrounds/
 [gui5]: http://kenney.nl/assets/onscreen-controls
+[gui6]: https://kenney.nl/assets/ui-pack
+[gui7]: https://kenney.nl/assets/ui-pack-rpg-expansion
+[gui8]: https://kenney.nl/assets/ui-pack-space-expansion
 
 
 
@@ -73,29 +79,52 @@ A continuación se lista una serie de recursos para ayudar en la creación del j
 ### Tilesets
 
 - [1][tile1].
-- [][].
+- [2][tile2].
 - [Platformer Pack Medieval][tile3].
 - [Abstract Platformer][tile4].
 - [Jumper Pack][tile5].
 - [Toy brick pack][tile6].
 - [Platformer Pack Redux][tile7].
 - [Platformer Art: Buildings][tile8].
+- [Platformer Art: Candy][tile9].
+- [Platformer Art Deluxe][tile10].
+- [Platformer Art: Extended Tileset][tile11].
+- [Platformer Art: Mushrooms][tile12].
+- [Platformer Art: Pixel Redux][tile13].
+- [Platformer Art: Requests][tile14].
+- [Platformer Art: Winter][tile15]
 
 [tile1]: http://kenney.nl/assets/simplified-platformer-pack
-[]: https://kenney.nl/assets/platformer-pack-industrial
+[tile2]: https://kenney.nl/assets/platformer-pack-industrial
 [tile3]: https://kenney.nl/assets/platformer-pack-medieval
 [tile4]: https://kenney.nl/assets/abstract-platformer
 [tile5]: https://kenney.nl/assets/jumper-pack
 [tile6]: https://kenney.nl/assets/toy-brick-pack
 [tile7]: https://kenney.nl/assets/platformer-pack-redux
 [tile8]: https://kenney.nl/assets/platformer-art-buildings
+[tile9]: https://kenney.nl/assets/platformer-art-candy
+[tile10]: https://kenney.nl/assets/platformer-art-deluxe
+[tile11]: https://kenney.nl/assets/platformer-art-extended-tileset
+[tile12]: https://kenney.nl/assets/platformer-art-mushrooms
+[tile13]: https://kenney.nl/assets/platformer-art-pixel-redux
+[tile14]: https://kenney.nl/assets/platformer-art-requests
+[tile15]: https://kenney.nl/assets/platformer-art-winter
+
 
 ### Personajes
 
 - [Modular Characters][chars2].
+- [Platformer Art: Extended Enemies][chars3].
 
 
 [chars1]: https://kenney.nl/assets/platformer-characters-1
 [chars2]: https://kenney.nl/assets/modular-characters
+[chars3]: https://kenney.nl/assets/platformer-art-extended-enemies
+
+### Sonidos
+
+- [Sonidos 1][sounds1].
+
+[sounds1]: https://kenney.nl/assets/ui-audio
 
   '''
