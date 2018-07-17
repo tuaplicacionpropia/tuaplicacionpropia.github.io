@@ -1,6 +1,15 @@
 title: Mi primer juego de plataformas
 subtitle: Mi primer juego de plataformas
 image: https://i.imgur.com/A9PGxz4.jpg
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
 tag: games
 description:
   '''
