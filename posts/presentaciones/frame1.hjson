@@ -52,12 +52,14 @@ def get_exif(fn):
 def get_fecha (fn):
   result = None
   data = get_exif(fn)
-  key = 'DateTime'
-  if key in data:
-    dateTxt = data[key]
-    datetime_object = datetime.strptime(dateTxt, '%Y:%m:%d %H:%M:%S')
-    locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
-    result = datetime_object.strftime("%A %-d de %B de %Y %H:%M:%S")
+  keys = ['DateTimeOriginal', 'DateTime']
+  for key in keys:
+    if key in data:
+      dateTxt = data[key]
+      datetime_object = datetime.strptime(dateTxt, '%Y:%m:%d %H:%M:%S')
+      locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
+      result = datetime_object.strftime("%A %-d de %B de %Y %H:%M:%S")
+      break
   return result
 
 def frame1(image, drawable):
