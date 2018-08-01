@@ -5,6 +5,7 @@ mainPost: presentaciones/slideshow_primaria
 postsWeek: 
 [
   presentaciones/slideshow_primaria
+  presentaciones/music
   presentaciones/look_better
   presentaciones/heic2jpg_batch
   presentaciones/intros_outros
@@ -14,6 +15,7 @@ postsWeek:
 posts:
 [
   presentaciones/slideshow_primaria
+  presentaciones/music
   presentaciones/look_better
   presentaciones/gimp_scripts
 ]
