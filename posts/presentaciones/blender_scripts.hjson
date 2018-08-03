@@ -265,7 +265,7 @@ slideshow.alignGrid()
 #bpy.ops.import_image.to_plane(files=[{"name":"cat-3553106_960_720.jpg", "name":"cat-3553106_960_720.jpg"}], directory="/media/jmramoss/ALMACEN/slideshow/", relative=False)
 #list(bpy.data.objects)
  
- ```
+```
  
  
   '''
