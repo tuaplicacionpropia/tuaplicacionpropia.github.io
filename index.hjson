@@ -6,6 +6,7 @@ postsWeek:
 [
   presentaciones/slideshow_primaria
   presentaciones/music
+  presentaciones/green_screen
   presentaciones/look_better
   presentaciones/heic2jpg_batch
   presentaciones/intros_outros
@@ -16,6 +17,7 @@ posts:
 [
   presentaciones/slideshow_primaria
   presentaciones/music
+  presentaciones/green_screen
   presentaciones/look_better
   presentaciones/gimp_scripts
 ]
