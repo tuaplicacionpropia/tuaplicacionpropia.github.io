@@ -86,8 +86,10 @@ from PIL import Image
 class Slideshow:
   def __init__ (self, name):
     self.name = name
+    self.parentObj = None
     self.folder = None
     self.photos = []
+
 
   def selectPhotos (self, path):
     files = os.listdir(path)
@@ -96,6 +98,9 @@ class Slideshow:
         fullpath = os.path.join(path, file)
         photo = Photo(fullpath)
         self.photos.append(photo)
+
+  def shufflePhotos (self):
+    random.shuffle(self.photos)
 
   def shuffleTranslate (self, maxX = 0.1, maxY = 0.1):
     for photo in self.photos:
@@ -137,6 +142,7 @@ class Slideshow:
           toAdd.draw()
           toAdd.set_name('pic' + str(idx + 1))
           toAdd.obj.parent = bpy.data.objects[self.name]
+          self.parentObj = toAdd.obj.parent
           self.photos.append(toAdd)
         gridPhotos[i][j] = toAdd
         idx += 1
@@ -166,6 +172,7 @@ class Slideshow:
     bpy.ops.object.empty_add(type='CUBE')
     parent = bpy.context.active_object
     parent.name = self.name
+    self.parentObj = parent
     
     for photo in self.photos:
       photo.draw()
@@ -268,22 +275,28 @@ class Photo:
 #for i in range(1, 10):
 #  add_image("/media/jmramoss/ALMACEN/slideshow/ramsau-3564068_960_720.jpg", i)
 
+bpy.context.scene.world.light_settings.use_ambient_occlusion = True
+bpy.context.scene.world.light_settings.ao_factor = 1.0
 
 for i in range(2):
   slideshow = Slideshow('background' + str(i))
-  slideshow.selectPhotos("/media/jmramoss/ALMACEN/slideshow/samples/")
+  slideshow.selectPhotos("/media/jmramoss/ALMACEN/slideshow/grid_frames/")
+  slideshow.shufflePhotos()
   slideshow.draw()
   #slideshow.alignColumn()
   slideshow.alignGrid()
   slideshow.shuffleTranslate()
   slideshow.shuffleRotateZ()
+  slideshow.parentObj.location[0] += (random.uniform(-0.3, 0.3) * i)
+  slideshow.parentObj.location[1] += (random.uniform(-0.3, 0.3) * i)
+  slideshow.parentObj.location[2] += (random.uniform(-0.1, 0.1) * i)
+  
 
 #bpy.ops.mesh.primitive_plane_add(location=(0,0,0))
 #bpy.context.active_object.name = 'aleluya'
 #bpy.context.object.rotation_euler[1] = 1.5708
 #bpy.ops.import_image.to_plane(files=[{"name":"cat-3553106_960_720.jpg", "name":"cat-3553106_960_720.jpg"}], directory="/media/jmramoss/ALMACEN/slideshow/", relative=False)
 #list(bpy.data.objects)
-
 
 ```
  
