@@ -17,8 +17,10 @@ Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
   '''
 content:
   '''
-Introducción a Blender:
 
+### Introducción a Blender:
+
+- [Blender: 3D en la Educación][tuto1]
 - [Moviéndonos en el espacio 3D][mov-3d]
 - [Operaciones básicas][op-basic]
 - [Imagen en un plano][img-plane]
@@ -28,6 +30,7 @@ Introducción a Blender:
 - [Movimientos básicos de cámara][mov-cam-base]
 - [Curvar un plano][curvar-plano]
 - [Papel con deformación][papel-deformacion]
+- [Iluminación básica][ilu1]
 
 [papel-deformacion]: https://joaclintistgud.wordpress.com/2011/12/13/blender-papel-con-deformacion/
 [curvar-plano]: https://www.youtube.com/watch?v=BiqqLt4UR7M
@@ -38,6 +41,8 @@ Introducción a Blender:
 [anim-cam-path]: https://www.youtube.com/watch?v=NZRtAtAvL6k
 [anim-cam-path2]: https://www.youtube.com/watch?v=SqOso5jgYa4
 [mov-cam-base]: https://www.youtube.com/watch?v=cvJ0K7mz-I4
+[ilu1]: http://www.ite.educacion.es/formacion/materiales/181/cd/m3/iluminacin_bsica.html
+[tuto1]: http://www.ite.educacion.es/formacion/materiales/181/cd/indice.htm
 
 
   '''
