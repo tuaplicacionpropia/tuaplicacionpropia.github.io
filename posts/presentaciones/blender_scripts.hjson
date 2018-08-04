@@ -75,14 +75,17 @@ add_folder("/media/jmramoss/ALMACEN/slideshow/")
 ### Plugin mejorado - código fuente
  
 ```md
+
 import bpy
 import os
 import math
+import random
 from PIL import Image
 
 
 class Slideshow:
-  def __init__ (self):
+  def __init__ (self, name):
+    self.name = name
     self.folder = None
     self.photos = []
 
@@ -94,9 +97,20 @@ class Slideshow:
         photo = Photo(fullpath)
         self.photos.append(photo)
 
-  def alignColumn (self):
+  def shuffleTranslate (self, maxX = 0.1, maxY = 0.1):
+    for photo in self.photos:
+      incX = random.uniform(-maxX, maxX)
+      incY = random.uniform(-maxY, maxY)
+      photo.obj.location[0] += incX
+      photo.obj.location[1] += incY
+
+  def shuffleRotateZ (self, maxZ = 0.1):
+    for photo in self.photos:
+      rotZ = random.uniform(-maxZ, maxZ)
+      photo.obj.rotation_euler[2] += rotZ
+
+  def alignColumn (self, separator = 0.05):
     prev = None
-    separator = 0.1
     for photo in self.photos:
       if prev is not None:
         pivot = prev.get_topleft()
@@ -104,9 +118,8 @@ class Slideshow:
         photo.obj.location[1] = pivot[1] + (photo.obj.dimensions[1]/2) + separator
       prev = photo
 
-  def alignGrid (self):
+  def alignGrid (self, separator = 0.05):
     prev = None
-    separator = 0.1
     numPhotos = len(self.photos)
     gridSize = math.ceil(math.sqrt(numPhotos))
     gridPhotos = [None] * gridSize
@@ -123,6 +136,7 @@ class Slideshow:
           toAdd = Photo(refAdd.path)
           toAdd.draw()
           toAdd.set_name('pic' + str(idx + 1))
+          toAdd.obj.parent = bpy.data.objects[self.name]
           self.photos.append(toAdd)
         gridPhotos[i][j] = toAdd
         idx += 1
@@ -143,14 +157,21 @@ class Slideshow:
             pivot = gridPhotos[i][j - 1].get_topleft()
             photo.obj.location[0] = pivot[0] + (photo.obj.dimensions[0]/2)
             photo.obj.location[1] = pivot[1] + (photo.obj.dimensions[1]/2) + separator
-          photo.obj.location[2] += (i * 0.0001)
+          photo.obj.location[2] += ((i+j) * 0.00001)
 
   def draw (self):
     prev = None
     idx = 1
+    
+    bpy.ops.object.empty_add(type='CUBE')
+    parent = bpy.context.active_object
+    parent.name = self.name
+    
     for photo in self.photos:
       photo.draw()
       photo.set_name('pic' + str(idx))
+      #photo.obj.parent = bpy.data.objects[self.name]
+      photo.obj.parent = parent
       idx += 1
 
 class Photo:
@@ -234,8 +255,6 @@ class Photo:
     self.obj.rotation_euler = (0, 0, 0)
     #Size
     self.obj.dimensions = (ratio, 1, 0)
-    objects = bpy.data.objects
-    self.obj.parent = objects['fotos']
     #Location
     locY = 0
     #if idx > 1:
@@ -250,21 +269,22 @@ class Photo:
 #  add_image("/media/jmramoss/ALMACEN/slideshow/ramsau-3564068_960_720.jpg", i)
 
 
-bpy.ops.object.empty_add(type='CUBE')
-obj = bpy.context.active_object
-obj.name = 'fotos'
-slideshow = Slideshow()
-slideshow.selectPhotos("/media/jmramoss/ALMACEN/slideshow/samples/")
-slideshow.draw()
-#slideshow.alignColumn()
-slideshow.alignGrid()
+for i in range(2):
+  slideshow = Slideshow('background' + str(i))
+  slideshow.selectPhotos("/media/jmramoss/ALMACEN/slideshow/samples/")
+  slideshow.draw()
+  #slideshow.alignColumn()
+  slideshow.alignGrid()
+  slideshow.shuffleTranslate()
+  slideshow.shuffleRotateZ()
 
 #bpy.ops.mesh.primitive_plane_add(location=(0,0,0))
 #bpy.context.active_object.name = 'aleluya'
 #bpy.context.object.rotation_euler[1] = 1.5708
 #bpy.ops.import_image.to_plane(files=[{"name":"cat-3553106_960_720.jpg", "name":"cat-3553106_960_720.jpg"}], directory="/media/jmramoss/ALMACEN/slideshow/", relative=False)
 #list(bpy.data.objects)
- 
+
+
 ```
  
  
