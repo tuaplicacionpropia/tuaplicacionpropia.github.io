@@ -20,6 +20,7 @@ content:
 
 ### Introducción a Blender:
 
+- [Handheld Camera in Blender (7 Dead Simple Steps)][cam1]
 - [Blender: 3D en la Educación][tuto1]
 - [Moviéndonos en el espacio 3D][mov-3d]
 - [Operaciones básicas][op-basic]
@@ -32,6 +33,7 @@ content:
 - [Papel con deformación][papel-deformacion]
 - [Iluminación básica][ilu1]
 
+[cam1]: https://youtu.be/Ho2vCdSzDRA
 [papel-deformacion]: https://joaclintistgud.wordpress.com/2011/12/13/blender-papel-con-deformacion/
 [curvar-plano]: https://www.youtube.com/watch?v=BiqqLt4UR7M
 [mov-3d]: http://www.esi.uclm.es/www/cglez/fundamentos3D/01.05.Practica00.html
