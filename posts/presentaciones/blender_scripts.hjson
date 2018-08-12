@@ -501,60 +501,53 @@ class Photo:
     self.obj.location = (1, locY, 1)
 
 
-'''
-
 #obj_camera = bpy.context.scene.camera
 
-tx = 0.0
-ty = 0.0
-tz = 80.0
+#tx = 0.0
+#ty = 0.0
+#tz = 80.0
 
-rx = 0.0
-ry = 0.0
-rz = 0.0
+#rx = 0.0
+#ry = 0.0
+#rz = 0.0
 
-fov = 50.0
+#fov = 50.0
 
-pi = 3.14159265
+#pi = 3.14159265
 
-scene = bpy.data.scenes["Scene"]
+#scene = bpy.data.scenes["Scene"]
 
 # Set render resolution
-scene.render.resolution_x = 480
-scene.render.resolution_y = 359
+#scene.render.resolution_x = 480
+#scene.render.resolution_y = 359
 
 # Set camera fov in degrees
-scene.camera.data.angle = fov*(pi/180.0)
+#scene.camera.data.angle = fov*(pi/180.0)
 
 # Set camera rotation in euler angles
-scene.camera.rotation_mode = 'XYZ'
-scene.camera.rotation_euler[0] = rx*(pi/180.0)
-scene.camera.rotation_euler[1] = ry*(pi/180.0)
-scene.camera.rotation_euler[2] = rz*(pi/180.0)
+#scene.camera.rotation_mode = 'XYZ'
+#scene.camera.rotation_euler[0] = rx*(pi/180.0)
+#scene.camera.rotation_euler[1] = ry*(pi/180.0)
+#scene.camera.rotation_euler[2] = rz*(pi/180.0)
 
 # Set camera translation
-scene.camera.location.x = tx
-scene.camera.location.y = ty
-scene.camera.location.z = tz
-
-'''
+#scene.camera.location.x = tx
+#scene.camera.location.y = ty
+#scene.camera.location.z = tz
 
 
 
-'''
 
-if(len(bpy.data.cameras) == 1):
-    obj = bpy.data.objects['Camera'] # bpy.types.Camera
-    obj.location.x = 0.0
-    obj.location.y = -10.0
-    obj.location.z = 10.0
-    obj.keyframe_insert(data_path="location", frame=10.0)
-    obj.location.x = 10.0
-    obj.location.y = 0.0
-    obj.location.z = 5.0
-    obj.keyframe_insert(data_path="location", frame=20.0)
-
-'''
+#if(len(bpy.data.cameras) == 1):
+#    obj = bpy.data.objects['Camera'] # bpy.types.Camera
+#    obj.location.x = 0.0
+#    obj.location.y = -10.0
+#    obj.location.z = 10.0
+#    obj.keyframe_insert(data_path="location", frame=10.0)
+#    obj.location.x = 10.0
+#    obj.location.y = 0.0
+#    obj.location.z = 5.0
+#    obj.keyframe_insert(data_path="location", frame=20.0)
 
 def buildScene ():
   #for i in range(1, 10):
