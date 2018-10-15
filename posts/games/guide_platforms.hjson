@@ -42,6 +42,32 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - Widgets para UI
 - Sonidos.
 
+[Pack básico][pack1]: Pack básico con personajes, enemigos, plataformas, ...
+[Pack básico (2)][pack2]: Pack básico con lo mínimo necesario para el juego
+[Pack más completo][pack3]: Pack más completo con lo mínimo necesario para el juego
+[Pack para UI][pack4]: 'Onscreen Controls'
+[Pack completito][pack5]: 'Kenney'
+[UI pack][pack6]: UI pack
+[backgrounds][pack7]: Fondos
+[backgrounds2][pack8]: Fondos
+[backgrounds3][pack9]: Fondos
+[UI pack2][pack10]: UI pack
+
+[pack1]: https://www.kenney.nl/assets/jumper-pack
+[pack2]: https://www.kenney.nl/assets/platformer-pack-redux
+[pack3]: https://www.kenney.nl/assets/platformer-art-pixel-redux
+[pack4]: https://www.kenney.nl/assets/onscreen-controls
+[pack5]: https://opengameart.org/content/platformer-art-deluxe
+[pack6]: https://opengameart.org/content/free-ui-asset-pack-1
+[pack7]: https://opengameart.org/content/3-parallax-backgrounds
+[pack8]: https://free-game-assets.itch.io/free-scrolling-desert-backgrounds
+[pack9]: https://craftpix.net/freebies/free-horizontal-2d-game-backgrounds/
+[pack10]: https://craftpix.net/freebies/free-jungle-cartoon-2d-game-ui/
+
+### Selección básica para mi primer juego de plataformas
+
+
+
 ### Personaje
 
 - [Tutorial básico][personaje1]: Creación de un personaje básico con movimientos horizontales y saltos.
