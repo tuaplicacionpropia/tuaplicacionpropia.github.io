@@ -42,10 +42,16 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Romper bloques][personaje12]: Habilidad del personaje para romper ciertos bloques.
 - [Romper bloques con sorpresa][personaje13]: Habilidad del personaje para romper ciertos bloques con sorpresa (moneda).
 - [Romper bloques con texturas diferentes][personaje14]: Habilidad del personaje para romper ciertos bloques con texturas diferentes.
+- [Multicámara][personaje15]: Multicámara
+- [Personaje básico][personaje16]: Personaje básico
+- [Personaje animado][personaje17]: Personaje animado
+- [Atacar al enemigo][personaje18]: Atacar al enemigo saltando sobre él.
 
 ### Elementos especiales
 
 - [Popup textual][special1]: Ventanas emergentes con texto al cruzar una zona con el personaje.
+- [Popup textual (parte 2)][special2]: Ventanas emergentes con texto al cruzar una zona con el personaje.
+- [Popup textual (parte 3)][special3]: Ventanas emergentes con texto al cruzar una zona con el personaje.
 
 ### Escenarios
 
@@ -62,18 +68,28 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Escenario sencillo][personaje8]: Creación de un escenario básico
 - [Fondo y moneda][escenario9]: Fondo sencillo e implementación de la moneda.
 - [Plataformas móviles][escenario10]: Plataformas móviles.
+- [Plataforma que cae (parte 1)][escenario11]: Plataforma que cae
+- [Plataforma que cae (parte 2)][escenario12]: Plataforma que cae
+- [Pincho giratorio][escenario13]: Pincho giratorio
+- [Tiles básico][tiles2]: Tiles básico
+- [Cámara básica][tiles2]: Cámara básica
+- [Fondo de escenario básico][fondo3]: Fondo básico (parallax)
+- [Pasar de fase][nextlevel2]: Pasar de fase. Cambiar de escenario.
 
 ### Enemigos
 
 - [Enemigo básico][personaje10]: Enemigo básico
-
+- [Enemigo que ataca][enemigo2]: Enemigo que ataca
+- [Enemigo con movimiento][enemigo3]: Movimiento al estilo Goomba
+- [Zombie con movimiento][enemigo4]: Zombie con movimiento
+- [Ataque del enemigo][enemigo5]: Al tocar al enemigo se pierde vida.
 
 ### User Interface
 
 - [Menú principal][ui1]: Menú principal del juego
 - [Botones de acción][ui2]: Botones de movimiento del personaje y resolución dinámica de pantalla. Touchscreen buttons/viewport zoom
 - [Resolución dinámica][ui3]: Tutorial para aprender a desarrollar en pantallas con independencia de su tamaño.
-
+- [Otro menú principal][ui4]: Menú principal del juego
 
 ### Ejemplos
 
@@ -83,6 +99,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Ejemplo de fondo][ejemplo3]: Ejemplo que permite visualizar cada una de las capas de un fondo parallax.
 - [Otro ejemplo de fondo][ejemplo4]: Otro ejemplo que permite visualizar cada una de las capas de un fondo parallax.
 - [Otro ejemplo de fondo][ejemplo5]: Outer Space Game Background (Parallax)
+- [Ejemplo de escenario y personaje][ejemplo7]: Ejemplo de escenario y personaje
 
 
 
@@ -100,8 +117,23 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 [personaje12]: https://www.youtube.com/watch?v=Bs2CJ8NcuEE&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 [personaje13]: https://www.youtube.com/watch?v=8mcWEirXbb0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 [personaje14]: https://www.youtube.com/watch?v=D7HHz1hkTgI&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje15]: https://www.youtube.com/watch?v=UwIzNuaNvso&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje16]: https://www.youtube.com/watch?v=LR6D5bunRqg&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje17]: https://www.youtube.com/watch?v=m5Z_r3ZItV0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje18]: https://www.youtube.com/watch?v=3Goj1Qc5qqw&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+
+[enemigo2]: https://www.youtube.com/watch?v=fB_CkuJulRM&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[enemigo3]: https://www.youtube.com/watch?v=_S0b3O-BTvM&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[enemigo4]: https://www.youtube.com/watch?v=Hwhw-LGegaA&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[enemigo5]: https://www.youtube.com/watch?v=hogCt70zDpY&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 [special1]: https://www.youtube.com/watch?v=hidUbVYEEt0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[special2]: https://www.youtube.com/watch?v=dng1KQyQCzE&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[special3]: https://www.youtube.com/watch?v=rRP1D4w5mkU&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+
+[tiles2]: https://www.youtube.com/watch?v=ymqfHtHFFAU&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+
+[nextlevel2]: https://www.youtube.com/watch?v=vcO0ajXycrg&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 [escenario1]: https://www.youtube.com/watch?v=KzLfi0r4Muw
 [escenario2]: https://www.youtube.com/watch?v=uV5WKocIycY
@@ -113,11 +145,16 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 [escenario8]: https://www.youtube.com/watch?v=RZyiy9bbeNE&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 [escenario9]: https://www.youtube.com/watch?v=eBD5Ez27X4w&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 [escenario10]: https://www.youtube.com/watch?v=qOzuBclnKu4&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[escenario11]: https://www.youtube.com/watch?v=k6Ea8-FZ5gY&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[escenario12]: https://www.youtube.com/watch?v=kRn3K5__PZM&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[escenario13]: https://www.youtube.com/watch?v=qDzAR4mmOaA&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
+[fondo3]: https://www.youtube.com/watch?v=7jNsGRLYsI8&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 [ui1]: https://www.youtube.com/watch?v=sBuJRHvk5sY
 [ui2]: https://www.youtube.com/watch?v=gylnwemFIZc&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 [ui3]: https://www.youtube.com/watch?v=fl0HFWAwqm0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[ui4]: https://www.youtube.com/watch?v=xYXWXsCfSdw&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 [ejemplo1]: https://www.youtube.com/watch?v=snOrZ3yrRMI
 [ejemplo2]: https://www.youtube.com/watch?v=9R8LSQBLnGY
@@ -125,6 +162,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 [ejemplo4]: https://www.youtube.com/watch?v=4bzOhIkpqeo
 [ejemplo5]: https://www.youtube.com/watch?v=JPJ1doUobGY
 [ejemplo6]: https://www.youtube.com/watch?v=pojhTP49Wyg&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[ejemplo7]: https://www.youtube.com/watch?v=CtSOO-lwhKI&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 
   '''
