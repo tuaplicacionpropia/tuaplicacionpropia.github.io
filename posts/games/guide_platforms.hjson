@@ -28,15 +28,24 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 
 - [Tutorial básico][personaje1]: Creación de un personaje básico con movimientos horizontales y saltos.
 - [Animación básica][personaje2]: Sprites animados para mejores personajes.
+- [Mejores movimientos][personaje3]: Movimientos más suaves para el personaje.
 
 ### Escenarios
 
 - [Tutorial básico][personaje1]: Creación de plataformas sencillas.
 - [Tiles][personaje2]: Creación de escenarios a base de bloques.
-
+- [Cambio de escenario][escenario1]: Movimiento del personaje entre diferentes escenarios.
+- [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
+- [Fondo del escenario][escenario3]: Efecto Parallax para el fondo del escenario
 
 [personaje1]: https://www.youtube.com/watch?v=wETY5_9kFtA
 [personaje2]: https://www.youtube.com/watch?v=BfQGXtlmE7k
+[personaje3]: https://www.youtube.com/watch?v=ZsP7JDrRTJY
+[escenario1]: https://www.youtube.com/watch?v=KzLfi0r4Muw
+[escenario2]: https://www.youtube.com/watch?v=uV5WKocIycY
+[escenario3]: https://www.youtube.com/watch?v=K-eM2ZLI1q8
+
+
 
 
   '''
