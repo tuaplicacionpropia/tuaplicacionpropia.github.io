@@ -31,29 +31,55 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Tutorial básico][personaje1]: Creación de un personaje básico con movimientos horizontales y saltos.
 - [Animación básica][personaje2]: Sprites animados para mejores personajes.
 - [Mejores movimientos][personaje3]: Movimientos más suaves para el personaje.
+- [Cámara][personaje4]: Seguimiento de la cámara al personaje
+- [Personaje animado][personaje5]: Animated Sprites
+- [Otro tutorial básico][personaje6]: Player-controlled Sprite
+- [Movimientos básicos][personaje7]: Otro tutorial sobre la creación de un personaje sencillo.
+- [Salto de un personaje][personaje8]: Implementa los saltos de un personaje.
+- [Otra cámara][personaje9]: Centrando la cámara en el personaje.
+- [Mejora de salto][personaje10]: Saltos estilizados del personaje
+- [Empujar bloques][personaje11]: Habilidad del personaje para empujar ciertos bloques.
+- [Romper bloques][personaje12]: Habilidad del personaje para romper ciertos bloques.
+- [Romper bloques con sorpresa][personaje13]: Habilidad del personaje para romper ciertos bloques con sorpresa (moneda).
+- [Romper bloques con texturas diferentes][personaje14]: Habilidad del personaje para romper ciertos bloques con texturas diferentes.
+
+### Elementos especiales
+
+- [Popup textual][special1]: Ventanas emergentes con texto al cruzar una zona con el personaje.
 
 ### Escenarios
 
 - [Tutorial básico][personaje1]: Creación de plataformas sencillas.
 - [Tiles][personaje2]: Creación de escenarios a base de bloques.
+- [Monedas][escenario8]: Elementos tipo moneda (Area-based Collisions).
 - [Cambio de escenario][escenario1]: Movimiento del personaje entre diferentes escenarios.
 - [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
 - [Fondo del escenario][escenario3]: Efecto Parallax para el fondo del escenario
 - [Fondo sencillo][escenario4]: Efecto sencillo Parallax para el fondo del escenario
 - [Diseño completo de un fondo][escenario6]: Presenta el diseño completo de un fondo parallax mediante el software Gravit Designer
 - [Breve diseño de un fondo][escenario5]: Esboza el diseño de un fondo parallax mediante el software Gravit Designer
+- [Incrustar fondo en escenario][escenario7]: Otro tutorial para incrustar el fondo de escenario mediante efecto parallax.
+- [Escenario sencillo][personaje8]: Creación de un escenario básico
+- [Fondo y moneda][escenario9]: Fondo sencillo e implementación de la moneda.
+- [Plataformas móviles][escenario10]: Plataformas móviles.
 
 ### Enemigos
+
+- [Enemigo básico][personaje10]: Enemigo básico
+
 
 ### User Interface
 
 - [Menú principal][ui1]: Menú principal del juego
+- [Botones de acción][ui2]: Botones de movimiento del personaje y resolución dinámica de pantalla. Touchscreen buttons/viewport zoom
+- [Resolución dinámica][ui3]: Tutorial para aprender a desarrollar en pantallas con independencia de su tamaño.
 
 
 ### Ejemplos
 
 - [Ejemplo Juego 1][ejemplo1]: Cool Jack
 - [Ejemplo Juego 2][ejemplo2]: Mahur's Flight
+- [Ejemplo Juego 3][ejemplo6]: Charlie's Big Adventure
 - [Ejemplo de fondo][ejemplo3]: Ejemplo que permite visualizar cada una de las capas de un fondo parallax.
 - [Otro ejemplo de fondo][ejemplo4]: Otro ejemplo que permite visualizar cada una de las capas de un fondo parallax.
 - [Otro ejemplo de fondo][ejemplo5]: Outer Space Game Background (Parallax)
@@ -63,6 +89,19 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 [personaje1]: https://www.youtube.com/watch?v=wETY5_9kFtA
 [personaje2]: https://www.youtube.com/watch?v=BfQGXtlmE7k
 [personaje3]: https://www.youtube.com/watch?v=ZsP7JDrRTJY
+[personaje4]: https://www.youtube.com/watch?v=quVFPh1eotE&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje5]: https://www.youtube.com/watch?v=rbWL8zFMWZc&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje6]: https://www.youtube.com/watch?v=FgtekgMca2E&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje7]: https://www.youtube.com/watch?v=v1M3hgVIQDs&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje8]: https://www.youtube.com/watch?v=GczEThO4t8A&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje9]: https://www.youtube.com/watch?v=zTnArExixpY&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje10]: https://www.youtube.com/watch?v=g2D79RwXoPc&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje11]: https://www.youtube.com/watch?v=MZYlG-fulXQ&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje12]: https://www.youtube.com/watch?v=Bs2CJ8NcuEE&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje13]: https://www.youtube.com/watch?v=8mcWEirXbb0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[personaje14]: https://www.youtube.com/watch?v=D7HHz1hkTgI&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+
+[special1]: https://www.youtube.com/watch?v=hidUbVYEEt0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 [escenario1]: https://www.youtube.com/watch?v=KzLfi0r4Muw
 [escenario2]: https://www.youtube.com/watch?v=uV5WKocIycY
@@ -70,14 +109,22 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 [escenario4]: https://www.youtube.com/watch?v=gdmczqPEqdQ
 [escenario5]: https://www.youtube.com/watch?v=GaQiVKYltm4
 [escenario6]: https://www.youtube.com/watch?v=Sv8HPkt-RaY
+[escenario7]: https://www.youtube.com/watch?v=xmNPt4tbIGg
+[escenario8]: https://www.youtube.com/watch?v=RZyiy9bbeNE&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[escenario9]: https://www.youtube.com/watch?v=eBD5Ez27X4w&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[escenario10]: https://www.youtube.com/watch?v=qOzuBclnKu4&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+
 
 [ui1]: https://www.youtube.com/watch?v=sBuJRHvk5sY
+[ui2]: https://www.youtube.com/watch?v=gylnwemFIZc&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+[ui3]: https://www.youtube.com/watch?v=fl0HFWAwqm0&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 [ejemplo1]: https://www.youtube.com/watch?v=snOrZ3yrRMI
 [ejemplo2]: https://www.youtube.com/watch?v=9R8LSQBLnGY
 [ejemplo3]: https://www.youtube.com/watch?v=zybWoLrmzmQ
 [ejemplo4]: https://www.youtube.com/watch?v=4bzOhIkpqeo
 [ejemplo5]: https://www.youtube.com/watch?v=JPJ1doUobGY
+[ejemplo6]: https://www.youtube.com/watch?v=pojhTP49Wyg&list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
 
 
   '''
