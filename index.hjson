@@ -4,6 +4,7 @@ mainPost: presentaciones/slideshow_primaria
 
 postsWeek: 
 [
+  games/guide_platforms
   presentaciones/slideshow_primaria
   presentaciones/music
   presentaciones/green_screen
@@ -15,6 +16,7 @@ postsWeek:
 
 posts:
 [
+  games/guide_platforms
   presentaciones/slideshow_primaria
   presentaciones/music
   presentaciones/green_screen
