@@ -30,6 +30,17 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 9. User Interface
 10. Ejemplos
 
+### Recursos necesarios
+
+- Sprites de:
+  - Personaje protagonista
+  - Enemigo
+  - Plataformas y bloques
+  - Monedas
+  - Cambio de escenario
+- Fondos de escenario
+- Widgets para UI
+- Sonidos.
 
 ### Personaje
 
