@@ -42,16 +42,16 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - Widgets para UI
 - Sonidos.
 
-[Pack básico][pack1]: Pack básico con personajes, enemigos, plataformas, ...
-[Pack básico (2)][pack2]: Pack básico con lo mínimo necesario para el juego
-[Pack más completo][pack3]: Pack más completo con lo mínimo necesario para el juego
-[Pack para UI][pack4]: 'Onscreen Controls'
-[Pack completito][pack5]: 'Kenney'
-[UI pack][pack6]: UI pack
-[backgrounds][pack7]: Fondos
-[backgrounds2][pack8]: Fondos
-[backgrounds3][pack9]: Fondos
-[UI pack2][pack10]: UI pack
+- [Pack básico][pack1]: Pack básico con personajes, enemigos, plataformas, ...
+- [Pack básico (2)][pack2]: Pack básico con lo mínimo necesario para el juego
+- [Pack más completo][pack3]: Pack más completo con lo mínimo necesario para el juego
+- [Pack para UI][pack4]: 'Onscreen Controls'
+- [Pack completito][pack5]: 'Kenney'
+- [UI pack][pack6]: UI pack
+- [backgrounds][pack7]: Fondos
+- [backgrounds2][pack8]: Fondos
+- [backgrounds3][pack9]: Fondos
+- [UI pack2][pack10]: UI pack
 
 [pack1]: https://www.kenney.nl/assets/jumper-pack
 [pack2]: https://www.kenney.nl/assets/platformer-pack-redux
@@ -66,6 +66,8 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 
 ### Selección básica para mi primer juego de plataformas
 
+- [Para los personajes, plataformas y otros elementos del juego][pack2].
+- [Para los controles del personaje][pack4].
 
 
 ### Personaje
