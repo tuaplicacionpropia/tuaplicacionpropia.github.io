@@ -20,10 +20,15 @@ content:
 
 Un juego de plataformas tiene las siguientes partes en su desarrollo:
 1. Personaje
-2. Escenarios
-3. Enemigos
-4. User Interface
-5. Ejemplos
+2. Plataformas y bloques
+3. Cámara
+4. Monedas y gemas
+5. Fondos de escenario
+6. Elementos especiales
+7. Cambio de escenario
+8. Enemigos
+9. User Interface
+10. Ejemplos
 
 
 ### Personaje
@@ -31,49 +36,61 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Tutorial básico][personaje1]: Creación de un personaje básico con movimientos horizontales y saltos.
 - [Animación básica][personaje2]: Sprites animados para mejores personajes.
 - [Mejores movimientos][personaje3]: Movimientos más suaves para el personaje.
-- [Cámara][personaje4]: Seguimiento de la cámara al personaje
 - [Personaje animado][personaje5]: Animated Sprites
 - [Otro tutorial básico][personaje6]: Player-controlled Sprite
 - [Movimientos básicos][personaje7]: Otro tutorial sobre la creación de un personaje sencillo.
 - [Salto de un personaje][personaje8]: Implementa los saltos de un personaje.
-- [Otra cámara][personaje9]: Centrando la cámara en el personaje.
 - [Mejora de salto][personaje10]: Saltos estilizados del personaje
+- [Personaje básico][personaje16]: Personaje básico
+- [Personaje animado][personaje17]: Personaje animado
+
+### Plataformas y bloques
+
+- [Tutorial básico][personaje1]: Creación de plataformas sencillas.
+- [Tiles][personaje2]: Creación de escenarios a base de bloques.
+- [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
+- [Escenario sencillo][personaje8]: Creación de un escenario básico
+- [Tiles básico][tiles2]: Tiles básico
+- [Plataformas móviles][escenario10]: Plataformas móviles.
+- [Plataforma que cae (parte 1)][escenario11]: Plataforma que cae
+- [Plataforma que cae (parte 2)][escenario12]: Plataforma que cae
 - [Empujar bloques][personaje11]: Habilidad del personaje para empujar ciertos bloques.
 - [Romper bloques][personaje12]: Habilidad del personaje para romper ciertos bloques.
 - [Romper bloques con sorpresa][personaje13]: Habilidad del personaje para romper ciertos bloques con sorpresa (moneda).
 - [Romper bloques con texturas diferentes][personaje14]: Habilidad del personaje para romper ciertos bloques con texturas diferentes.
+
+
+### Cámara
+
+- [Cámara][personaje4]: Seguimiento de la cámara al personaje
+- [Otra cámara][personaje9]: Centrando la cámara en el personaje.
 - [Multicámara][personaje15]: Multicámara
-- [Personaje básico][personaje16]: Personaje básico
-- [Personaje animado][personaje17]: Personaje animado
-- [Atacar al enemigo][personaje18]: Atacar al enemigo saltando sobre él.
+- [Cámara básica][tiles2]: Cámara básica
+
+### Monedas y gemas
+
+- [Monedas][escenario8]: Elementos tipo moneda (Area-based Collisions).
+- [Fondo y moneda][escenario9]: Fondo sencillo e implementación de la moneda.
+
+### Fondos de escenario
+
+- [Fondo del escenario][escenario3]: Efecto Parallax para el fondo del escenario
+- [Fondo sencillo][escenario4]: Efecto sencillo Parallax para el fondo del escenario
+- [Diseño completo de un fondo][escenario6]: Presenta el diseño completo de un fondo parallax mediante el software Gravit Designer
+- [Breve diseño de un fondo][escenario5]: Esboza el diseño de un fondo parallax mediante el software Gravit Designer
+- [Incrustar fondo en escenario][escenario7]: Otro tutorial para incrustar el fondo de escenario mediante efecto parallax.
+- [Fondo de escenario básico][fondo3]: Fondo básico (parallax)
 
 ### Elementos especiales
 
 - [Popup textual][special1]: Ventanas emergentes con texto al cruzar una zona con el personaje.
 - [Popup textual (parte 2)][special2]: Ventanas emergentes con texto al cruzar una zona con el personaje.
 - [Popup textual (parte 3)][special3]: Ventanas emergentes con texto al cruzar una zona con el personaje.
-
-### Escenarios
-
-- [Tutorial básico][personaje1]: Creación de plataformas sencillas.
-- [Tiles][personaje2]: Creación de escenarios a base de bloques.
-- [Monedas][escenario8]: Elementos tipo moneda (Area-based Collisions).
-- [Cambio de escenario][escenario1]: Movimiento del personaje entre diferentes escenarios.
-- [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
-- [Fondo del escenario][escenario3]: Efecto Parallax para el fondo del escenario
-- [Fondo sencillo][escenario4]: Efecto sencillo Parallax para el fondo del escenario
-- [Diseño completo de un fondo][escenario6]: Presenta el diseño completo de un fondo parallax mediante el software Gravit Designer
-- [Breve diseño de un fondo][escenario5]: Esboza el diseño de un fondo parallax mediante el software Gravit Designer
-- [Incrustar fondo en escenario][escenario7]: Otro tutorial para incrustar el fondo de escenario mediante efecto parallax.
-- [Escenario sencillo][personaje8]: Creación de un escenario básico
-- [Fondo y moneda][escenario9]: Fondo sencillo e implementación de la moneda.
-- [Plataformas móviles][escenario10]: Plataformas móviles.
-- [Plataforma que cae (parte 1)][escenario11]: Plataforma que cae
-- [Plataforma que cae (parte 2)][escenario12]: Plataforma que cae
 - [Pincho giratorio][escenario13]: Pincho giratorio
-- [Tiles básico][tiles2]: Tiles básico
-- [Cámara básica][tiles2]: Cámara básica
-- [Fondo de escenario básico][fondo3]: Fondo básico (parallax)
+
+### Cambio de escenario
+
+- [Cambio de escenario][escenario1]: Movimiento del personaje entre diferentes escenarios.
 - [Pasar de fase][nextlevel2]: Pasar de fase. Cambiar de escenario.
 
 ### Enemigos
@@ -81,6 +98,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Enemigo básico][personaje10]: Enemigo básico
 - [Enemigo que ataca][enemigo2]: Enemigo que ataca
 - [Enemigo con movimiento][enemigo3]: Movimiento al estilo Goomba
+- [Atacar al enemigo][personaje18]: Atacar al enemigo saltando sobre él.
 - [Zombie con movimiento][enemigo4]: Zombie con movimiento
 - [Ataque del enemigo][enemigo5]: Al tocar al enemigo se pierde vida.
 
