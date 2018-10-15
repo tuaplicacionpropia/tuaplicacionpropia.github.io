@@ -1,0 +1,34 @@
+title: Guía para desarrollar un juego de plataformas
+subtitle: Guía para desarrollar un juego de plataformas
+image: https://i.imgur.com/A9PGxz4.jpg
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: games
+description:
+  '''
+Guía para desarrollar un juego de plataformas
+  '''
+content:
+  '''
+
+Un juego de plataformas tiene las siguientes partes en su desarrollo:
+1. Personaje
+2. Escenarios
+3. Enemigos
+
+
+### Tutoriales
+
+- [Youtube][tutorial-youtube].
+
+[tutorial-youtube]: https://www.youtube.com/playlist?list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+
+
+  '''
