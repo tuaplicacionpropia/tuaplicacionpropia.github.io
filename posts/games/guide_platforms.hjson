@@ -22,6 +22,8 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 1. Personaje
 2. Escenarios
 3. Enemigos
+4. User Interface
+5. Ejemplos
 
 
 ### Personaje
@@ -37,15 +39,45 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Cambio de escenario][escenario1]: Movimiento del personaje entre diferentes escenarios.
 - [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
 - [Fondo del escenario][escenario3]: Efecto Parallax para el fondo del escenario
+- [Fondo sencillo][escenario4]: Efecto sencillo Parallax para el fondo del escenario
+- [Diseño completo de un fondo][escenario6]: Presenta el diseño completo de un fondo parallax mediante el software Gravit Designer
+- [Breve diseño de un fondo][escenario5]: Esboza el diseño de un fondo parallax mediante el software Gravit Designer
+
+### Enemigos
+
+### User Interface
+
+- [Menú principal][ui1]: Menú principal del juego
+
+
+### Ejemplos
+
+- [Ejemplo Juego 1][ejemplo1]: Cool Jack
+- [Ejemplo Juego 2][ejemplo2]: Mahur's Flight
+- [Ejemplo de fondo][ejemplo3]: Ejemplo que permite visualizar cada una de las capas de un fondo parallax.
+- [Otro ejemplo de fondo][ejemplo4]: Otro ejemplo que permite visualizar cada una de las capas de un fondo parallax.
+- [Otro ejemplo de fondo][ejemplo5]: Outer Space Game Background (Parallax)
+
+
 
 [personaje1]: https://www.youtube.com/watch?v=wETY5_9kFtA
 [personaje2]: https://www.youtube.com/watch?v=BfQGXtlmE7k
 [personaje3]: https://www.youtube.com/watch?v=ZsP7JDrRTJY
+
 [escenario1]: https://www.youtube.com/watch?v=KzLfi0r4Muw
 [escenario2]: https://www.youtube.com/watch?v=uV5WKocIycY
 [escenario3]: https://www.youtube.com/watch?v=K-eM2ZLI1q8
+[escenario4]: https://www.youtube.com/watch?v=gdmczqPEqdQ
+[escenario5]: https://www.youtube.com/watch?v=GaQiVKYltm4
+[escenario6]: https://www.youtube.com/watch?v=Sv8HPkt-RaY
 
+[ui1]: https://www.youtube.com/watch?v=sBuJRHvk5sY
 
+[ejemplo1]: https://www.youtube.com/watch?v=snOrZ3yrRMI
+[ejemplo2]: https://www.youtube.com/watch?v=9R8LSQBLnGY
+[ejemplo3]: https://www.youtube.com/watch?v=zybWoLrmzmQ
+[ejemplo4]: https://www.youtube.com/watch?v=4bzOhIkpqeo
+[ejemplo5]: https://www.youtube.com/watch?v=JPJ1doUobGY
 
 
   '''
