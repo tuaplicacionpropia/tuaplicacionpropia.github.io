@@ -52,6 +52,19 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [backgrounds2][pack8]: Fondos
 - [backgrounds3][pack9]: Fondos
 - [UI pack2][pack10]: UI pack
+- [Sonidos1][sounds1]: 
+- [Sonidos2][sounds2]: 
+- [Sonidos3][sounds3]: 
+- [Sonidos4][sounds4]: 
+- [Sonidos5][sounds5]: 
+- [Sonidos6][sounds6]: 
+
+[sounds1]: https://opengameart.org/content/ui-sound-effects-pack
+[sounds2]: https://opengameart.org/content/ui-sfx-pack-2-sample
+[sounds3]: https://opengameart.org/content/platformer-game-music-pack
+[sounds4]: https://opengameart.org/content/platform-small-sound-effect-pack
+[sounds5]: https://opengameart.org/content/theme1-platform-game-music
+[sounds6]: https://opengameart.org/content/adventure-platform-menu-bgm-pack-i
 
 [pack1]: https://www.kenney.nl/assets/jumper-pack
 [pack2]: https://www.kenney.nl/assets/platformer-pack-redux
@@ -68,6 +81,8 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 
 - [Para los personajes, plataformas y otros elementos del juego][pack2].
 - [Para los controles del personaje][pack4].
+- [Para los fondos][pack9].
+- [Para la interfaz de usuario][pack10].
 
 
 ### Personaje
