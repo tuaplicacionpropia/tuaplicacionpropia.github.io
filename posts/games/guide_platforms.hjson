@@ -24,11 +24,15 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 3. Enemigos
 
 
-### Tutoriales
+### Personaje
 
-- [Youtube][tutorial-youtube].
+- [Tutorial básico][personaje1]: Creación de un personaje básico con movimientos horizontales y saltos.
 
-[tutorial-youtube]: https://www.youtube.com/playlist?list=PLUDC4dszo0qM0mgOLDaC4O7YIAYER1QoU
+### Escenarios
+
+- [Tutorial básico][personaje1]: Creación de plataformas sencillas.
+
+[personaje1]: https://www.youtube.com/watch?v=wETY5_9kFtA
 
 
   '''
