@@ -108,9 +108,16 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
 - [Escenario sencillo][personaje8]: Creación de un escenario básico
 - [Tiles básico][tiles2]: Tiles básico
+
+
+### Plataformas especiales
+
 - [Plataformas móviles][escenario10]: Plataformas móviles.
 - [Plataforma que cae (parte 1)][escenario11]: Plataforma que cae
 - [Plataforma que cae (parte 2)][escenario12]: Plataforma que cae
+
+### Bloques especiales
+
 - [Empujar bloques][personaje11]: Habilidad del personaje para empujar ciertos bloques.
 - [Romper bloques][personaje12]: Habilidad del personaje para romper ciertos bloques.
 - [Romper bloques con sorpresa][personaje13]: Habilidad del personaje para romper ciertos bloques con sorpresa (moneda).
