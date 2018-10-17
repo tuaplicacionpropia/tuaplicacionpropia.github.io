@@ -144,6 +144,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Popup textual (parte 2)][special2]: Ventanas emergentes con texto al cruzar una zona con el personaje.
 - [Popup textual (parte 3)][special3]: Ventanas emergentes con texto al cruzar una zona con el personaje.
 - [Pincho giratorio][escenario13]: Pincho giratorio
+- [Disparar bolas de fuego][bolas_fuego].
 
 ### Cambio de escenario
 
@@ -177,6 +178,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Ejemplo de escenario y personaje][ejemplo7]: Ejemplo de escenario y personaje
 - [Ejemplo Juego 4][ejemplo8]: Colônia Contra Ataca
 
+[bolas_fuego]: https://www.youtube.com/watch?v=wRcGbQBq28c
 
 [personaje1]: https://www.youtube.com/watch?v=wETY5_9kFtA
 [personaje2]: https://www.youtube.com/watch?v=BfQGXtlmE7k
