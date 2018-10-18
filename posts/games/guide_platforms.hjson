@@ -100,6 +100,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Mejora de salto][personaje10]: Saltos estilizados del personaje
 - [Personaje básico][personaje16]: Personaje básico
 - [Personaje animado][personaje17]: Personaje animado
+- [Animación general][anim_general].
 
 ### Plataformas y bloques
 
@@ -186,6 +187,8 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Ejemplo Juego 4][ejemplo8]: Colônia Contra Ataca
 
 [bolas_fuego]: https://www.youtube.com/watch?v=wRcGbQBq28c
+
+[anim_general]: https://www.youtube.com/watch?v=IwrdVPGJgcM
 
 [personaje1]: https://www.youtube.com/watch?v=wETY5_9kFtA
 [personaje2]: https://www.youtube.com/watch?v=BfQGXtlmE7k
