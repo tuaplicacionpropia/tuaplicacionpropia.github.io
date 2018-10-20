@@ -131,6 +131,9 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Otra cámara][personaje9]: Centrando la cámara en el personaje.
 - [Multicámara][personaje15]: Multicámara
 - [Cámara básica][tiles2]: Cámara básica
+- [Cámara personalizada][cam_custom].
+
+[cam_custom]: https://www.youtube.com/watch?v=FkxZECaD5To
 
 ### Monedas y gemas
 
