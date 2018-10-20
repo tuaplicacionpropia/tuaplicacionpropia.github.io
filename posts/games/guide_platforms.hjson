@@ -179,6 +179,9 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Botones de acción][ui2]: Botones de movimiento del personaje y resolución dinámica de pantalla. Touchscreen buttons/viewport zoom
 - [Resolución dinámica][ui3]: Tutorial para aprender a desarrollar en pantallas con independencia de su tamaño.
 - [Otro menú principal][ui4]: Menú principal del juego
+- [Reiniciar nivel][reset_level].
+
+[reset_level]: https://www.youtube.com/watch?v=ILU52_KN4As
 
 ### Ejemplos
 
