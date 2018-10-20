@@ -109,7 +109,9 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Autotiles][escenario2]: Creación RÁPIDA de escenarios a base de bloques.
 - [Escenario sencillo][personaje8]: Creación de un escenario básico
 - [Tiles básico][tiles2]: Tiles básico
+- [Subirse a una plataforma desde abajo][platform_one_way]
 
+[platform_one_way]: https://www.youtube.com/watch?v=xLwLqHdhxK4
 
 ### Plataformas especiales
 
