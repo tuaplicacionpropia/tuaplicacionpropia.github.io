@@ -188,6 +188,12 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Resolución dinámica][ui3]: Tutorial para aprender a desarrollar en pantallas con independencia de su tamaño.
 - [Otro menú principal][ui4]: Menú principal del juego
 - [Reiniciar nivel][reset_level].
+- [Botones fijos a pesar del scroll][botones_fijos].
+- [Botón PAUSE][boton_pause].
+
+[botones_fijos]: https://www.youtube.com/watch?v=gylnwemFIZc&t=829s
+[boton_pause]: https://www.youtube.com/watch?v=Jf7F3JhY9Fg&t=0s&list=PLUDC4dszo0qMMZC56mmFkLR0OsCVRhckH&index=102
+
 
 [reset_level]: https://www.youtube.com/watch?v=ILU52_KN4As
 
