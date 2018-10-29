@@ -130,6 +130,15 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Plataforma que cae (parte 1)][escenario11]: Plataforma que cae
 - [Plataforma que cae (parte 2)][escenario12]: Plataforma que cae
 
+### Partículas
+
+- [Partículas][particles1].
+- [Partículas][particles2].
+
+
+[particles1]: https://www.youtube.com/watch?v=RZmUMFnxCoo
+[particles2]: https://www.youtube.com/watch?v=56GayZ2drS0
+
 ### Bloques especiales
 
 - [Empujar bloques][personaje11]: Habilidad del personaje para empujar ciertos bloques.
