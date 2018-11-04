@@ -229,6 +229,12 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Playlist AngryBirds][playlist_angrybirds].
 - [Playlist Plataformas][playlist_plataformas].
 
+### Exportar a Android
+
+- [Guía básica para exportar a Android un proyecto Godot][android_base].
+
+[android_base]: https://www.youtube.com/watch?v=QPI8JsKF2j4
+
 [playlist_plataformas]: https://www.youtube.com/playlist?list=PLyckz_-Rzq6ClGevL2fneJ5YJnMPKWa4M
 
 [playlist_angrybirds]: https://www.youtube.com/playlist?list=PLi-VYObBzzKN8MWcAVo7y2JPcct1WOyXd
