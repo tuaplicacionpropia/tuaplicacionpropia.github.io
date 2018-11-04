@@ -124,6 +124,9 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Escenario sencillo][personaje8]: Creación de un escenario básico
 - [Tiles básico][tiles2]: Tiles básico
 - [Subirse a una plataforma desde abajo][platform_one_way]
+- [Tileset con animación][tilemap_animation].
+
+[tilemap_animation]: https://www.youtube.com/watch?v=j2gJgFzg-yU
 
 [platform_one_way]: https://www.youtube.com/watch?v=xLwLqHdhxK4
 
