@@ -232,7 +232,9 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 ### Exportar a Android
 
 - [Guía básica para exportar a Android un proyecto Godot][android_base].
+- [Segunda guía][second_guia_android].
 
+[second_guia_android]: https://www.youtube.com/watch?v=wvlhp_mTHn0
 [android_base]: https://www.youtube.com/watch?v=QPI8JsKF2j4
 
 [playlist_plataformas]: https://www.youtube.com/playlist?list=PLyckz_-Rzq6ClGevL2fneJ5YJnMPKWa4M
