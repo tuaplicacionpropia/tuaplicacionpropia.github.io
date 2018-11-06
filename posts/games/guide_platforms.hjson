@@ -234,6 +234,12 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Guía básica para exportar a Android un proyecto Godot][android_base].
 - [Segunda guía][second_guia_android].
 
+### Posibles incidencias al exportar a Android
+
+1. Nombres de ficheros con caracteres especiales como tildes, acentos y/o espacios pueden ser problemáticos. Lo mejor es utilizar caracteres básicos para exportar a Android.
+2. Los sonidos no se reproducen de manera automática en AudioStreamPlayer si NO se tiene definido de manera estática un audio aunque éste no se use previamente. Es preciso definir de manera estática el stream aunque luego se vaya a cambiar de manera dinámica.
+3. No se puede hacer multiclick.
+
 [second_guia_android]: https://www.youtube.com/watch?v=wvlhp_mTHn0
 [android_base]: https://www.youtube.com/watch?v=QPI8JsKF2j4
 
