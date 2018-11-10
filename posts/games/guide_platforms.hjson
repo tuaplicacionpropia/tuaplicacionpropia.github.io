@@ -237,7 +237,7 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 ### Posibles incidencias al exportar a Android
 
 1. Nombres de ficheros con caracteres especiales como tildes, acentos y/o espacios pueden ser problemáticos. Lo mejor es utilizar caracteres básicos para exportar a Android.
-2. Los sonidos no se reproducen de manera automática en AudioStreamPlayer si NO se tiene definido de manera estática un audio aunque éste no se use previamente. Es preciso definir de manera estática el stream aunque luego se vaya a cambiar de manera dinámica.
+2. Los sonidos no se reproducen de manera automática en AudioStreamPlayer si NO se tiene definido de manera estática un audio aunque éste no se use previamente. Es preciso definir de manera estática el stream aunque luego se vaya a cambiar de manera dinámica. La carga dinámica en AudioStreamPlayer con load y set_stream no funciona en Android. Es preciso utilizar preload para definir los recursos de manera constante. Preload sí funciona en Android.
 3. No se puede hacer multiclick (multitouch). Algunas posibles soluciones son esta [web][solucion_multitouch1] o esta [otra][solucion_multitouch2].
 
 [solucion_multitouch1]: https://godotdevelopers.org/forum/discussion/18499/tutorial-multi-touch-controls-demo-project
