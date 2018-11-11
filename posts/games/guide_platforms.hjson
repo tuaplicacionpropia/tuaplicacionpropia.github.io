@@ -208,6 +208,9 @@ Un juego de plataformas tiene las siguientes partes en su desarrollo:
 - [Reiniciar nivel][reset_level].
 - [Botones fijos a pesar del scroll][botones_fijos].
 - [Botón PAUSE][boton_pause].
+- [Gamepad Android][gamepad_android].
+
+[gamepad_android]: https://www.youtube.com/watch?v=kPt961772mg
 
 [botones_fijos]: https://www.youtube.com/watch?v=gylnwemFIZc&t=829s
 [boton_pause]: https://www.youtube.com/watch?v=Jf7F3JhY9Fg&t=0s&list=PLUDC4dszo0qMMZC56mmFkLR0OsCVRhckH&index=102
