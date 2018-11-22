@@ -1,1 +1,31 @@
+title: Diseños para aplicaciones móviles
+subtitle: Diseños para aplicaciones móviles
+image: https://i.imgur.com/A9PGxz4.jpg
+subtitle1:
+  '''
+  Diseños para aplicaciones móviles
+  '''
+subtitle2:
+  '''
+  Diseños para aplicaciones móviles
+  '''
+  
+tag: apps
+description:
+  '''
+Diseños para aplicaciones móviles
+  '''
+content:
+  '''
 
+### Plantillas para aplicaciones móviles
+
+- [Listado de plantillas][w3c_list]: W3Schools - Responsive Web Design - Templates
+- [Plantilla parallax][template_parallax].
+
+[w3c_list]: https://www.w3schools.com/css/css_rwd_templates.asp
+[template_parallax]: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
+
+
+
+  '''
