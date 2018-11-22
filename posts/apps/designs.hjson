@@ -21,11 +21,30 @@ content:
 ### Plantillas para aplicaciones móviles
 
 - [Listado de plantillas][w3c_list]: W3Schools - Responsive Web Design - Templates
-- [Plantilla parallax][template_parallax].
+- [Plantilla 'Parallax'][template_parallax].
+- [Plantilla 'Cafe'][template_cafe].
+- [Plantilla 'Start'][template_start].
+- [Plantilla 'Marketing'][template_marketing].
+- [Plantilla 'Website'][template_website].
+- [Plantilla 'Social'][template_social].
+- [Plantilla 'Analytics'][template_analytics].
+- [Plantilla 'Band'][template_band].
+- [Plantilla 'Blog'][template_blog].
+- [Plantilla 'Photo'][template_photo].
+- [Plantilla 'Portfolio3'][template_portfolio3].
 
 [w3c_list]: https://www.w3schools.com/css/css_rwd_templates.asp
 [template_parallax]: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
-
+[template_cafe]: https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm
+[template_start]: https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm
+[template_marketing]: https://www.w3schools.com/w3css/tryw3css_templates_marketing.htm
+[template_website]: https://www.w3schools.com/w3css/tryw3css_templates_website.htm
+[template_social]: https://www.w3schools.com/w3css/tryw3css_templates_social.htm
+[template_analytics]: https://www.w3schools.com/w3css/tryw3css_templates_analytics.htm
+[template_band]: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+[template_blog]: https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm
+[template_photo]: https://www.w3schools.com/w3css/tryw3css_templates_photo.htm
+[template_portfolio3]: https://www.w3schools.com/w3css/tryw3css_templates_portfolio3.htm
 
 
   '''
