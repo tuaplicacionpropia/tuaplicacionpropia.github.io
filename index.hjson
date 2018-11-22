@@ -4,6 +4,7 @@ mainPost: presentaciones/slideshow_primaria
 
 postsWeek: 
 [
+  apps/designs
   games/guide_platforms
   presentaciones/slideshow_primaria
   presentaciones/music
@@ -16,6 +17,7 @@ postsWeek:
 
 posts:
 [
+  apps/designs
   games/guide_platforms
   presentaciones/slideshow_primaria
   presentaciones/music
@@ -37,6 +39,9 @@ tags: {
   games: {
     label: Juegos
   }
+  apps: {
+    label: Aplicaciones
+  }
 }
 
 options: 
@@ -52,6 +57,10 @@ options:
   {
     id: java
     label: Java
+  }
+  {
+    id: apps
+    label: Aplicaciones
   }
   {
     id: games
