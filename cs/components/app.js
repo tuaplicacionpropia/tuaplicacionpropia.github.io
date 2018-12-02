@@ -116,7 +116,7 @@ Vue.component('app', {
 
     openPageSmall: function (page) {
       var self = this;
-      self.openPage();
+      self.openPage(page);
       self.toggleFunction();
     },
 
