@@ -34,7 +34,22 @@ function DAO () {
     return result;
   };
 
-  this.loadPosts = function (menuId, callback) {
+  this.loadItems = function (fileAddr, attr, callback) {
+    var _callback = callback;
+    var _attr = attr;
+    var self = this;
+    self.loadData(fileAddr, function (data) {
+      var postsId = data[_attr];
+      var i;
+      for (i = 0; i < postsId.length; i++) { 
+        var index = i;
+        var post = postsId[i];
+        _callback(post);
+      }
+    });
+  };
+  
+  this.loadPosts2 = function (menuId, callback) {
     var _callback = callback;
     var self = this;
     self.loadData(menuId, function (data) {
@@ -83,7 +98,8 @@ function DAO () {
     //Vue.http.options.root = 'https://github.com/tuaplicacionpropia/mydbjson/raw/master';
     //Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/mydbjson/master';
     //Vue.http.options.root = 'https://github.com/tuaplicacionpropia/tuaplicacionpropia.github.io/raw/master';
-    Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/tuaplicacionpropia.github.io/master';
+//    Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/tuaplicacionpropia.github.io/master';
+    Vue.http.options.root = 'https://raw.githubusercontent.com/tuaplicacionpropia/tuaplicacionpropia.github.io/master/cs/data';
     //Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
     //Vue.http.headers.common['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept';
     
