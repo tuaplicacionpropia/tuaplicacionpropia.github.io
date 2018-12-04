@@ -1,0 +1,22 @@
+posts: 
+[
+  {
+    id: post1
+    title: Aviso a las familias de Year 7A
+    subtitle: AVISO IMPORTANTE
+    open: true,
+    sentDate: 02/12/2018 09:25
+    eventDate: 04/12/2018 17:00
+    content: Perico de los palotes
+    image: img/emergencias.png
+  }
+  {
+    id: post2
+    title: Festivos
+    subtitle: Días no lectivos de libre disposición
+    open: false,
+    sentDate: '',
+    eventDate: '',
+    image: img/info.png
+  }
+]
