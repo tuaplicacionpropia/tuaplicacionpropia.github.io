@@ -70,7 +70,7 @@ img {
   line-height: 1em;
 }
 .recipe-card article ul li:first-child {
-  margin-left: 0;
+/*  margin-left: 0; */
 }
 .recipe-card article ul li .icon {
   vertical-align: bottom;
