@@ -3,7 +3,7 @@ tablones:
   {
     id: alertas
     name: "Alertas"
-    description: "Alertas sobre urgencias"
+    description: "Alertas, emergencias o urgencias"
     suscrito: true, 
     logo: "img/logo_tablon.png"
     image: "img/emergencias.png"
