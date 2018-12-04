@@ -30,6 +30,15 @@ Vue.component('app', {
     */
     
     self.tablones = [];
+  
+    var menu = 'index.hjson';
+      if (page != null) {
+        menu = 'posts/' + page + '.hjson';
+      }
+    _dao.loadPosts(menu, function (posts) { self.posts.push(posts);/*console.log(">>>>posts<<<<"); console.log(Hjson.stringify(posts)); self.posts = posts;*/ });
+    }    
+    
+/*
     self.tablones.push({
       id: 1,
       name: "Emergencias",
@@ -78,7 +87,7 @@ Vue.component('app', {
       logo: "img/logo_tablon.png", 
       image: "img/centro_maspalomas.png"
     });
-
+*/
 
 
 
