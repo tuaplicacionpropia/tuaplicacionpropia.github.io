@@ -65,7 +65,7 @@ img {
   padding: 0;
 }
 .recipe-card article ul li {
-  display: inline-block;
+/*  display: inline-block; */
   margin-left: 1em;
   line-height: 1em;
 }
