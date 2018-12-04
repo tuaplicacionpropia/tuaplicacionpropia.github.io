@@ -11,12 +11,16 @@ posts:
       '''
 ### Plantillas para aplicaciones móviles
 
-- [Listado de plantillas][w3c_list]: W3Schools - Responsive Web Design - Templates
-- [Plantilla 'Parallax'][template_parallax].
+- [Menú de Diciembre (Infantil)][menu_infantil].
+- [Menú de Diciembre (Primaria)][menu_primaria].
+- [Menú de Diciembre (Secundaria)][menu_secundaria].
+- [Menú de Diciembre (Maspalomas)][menu_maspalomas].
 
-[w3c_list]: https://www.w3schools.com/css/css_rwd_templates.asp
-[template_parallax]: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
-    
+[menu_infantil]: https://www.canterburyschool.com/images/stories/2018-2019/menus/1812/Menu_Diciembre_2018_Infantil.pdf
+[menu_primaria]: https://www.canterburyschool.com/images/stories/2018-2019/menus/1812/Menu_Diciembre_2018_Primaria.pdf
+[menu_secundaria]: https://www.canterburyschool.com/images/stories/2018-2019/menus/1812/Menu_Diciembre_2018_Secundaria.pdf
+[menu_maspalomas]: https://www.canterburyschool.com/images/stories/2018-2019/menus/1812/Menu_Diciembre_2018_Maspalomas.pdf
+
       '''
     image: https://www.canterburyschool.com/images/stories/2016-2017/menus/menu.png
   }
