@@ -85,7 +85,7 @@ Vue.component('app', {
 
 
 
-
+/*
     self.posts = [];
     self.posts.push({
       id: 'post1',
@@ -106,7 +106,7 @@ Vue.component('app', {
       eventDate: '',
       image: "img/info.png"
     });
-
+*/
 
 
     
@@ -134,6 +134,9 @@ Vue.component('app', {
     openTablon: function (tablon) {
       var self = this;
       self.currentTablon = tablon;
+      self.posts = [];
+      _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); });
+      
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
       //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
