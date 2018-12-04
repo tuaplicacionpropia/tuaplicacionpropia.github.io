@@ -7,7 +7,17 @@ posts:
     open: true,
     sentDate: 02/12/2018 02:19
     eventDate2: 15/12/2018 17:00
-    content: Perico de los palotes
+    content: 
+      '''
+### Plantillas para aplicaciones móviles
+
+- [Listado de plantillas][w3c_list]: W3Schools - Responsive Web Design - Templates
+- [Plantilla 'Parallax'][template_parallax].
+
+[w3c_list]: https://www.w3schools.com/css/css_rwd_templates.asp
+[template_parallax]: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
+    
+      '''
     image: https://www.canterburyschool.com/images/stories/2016-2017/menus/menu.png
   }
   {
