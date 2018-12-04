@@ -1,14 +1,14 @@
 posts: 
 [
   {
-    id: post1
-    title: Aviso a las familias de Year 9C
-    subtitle: AVISO IMPORTANTE
+    id: menus_dic2018
+    title: Menús de Diciembre 2018
+    subtitle: Comedor Diciembre 2018
     open: true,
-    sentDate: 02/12/2018 09:25
-    eventDate: 04/12/2018 17:00
+    sentDate: 02/12/2018 02:19
+    eventDate: 15/12/2018 17:00
     content: Perico de los palotes
-    image: img/emergencias.png
+    image: https://www.canterburyschool.com/images/stories/2016-2017/menus/menu.png
   }
   {
     id: post2
