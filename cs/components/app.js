@@ -30,14 +30,8 @@ Vue.component('app', {
     */
     
     self.tablones = [];
-  
-    var menu = 'index.hjson';
-      if (page != null) {
-        menu = 'posts/' + page + '.hjson';
-      }
-    _dao.loadPosts(menu, function (posts) { self.posts.push(posts);/*console.log(">>>>posts<<<<"); console.log(Hjson.stringify(posts)); self.posts = posts;*/ });
-    }    
-    
+    _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
+
 /*
     self.tablones.push({
       id: 1,
