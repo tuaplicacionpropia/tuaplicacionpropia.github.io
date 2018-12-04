@@ -21,6 +21,14 @@ Vue.component('app', {
     var self = this;
     window.onscroll = function() {self.changeStyleNavbar()};
     
+    /*
+    var menu = 'index.hjson';
+      if (page != null) {
+        menu = 'posts/' + page + '.hjson';
+      }
+      _dao.loadPosts(menu, function (posts) { self.posts.push(posts); });
+    */
+    
     self.tablones = [];
     self.tablones.push({
       id: 1,
