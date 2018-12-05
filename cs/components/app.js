@@ -35,11 +35,7 @@ Vue.component('app', {
       subtitle: "Listado de contactos", 
       image: "img/contact-us.png"
     });
-    
-    
-    
-    self.tablones = [];
-    _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
+
   },
 
   methods: {
@@ -49,6 +45,8 @@ Vue.component('app', {
       self.currentPage = page;
       if (page == 'tablones') {
         self.currentTablon = null;
+        self.tablones = [];
+        _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
       }
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
