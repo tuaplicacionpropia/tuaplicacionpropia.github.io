@@ -223,7 +223,7 @@ Vue.component('post', {
     + '<div class="recipe-card" @click="openOption()">'
     +   '<aside>'
 
-    +     '<div v-bind:class="imgOpenClass">'
+    +     '<div class="bg-header">'
     +       '<img :src="image" :alt="value.title" />'
     +     '</div>'
 
