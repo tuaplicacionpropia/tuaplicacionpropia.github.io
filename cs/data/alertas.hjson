@@ -23,8 +23,8 @@ Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
     title: Suspensión de Clases
     subtitle: AVISO URGENTE
     open: false,
-    sentDate: '27/02/2018 21:00',
-    eventDate: '28/02/2018 08:30',
+    sentDate: '27/02/2018 21:00'
+    eventDate: '28/02/2018 08:30'
     content:
       '''
 *AVISO URGENTE: el Gobierno de Canarias, a través de la Consejería de Educación, suspende las clases para mañana miércoles 28 de febrero en toda Gran Canaria. Por orden de la Consejería, el colegio permanecerá cerrado.*
@@ -39,24 +39,24 @@ Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
     id: reanudacion_de_clases_incendio
     title: Reanudación de Clases
     subtitle: Aviso
-    open: false,
-    sentDate: '27/03/2017 22:00',
-    eventDate: '28/03/2017 08:00',
+    open: false
+    sentDate: '27/03/2017 22:00'
+    eventDate: '28/03/2017 08:00'
     content: 
       '''
 **Estimados padres y alumnos de Primaria y Secundaria: les informamos de que, extinguido el incendio, mañana martes 28 de marzo se reanudan las clases con normalidad en San Lorenzo.**
 ![img][]
 [img]: https://www.canterburyschool.com/images/stories/2016-2017/circulares/general/suspension_clases/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-reanudaciondeclases2.jpg
       '''
-    image: 
+    image: https://www.canterburyschool.com/images/stories/2016-2017/circulares/general/suspension_clases/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-reanudaciondeclases.jpg
   }
   {
     id: suspension_de_clases_incendio
     title: Suspensión de Clases
     subtitle: AVISO URGENTE
-    open: false,
-    sentDate: '27/03/2017 08:58',
-    eventDate: '27/03/2017 10:00',
+    open: false
+    sentDate: '27/03/2017 08:58'
+    eventDate: '27/03/2017 10:00'
     content: 
       '''
 Debido al incendio ocurrido en zonas relativamente cercanas a los centros de Primaria y Secundaria en San Lorenzo, el cuerpo de Bomberos ha recomendado la evacuación controlada y escalonada del alumnado debido al humo reinante en la zona.
