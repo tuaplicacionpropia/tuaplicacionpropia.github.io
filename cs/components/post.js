@@ -145,13 +145,13 @@ Vue.component('post', {
         seconds = parseInt(seconds_left % 60);
       
         if (days > 0) {
-          result = "Enviado hace " + days + " días";
+          result = "Publicado hace " + days + " días";
         }
         else if (hours > 0) {
-          result = "Enviado hace " + hours + " horas";
+          result = "Publicado hace " + hours + " horas";
         }
         else if (minutes > 0) {
-          result = "Enviado hace " + minutes + " minutos";
+          result = "Publicado hace " + minutes + " minutos";
         }
       }
 
