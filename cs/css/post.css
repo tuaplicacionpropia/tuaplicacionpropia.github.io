@@ -67,7 +67,7 @@ img {
 .recipe-card article ul li {
 /*  display: inline-block; */
   margin-left: 1em;
-  line-height: 1em;
+/*  line-height: 1em; */
 }
 .recipe-card article ul li:first-child {
 /*  margin-left: 0; */
@@ -195,7 +195,8 @@ img {
 
 .recipe-card article .content p {
   font-size: 1.1em;
-  text-align: justify;  
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .recipe-card article .content p a {
