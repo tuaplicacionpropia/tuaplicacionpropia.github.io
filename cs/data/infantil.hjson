@@ -1,12 +1,12 @@
 posts: 
 [
   {
-    id: post1
+    id: fechas_navidad_infantil
     title: Fechas Navidad Infantil
-    subtitle: Fiestas deLa Navidad
+    subtitle: Fiestas de La Navidad
     open: true,
     sentDate: 03/12/2018 09:25
-    eventDate: 06/12/2018 08:00
+    eventDate2: 06/12/2018 08:00
     content: 
       '''
       
@@ -50,15 +50,26 @@ Atentamente,
 Pam Ainsworth      
     
       '''
-    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/fechas_navidad/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-calendar.jpg
+    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/fechas_navidad/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-calendar2.jpg
   }
   {
     id: post2
-    title: Festivos
-    subtitle: Días no lectivos de libre disposición
+    title: Inauguración Oficial Milton
+    subtitle: Nuevo Departamento de Infantil
     open: false,
-    sentDate: '',
-    eventDate: '',
-    image: img/info.png
+    sentDate: '19/11/2018 22:50',
+    eventDate: '29/11/2018 18:00',
+    content:
+      '''
+Queridos padres: el jueves 29 de noviembre de 2018 tendremos nuestra celebración oficial de apertura del Nuevo Departamento de Infantil Milton House.
+
+Durante el día, los alumnos/as disfrutarán participando en diferentes actividades para celebrar la ocasión, que incluye un almuerzo especial y una breve visita del Embajador Británico en España.
+
+Después de finalizar la jornada escolar, entre las 18:00 - 20:00 horas, habrá una celebración para los padres en Milton House. Este evento es sólo para adultos, los niños ya lo han disfrustado juntos durante el día. Habrán bebidas y tapas disponibles y nos encantaría que nos acompañaran en ese día tan especial. Por favor, si van a asistir a la celebración, rogamos nos devuelvan el [formulario][pdf], ya que necesitamos saber el número de padres aproximado que van a venir. Gracias.
+
+[pdf]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/inauguracion/Inauguracion_Milton.pdf
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/inauguracion/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-inauguracion2.png
   }
 ]
