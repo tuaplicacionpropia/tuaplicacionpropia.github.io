@@ -7,6 +7,7 @@ Vue.component('app', {
       tablones: [],
       posts: [],
       currentTablon: null,
+      menuPosts: [],
     }
   },
 
@@ -20,6 +21,11 @@ Vue.component('app', {
     // Change style of navbar on scroll
     var self = this;
     window.onscroll = function() {self.changeStyleNavbar()};
+    
+    self.menuPosts = [];
+    self.menuPosts.push({
+      
+    });
     
     self.tablones = [];
     _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
@@ -293,7 +299,8 @@ Vue.component('app', {
     +     '</template>'
     +   '</template>'
     +   '<template v-else>'
-    +     '<p>INICIO>>>>>>>>>>></p>'
+    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" />'
+//    +     '<p>INICIO>>>>>>>>>>></p>'
     +   '</template>'
     
     +   '<!-- Footer -->'
