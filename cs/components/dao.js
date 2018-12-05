@@ -81,8 +81,8 @@ function DAO () {
 
   this.mdHtml = function (text) {
     var result = null;
-    //var converter = new showdown.Converter();
-    var converter = new showdown.Converter({extensions: ['targetblank']});
+    var converter = new showdown.Converter();
+    //var converter = new showdown.Converter({extensions: ['targetblank']});
     //converter.setOption('tables', true);
     //converter.setOption('extensions', ['twitter']);
     result = converter.makeHtml(text);
