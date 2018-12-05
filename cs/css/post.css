@@ -197,3 +197,7 @@ img {
   font-size: 1.1em;
   text-align: justify;  
 }
+
+.recipe-card article .content p a {
+   color: red;
+}
