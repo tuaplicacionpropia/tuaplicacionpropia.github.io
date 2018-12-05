@@ -24,13 +24,13 @@ Vue.component('app', {
     
     self.menuPosts = [];
     self.menuPosts.push({
-      id: 'menu_tablones',
+      id: 'tablones',
       title: "Tablones",
       subtitle: "Listado de tablones", 
       image: "img/emergencias.png"
     });
     self.menuPosts.push({
-      id: 'menu_contacto',
+      id: 'contacto',
       title: "Contacto",
       subtitle: "Listado de contactos", 
       image: "img/emergencias.png"
@@ -59,6 +59,11 @@ Vue.component('app', {
       var self = this;
       self.openPage(page);
       self.toggleFunction();
+    },
+
+    openMenuOption: function (menuOption) {
+      var self = this;
+      self.openPage(menuOption.id);
     },
 
     openTablon: function (tablon) {
@@ -310,7 +315,7 @@ Vue.component('app', {
     +     '</template>'
     +   '</template>'
     +   '<template v-else>'
-    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" />'
+    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
 //    +     '<p>INICIO>>>>>>>>>>></p>'
     +   '</template>'
     
