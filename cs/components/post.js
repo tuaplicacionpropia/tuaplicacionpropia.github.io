@@ -7,7 +7,7 @@ Vue.component('post', {
     },
 
     openOption: function () {
-      this.value.open = !this.value.open;
+      this.$emit('open', this.value);
     },
   },
   
