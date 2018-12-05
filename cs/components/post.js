@@ -5,6 +5,10 @@ Vue.component('post', {
     openPost: function () {
       this.value.open = !this.value.open;
     },
+
+    openOption: function () {
+      this.value.open = !this.value.open;
+    },
   },
   
   created() {
@@ -171,6 +175,7 @@ Vue.component('post', {
   //https://freefrontend.com/css-cards/
   //https://codepen.io/klesht/pen/pjjegK
   template: ''
+    + '<template v-if="moldDefault">'
     + '<div class="recipe-card">'
     +   '<aside>'
 
@@ -212,6 +217,28 @@ Vue.component('post', {
     +     '</template>'
     +   '</article>'
     + '</div>'
+    + '</template>'
+  
+    + '<template v-else-if="moldHome">'
+    + '<div class="recipe-card" @click="openOption()">'
+    +   '<aside>'
+
+    +     '<div v-bind:class="imgOpenClass">'
+    +       '<img :src="image" :alt="value.title" />'
+    +     '</div>'
+
+    +     '<div class="footer" />'
+    +   '</aside>'
+
+    +   '<article>'
+
+    +     '<h2>{{ value.title }}</h2>'//Chai Oatmeal
+    +     '<template>'
+    +       '<h3>{{ value.subtitle }}</h3>'//Breakfast
+    +     '</template>'
+    +   '</article>'
+    + '</div>'
+    + '</template>'
     
     
 })
