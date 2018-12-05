@@ -27,13 +27,13 @@ Vue.component('app', {
       id: 'tablones',
       title: "Tablones",
       subtitle: "Listado de tablones", 
-      image: "img/emergencias.png"
+      image: "img/pinboard.png"
     });
     self.menuPosts.push({
       id: 'contacto',
       title: "Contacto",
       subtitle: "Listado de contactos", 
-      image: "img/emergencias.png"
+      image: "img/contact-us.png"
     });
     
     
