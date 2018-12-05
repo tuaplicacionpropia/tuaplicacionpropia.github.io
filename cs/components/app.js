@@ -314,7 +314,6 @@ Vue.component('app', {
     +   '</template>'
     +   '<template v-else>'
     +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
-//    +     '<p>INICIO>>>>>>>>>>></p>'
     +   '</template>'
     
     +   '<!-- Footer -->'
@@ -336,7 +335,7 @@ Vue.component('app', {
       +     '<a href="https://www.canterburyschool.com/index.php/es/home?format=feed" target="_blank"><i class="fas fa-rss"></i></a>'
 //    +       '<i class="fa fa-linkedin w3-hover-opacity"></i>'
     +     '</div>'
-    +     '<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>'
+//    +     '<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>'
     +   '</footer>'
 
     + '</div>'
