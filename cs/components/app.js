@@ -306,10 +306,10 @@ Vue.component('app', {
 
     +   '<template v-if="currentPage === \'tablones\'">'
     +     '<template v-if="currentTablon">'
-    +       '<post v-for="post in posts" v-bind:value="post" :key="post.id" mold="home" />'
+    +       '<post v-for="post in posts" v-bind:value="post" :key="post.id" />'
     +     '</template>'
     +     '<template v-else>'
-    +       '<tablon v-for="tablon in tablones" v-bind:value="tablon" :key="tablon.id" mold="home" @open="openTablon(tablon)" />'
+    +       '<tablon v-for="tablon in tablones" v-bind:value="tablon" :key="tablon.id" @open="openTablon(tablon)" />'
     +     '</template>'
     +   '</template>'
     +   '<template v-else>'
