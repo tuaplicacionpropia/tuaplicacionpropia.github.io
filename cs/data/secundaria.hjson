@@ -1,14 +1,22 @@
 posts: 
 [
   {
-    id: post1
-    title: Aviso a las familias de Year 9C
-    subtitle: AVISO IMPORTANTE
+    id: artista_oton
+    title: Javier Otón de Y9D
+    subtitle: Artista de la semana
     open: true,
-    sentDate: 02/12/2018 09:25
-    eventDate: 04/12/2018 17:00
-    content: Perico de los palotes
-    image: img/emergencias.png
+    sentDate: 02/12/2018 02:24
+    eventDate2: 04/12/2018 17:00
+    content: 
+      '''
+El artista de la semana es Javier Oton de Y9D. Su hermoso dibujo de un tigre muestra un buen uso color, tono y detalle. También ha utilizado el collage en el fondo para dar textura al trabajo. ¡Bien hecho Javi!
+
+![img][].
+
+[img]: https://www.canterburyschool.com/images/stories/2018-2019/trabajos/secundaria/Javier_Oton_of_9D/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-javier.jpg
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2018-2019/trabajos/secundaria/Javier_Oton_of_9D/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-javier.jpg
   }
   {
     id: post2
