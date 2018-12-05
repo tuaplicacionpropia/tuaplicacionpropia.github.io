@@ -322,6 +322,8 @@ Vue.component('app', {
     +     '<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>'
     +     '<div class="w3-xlarge w3-section">'
 //    +       '<i class="fa fa-facebook-official w3-hover-opacity"></i>'
+  
+    +       '<a href="https://www.canterburyschool.com/" target="_blank"><i class="fas fa-globe"></i></a>'
     +       '<a href="http://www.facebook.com/pages/Canterbury-School-of-Gran-Canaria/173817925970861" target="_blank"><i class="fab fa-facebook"></i></a>'
     +       '<a href="https://www.youtube.com/user/GCCanterburySchool" target="_blank"><i class="fab fa-youtube"></i></a>'
 //    +       '<i class="fa fa-instagram w3-hover-opacity"></i>'
