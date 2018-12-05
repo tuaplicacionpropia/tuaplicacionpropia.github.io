@@ -24,8 +24,19 @@ Vue.component('app', {
     
     self.menuPosts = [];
     self.menuPosts.push({
-      
+      id: 'menu_tablones',
+      title: "Tablones",
+      subtitle: "Listado de tablones", 
+      image: "img/emergencias.png"
     });
+    self.menuPosts.push({
+      id: 'menu_contacto',
+      title: "Contacto",
+      subtitle: "Listado de contactos", 
+      image: "img/emergencias.png"
+    });
+    
+    
     
     self.tablones = [];
     _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
