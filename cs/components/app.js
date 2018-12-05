@@ -21,95 +21,8 @@ Vue.component('app', {
     var self = this;
     window.onscroll = function() {self.changeStyleNavbar()};
     
-    /*
-    var menu = 'index.hjson';
-      if (page != null) {
-        menu = 'posts/' + page + '.hjson';
-      }
-      _dao.loadPosts(menu, function (posts) { self.posts.push(posts); });
-    */
-    
     self.tablones = [];
     _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
-
-/*
-    self.tablones.push({
-      id: 1,
-      name: "Emergencias",
-      description: "Alertas sobre urgencias", 
-      suscrito: true,
-      logo: "img/logo_tablon.png", 
-      image: "img/emergencias.png"
-    });
-    self.tablones.push({
-      id: 2,
-      name: "General",
-      description: "Eventos generales sobre el colegio", 
-      suscrito: false,
-      logo: "img/logo_tablon.png",
-      image: "img/info.png"
-    });
-    self.tablones.push({
-      id: 3,
-      name: "Primaria",
-      description: "Eventos sobre el centro de primaria Lomo Diviso I", 
-      suscrito: true,
-      logo: "img/logo_tablon.png", 
-      image: "img/centro_primaria.png"
-    });
-    self.tablones.push({
-      id: 4,
-      name: "Secundaria",
-      description: "Eventos sobre el centro de secundaria Lomo Diviso II", 
-      suscrito: false,
-      logo: "img/logo_tablon.png", 
-      image: "img/centro_secundaria.png"
-    });
-    self.tablones.push({
-      id: 5,
-      name: "Infantil",
-      description: "Eventos sobre el centro de infantil Milton", 
-      suscrito: false,
-      logo: "img/logo_tablon.png", 
-      image: "img/centro_milton.png"
-    });
-    self.tablones.push({
-      id: 6,
-      name: "Maspalomas",
-      description: "Eventos sobre el centro de Maspalomas", 
-      suscrito: false,
-      logo: "img/logo_tablon.png", 
-      image: "img/centro_maspalomas.png"
-    });
-*/
-
-
-
-/*
-    self.posts = [];
-    self.posts.push({
-      id: 'post1',
-      title: "Aviso a las familias de Year 7A",
-      subtitle: "AVISO IMPORTANTE", 
-      open: true,
-      sentDate: '02/12/2018 09:25',
-      eventDate: '04/12/2018 17:00',
-      content: 'Perico de los palotes',
-      image: "img/emergencias.png"
-    });
-    self.posts.push({
-      id: 'post2',
-      title: "Festivos",
-      subtitle: "Días no lectivos de libre disposición", 
-      open: false,
-      sentDate: '',
-      eventDate: '',
-      image: "img/info.png"
-    });
-*/
-
-
-    
   },
 
   methods: {
@@ -378,6 +291,9 @@ Vue.component('app', {
     +     '<template v-else>'
     +       '<tablon v-for="tablon in tablones" v-bind:value="tablon" :key="tablon.id" mold="home" @open="openTablon(tablon)" />'
     +     '</template>'
+    +   '</template>'
+    +   '<template v-else>'
+    +     '<p>INICIO>>>>>>>>>>></p>'
     +   '</template>'
     
     +   '<!-- Footer -->'
