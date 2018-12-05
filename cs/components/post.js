@@ -175,7 +175,7 @@ Vue.component('post', {
   //https://freefrontend.com/css-cards/
   //https://codepen.io/klesht/pen/pjjegK
   template: ''
-    + '<template v-if="moldDefault">'
+    + '<div v-if="moldDefault">'
     + '<div class="recipe-card">'
     +   '<aside>'
 
@@ -217,9 +217,9 @@ Vue.component('post', {
     +     '</template>'
     +   '</article>'
     + '</div>'
-    + '</template>'
+    + '</div>'
   
-    + '<template v-else-if="moldHome">'
+    + '<div v-else-if="moldHome">'
     + '<div class="recipe-card" @click="openOption()">'
     +   '<aside>'
 
@@ -238,7 +238,7 @@ Vue.component('post', {
     +     '</template>'
     +   '</article>'
     + '</div>'
-    + '</template>'
+    + '</div>'
     
     
 })
