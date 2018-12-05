@@ -1,22 +1,38 @@
 posts: 
 [
   {
-    id: post1
-    title: Aviso a las familias de Year 9C
-    subtitle: AVISO IMPORTANTE
+    id: excursion_p4_cancelada
+    title: Excursión P4 Cancelada
+    subtitle: Cancelación
     open: true,
-    sentDate: 02/12/2018 09:25
-    eventDate: 04/12/2018 17:00
-    content: Perico de los palotes
-    image: img/emergencias.png
+    sentDate: 28/02/2018 10:04
+    eventDate: 28/02/2018 14:00
+    content: 
+      '''
+Estimados padres: debido a la incertidumbre sobre la evolución del tiempo para mañana jueves 1 de marzo, hemos decidido cancelar la excursión de P4 a Vegueta y alrededores.
+
+Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
+
+![img][]
+[img]: https://www.canterburyschool.com/images/stories/2015-2016/circulares/maspalomas/excursiones_16_octubre/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-cancelled2.jpg
+      '''
+    image: https://www.canterburyschool.com/images/stories/2015-2016/circulares/maspalomas/excursiones_16_octubre/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-cancelled.jpg
   }
   {
-    id: post2
-    title: Festivos
-    subtitle: Días no lectivos de libre disposición
+    id: suspension_de_clases
+    title: Suspensión de Clases
+    subtitle: AVISO URGENTE
     open: false,
-    sentDate: '',
-    eventDate: '',
-    image: img/info.png
+    sentDate: '27/02/2018 21:00',
+    eventDate: '28/02/2018 08:30',
+    content:
+      '''
+*AVISO URGENTE: el Gobierno de Canarias, a través de la Consejería de Educación, suspende las clases para mañana miércoles 28 de febrero en toda Gran Canaria. Por orden de la Consejería, el colegio permanecerá cerrado.*
+
+![img][]
+[img]: https://www.canterburyschool.com/images/stories/2017-2018/circulares/general/suspension_clases/NP_20180227_Suspension_de_clases_en_cinco_islas.jpg
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2015-2016/circulares/general/alerta_de_lluvias/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-ALERTA.jpg
   }
 ]
