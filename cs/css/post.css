@@ -70,6 +70,8 @@ img {
 /*  line-height: 1em; */
   font-size: 1.1em;
   text-align: justify;
+  font-weight: 400;
+  color: #222222;
 }
 .recipe-card article ul li:first-child {
 /*  margin-left: 0; */
