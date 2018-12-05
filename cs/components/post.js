@@ -158,6 +158,14 @@ Vue.component('post', {
       return result;
     },
     
+    moldHome() {
+      return this.mold == "home";
+    },
+    
+    moldDefault() {
+      return this.mold == null;
+    },    
+    
   },
 
   //https://freefrontend.com/css-cards/
