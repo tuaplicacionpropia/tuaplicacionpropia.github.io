@@ -1,22 +1,62 @@
 posts: 
 [
   {
-    id: post1
-    title: Aviso a las familias de Year 9C
-    subtitle: AVISO IMPORTANTE
+    id: fechas_navidad_maspalomas
+    title: Fechas Navidad Maspalomas
+    subtitle: Navidad
     open: true,
-    sentDate: 02/12/2018 09:25
-    eventDate: 04/12/2018 17:00
-    content: Perico de los palotes
-    image: img/emergencias.png
+    sentDate: 01/12/2018 01:34
+    eventDate2: 04/12/2018 17:00
+    content: 
+      '''
+**Estimados padres**: a continuación les informamos del programa para el mes de diciembre.
+
+[PDF Adjunto][pdf]
+
+[pdf]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/maspalomas/fechas_navidad/Fechas_Navidad_Maspalomas.pdf
+
+LUNES 3 DE DICIEMBRE: Los alumnos deberán llevar el uniforme de invierno.
+NURSERY/ RECEPTION: chándal escolar
+Y1/Y6: Uniforme escolar (falda / pantalón gris + polo verde). Los días de Educación Física vendrán con el chándal escolar.
+
+3/4/5 DICIEMBRE: NO HABRÁN ACTIVIDADES EXTRAESCOLARES ESTA SEMANA.
+
+ENTREGA DE LAS NOTAS: Recibirán una carta con la cita para hablar con la profesora a partir de las 15:00h.
+MARTES 4 DE DICIEMBRE: NURSERY/Y2/Y3/Y4
+MIERCOLES 5 DE DICIEMBRE: RECEPTION/Y1/Y5/Y6
+
+DIAS 6 Y 7 DE DICIEMBRE: VACACIONES ESCOLARES.
+
+VIERNES 14 DE DICIEMBRE: VILLANCICOS EN EL CC ATLANTICO VECINDARIO (19:00H)
+Nos han invitado a participar en el centro comercial Atlántico para cantar villancicos navideños. Por favor, lleven a sus hijos al punto de encuentro, que será enfrente a Carrefour a partir de las 18:45h. Los niños deben ir vestidos con el uniforme escolar de invierno y un gorro de Papá Noel. No es obligatorio que asistan los alumnos de Nursery.
+
+MARTES 18 DE DICIEMBRE: Actuación de Navidad y picoteo a las 11:30h.
+
+JUEVES 20 DE DICIEMBRE "La caridad es un valor que se fomenta desde casa".
+Este año al igual que el año pasado, vamos a entregar un regalo a los niños menos afortunados de Gran Canaria. Cada niño escribirá y entregará una carta de deseos a Papá Noel. Los niños le entregarán a Papá Noel un juguete educativo nuevo (edad 6/10 años) (sin empaquetar). Papá Noel repartirá estos juguetes al Ayuntamiento de San Bartolomé de Tirajana, que a su vez entregará a las familias más desfavorecidas del municipio.
+
+VIERNES 21 DE DICIEMBRE: ÚLTIMO DÍA DEL PRIMER TRIMESTRE. Los alumnos podrán venir con ropa de calle este día.
+MARTES 8 DE ENERO 2019: Primer día del segundo trimestre.
+
+Un saludo cordial,
+Paula Hill/Directora
+
+¡FELIZ NAVIDAD Y PRÓSPERO AÑO NUEVO!      
+      '''
+    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/maspalomas/fechas_navidad/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-calendar2.png
   }
   {
-    id: post2
-    title: Festivos
-    subtitle: Días no lectivos de libre disposición
+    id: open_days_maspalomas
+    title: Open Days Maspalomas
+    subtitle: Días de puertas abiertas
     open: false,
-    sentDate: '',
-    eventDate: '',
-    image: img/info.png
+    sentDate: '08/11/2018 07:21',
+    eventDate2: '',
+    content: 
+      '''
+![img][]
+[img]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/maspalomas/open_days/Maspalomas_Open_Days.jpg
+      '''
+    image2: https://www.canterburyschool.com/images/stories/2018-2019/circulares/maspalomas/open_days/Maspalomas_Open_Days.jpg
   }
 ]
