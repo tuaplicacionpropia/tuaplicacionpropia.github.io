@@ -35,4 +35,37 @@ Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
       '''
     image: https://www.canterburyschool.com/images/stories/2015-2016/circulares/general/alerta_de_lluvias/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-ALERTA.jpg
   }
+  {
+    id: reanudacion_de_clases_incendio
+    title: Reanudación de Clases
+    subtitle: Aviso
+    open: false,
+    sentDate: '27/03/2017 22:00',
+    eventDate: '28/03/2017 08:00',
+    content: 
+      '''
+**Estimados padres y alumnos de Primaria y Secundaria: les informamos de que, extinguido el incendio, mañana martes 28 de marzo se reanudan las clases con normalidad en San Lorenzo.**
+![img][]
+[img]: https://www.canterburyschool.com/images/stories/2016-2017/circulares/general/suspension_clases/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-reanudaciondeclases2.jpg
+      '''
+    image: 
+  }
+  {
+    id: suspension_de_clases_incendio
+    title: Suspensión de Clases
+    subtitle: AVISO URGENTE
+    open: false,
+    sentDate: '27/03/2017 08:58',
+    eventDate: '27/03/2017 10:00',
+    content: 
+      '''
+Debido al incendio ocurrido en zonas relativamente cercanas a los centros de Primaria y Secundaria en San Lorenzo, el cuerpo de Bomberos ha recomendado la evacuación controlada y escalonada del alumnado debido al humo reinante en la zona.
+
+No hay peligro por lo que se ruega mantener la calma y proceder, en la medida de los posible, a la recogida de los alumnos (alumnos de Primaria en el edificio de Primaria, alumnos de Secundaria en el edificio de Secundaria. En los próximos minutos el personal de Amanda Bus llamará a los padres que usen el servicio de guaguas para acordar hora de recogida durante la mañana.
+
+![img][].
+[img]: https://www.canterburyschool.com/images/stories/2016-2017/circulares/general/suspension_clases/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-suspensiondeclases2.jpg
+      '''
+    image: https://www.canterburyschool.com/images/stories/2016-2017/circulares/general/suspension_clases/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-suspensiondeclases.png
+  }
 ]
