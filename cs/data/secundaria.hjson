@@ -19,12 +19,19 @@ El artista de la semana es Javier Oton de Y9D. Su hermoso dibujo de un tigre mue
     image: https://www.canterburyschool.com/images/stories/2018-2019/trabajos/secundaria/Javier_Oton_of_9D/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-javier.jpg
   }
   {
-    id: post2
-    title: Festivos
-    subtitle: Días no lectivos de libre disposición
+    id: horario_mocks_Y12_Y13
+    title: Horario Mocks Y12-Y13
+    subtitle: Horario provisional
     open: false,
-    sentDate: '',
-    eventDate: '',
-    image: img/info.png
+    sentDate: '30/11/2018',
+    eventDate: '09/01/2019 08:00',
+    content:
+      '''
+Estimados padres y alumnos de Y12-Y13 (S5-S6): se adjunta el [horario provisional][pdf] de los exámenes mock que tendrán lugar en Enero 2019.
+
+[pdf]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/secundaria/y12-y13_mocks/Y12-Y13_Mock_Exam_Timetable.pdf
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2017-2018/circulares/secundaria/s5-s6_mocks/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-mocktimetable2.jpg
   }
 ]
