@@ -67,10 +67,12 @@ content:
 - [Proyectos que utilizan VUE][vue_projects].
 - [PageKit: A modern Open Source CMS - Intuitive. Modular. Flexible][pagekit].
 - [Vue Material Dashboard: Free Vue.js Admin Template][vue_template].
+- [A curated list of awesome things related to Vue.js][awesome_vue].
 
 [templates27]: http://blog.creative-tim.com/web-design/free-dashboard-templates/
 [vue_projects]: https://madewithvuejs.com/
 [pagekit]: https://madewithvuejs.com/pagekit
 [vue_template]: https://madewithvuejs.com/vue-material-dashboard
+[awesome_vue]: https://github.com/vuejs/awesome-vue
 
   '''
