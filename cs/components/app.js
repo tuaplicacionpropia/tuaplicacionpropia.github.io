@@ -23,10 +23,10 @@ Vue.component('app', {
       result = "Canterbury School";
       
       var self = this;
-      if (page == 'tablones') {
+      if (self.currentPage == 'tablones') {
         result = "Tablones";
       }
-      else if (page == 'contact') {
+      else if (self.currentPage == 'contact') {
         result = "Contactos";
       }
       
