@@ -41,3 +41,11 @@ body, html {
         min-height: 400px;
     }
 }
+
+
+.top_nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
