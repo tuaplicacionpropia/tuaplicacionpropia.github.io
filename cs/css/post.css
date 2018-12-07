@@ -207,6 +207,10 @@ img {
    color: #2196f3;
 }
 
+.recipe-card article .content p a {
+   text-decoration: none;
+}
+
 .recipe-card aside .contact_phone {
   background: #005A3D;
   
