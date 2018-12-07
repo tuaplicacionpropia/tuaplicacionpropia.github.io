@@ -68,6 +68,8 @@ Vue.component('app', {
   methods: {
 
     openOnStart: function () {
+      var self = this;
+      
       var url_string = window.location.href;
       var url = new URL(url_string);
       var id = url.searchParams.get("id");
