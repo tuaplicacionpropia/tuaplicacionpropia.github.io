@@ -31,7 +31,7 @@ Vue.component('app', {
       image: "img/pinboard.png"
     });
     self.menuPosts.push({
-      id: 'contacto',
+      id: 'contact',
       title: "Contacto",
       subtitle: "Listado de contactos", 
       image: "img/contact-us.png"
@@ -315,13 +315,16 @@ Vue.component('app', {
     +       '<tablon v-for="tablon in tablones" v-bind:value="tablon" :key="tablon.id" @open="openTablon(tablon)" />'
     +     '</template>'
     +   '</template>'
-    +   '<template v-else-if="currentPage === \'contacto\'">'
+  
+    +   '<template v-else-if="currentPage === \'contact\'">'
     +     '<contact v-for="contacto in contacts" v-bind:value="contacto" :key="contacto.id" />'
     +   '</template>'
+  
     +   '<template v-else>'
     +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
     +   '</template>'
     
+  
     +   '<!-- Footer -->'
     +   '<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">'
     +     '<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>'
