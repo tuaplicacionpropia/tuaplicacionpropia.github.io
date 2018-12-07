@@ -206,3 +206,39 @@ img {
 .recipe-card article .content p a {
    color: #2196f3;
 }
+
+.recipe-card aside .contact_phone {
+  background: #1C966F;
+
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  right: 3%;
+  width: 4.0625em;
+  height: 4.0625em;
+  border-radius: 4.0625em;
+  line-height: 4.0625em;
+  text-align: center;
+  
+  
+  padding: 0px;
+  border: 0px;
+}
+
+.recipe-card aside .contact_phone2 {
+  background: #dc0d33;
+
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right: 25%;
+  width: 2.0625em;
+  height: 2.0625em;
+  border-radius: 2.0625em;
+  line-height: 2.0625em;
+  text-align: center;
+  
+  
+  padding: 0px;
+  border: 0px;
+}
