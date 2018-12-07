@@ -70,6 +70,9 @@ Vue.component('app', {
     openTablon: function (tablon) {
       var self = this;
       self.currentTablon = tablon;
+      
+      navigator.share({text: tablon.id, image: {source: "https://static.hospodarets.com/img/blog/1485701075462830000.png", mimeType: 'image/png'}});
+      
       self.posts = [];
       _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); });
       
