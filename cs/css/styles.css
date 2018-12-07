@@ -49,3 +49,20 @@ body, html {
   width: 100%;
   z-index: 1;
 }
+
+.border_menu {
+    border-bottom: 10px #c21d1c solid;
+}
+
+.nav_menu {
+  float: left;
+  /* background: #EDEDED; */
+  background: #10563b;
+  background: -moz-linear-gradient(top right, #10563b, #a1bdb2);
+  background: -webkit-linear-gradient(top right, #10563b, #a1bdb2);
+  background: linear-gradient(to top right, #10563b, #a1bdb2);
+  border-bottom: 1px solid #D9DEE4;
+  margin-bottom: 10px;
+  width: 100%;
+  position: relative;
+}
