@@ -8,6 +8,7 @@ Vue.component('app', {
       posts: [],
       currentTablon: null,
       menuPosts: [],
+      contacts: []
     }
   },
 
@@ -35,6 +36,8 @@ Vue.component('app', {
       subtitle: "Listado de contactos", 
       image: "img/contact-us.png"
     });
+    
+    self.contacts = _dao.buildContacts();
 
   },
 
