@@ -74,6 +74,7 @@ body, html {
     color: #ffffff;
     font-size: 18px;
     font-family: Matura;
+    text-decoration: none;
 }
 
 @font-face {
