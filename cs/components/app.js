@@ -139,7 +139,7 @@ Vue.component('app', {
 
     +   '<!-- Navbar (sit on top) -->'
     +   '<div class="w3-top top_nav">'
-    +     '<div class="w3-bar" id="myNavbar">'
+    +     '<div class="w3-bar nav_menu border_menu" id="myNavbar">'
     +       '<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" @click="toggleFunction()" title="Toggle Navigation Menu">'
     
     +         '<i class="fa fa-bars"></i>'
