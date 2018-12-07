@@ -16,12 +16,23 @@ Vue.component('app', {
   },
 
   computed: {
+    pageTitle: function () {
+      var self = this;
+      if (page == 'tablones') {
+      }
+      else if (page == 'contact') {
+      }
+      e
+      
+    },
   },
 
   created() {
     // Change style of navbar on scroll
     var self = this;
     window.onscroll = function() {self.changeStyleNavbar()};
+    
+    self.pageTitle = "Canterbury School";
     
     self.menuPosts = [];
     self.menuPosts.push({
