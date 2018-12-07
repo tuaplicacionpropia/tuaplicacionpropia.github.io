@@ -208,11 +208,11 @@ img {
 }
 
 .recipe-card aside .contact_phone {
-  background: #1C966F;
-
+  background: #005A3D;
+  
   display: inline-block;
   position: absolute;
-  top: 80%;
+  top: 89%;
   right: 3%;
   width: 4.0625em;
   height: 4.0625em;
@@ -226,11 +226,11 @@ img {
 }
 
 .recipe-card aside .contact_phone2 {
-  background: #dc0d33;
+  background: #1C966F;
 
   display: inline-block;
   position: absolute;
-  top: 90%;
+  top: 94%;
   right: 25%;
   width: 2.0625em;
   height: 2.0625em;
