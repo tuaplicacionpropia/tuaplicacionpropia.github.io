@@ -62,21 +62,40 @@ Vue.component('app', {
     
     self.contacts = _dao.buildContacts();
 
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var id = url.searchParams.get("id");
-    if (id) {
-      console.log(id);
-      var arrayId = id.split("/");
-      var pageId = arrayId[0];
-      self.openPage(pageId);
-      //alert(id);
-    }
-    
+    self.openOnStart();
   },
 
   methods: {
 
+    openOnStart: function () {
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      var id = url.searchParams.get("id");
+      if (id) {
+        console.log(id);
+        var arrayId = id.split("/");
+        var pageId = arrayId[0];
+        if (pageId == 'tablones') {
+          self.openPage(pageId);
+          var tablonId = arrayId[1];
+          
+          var i;
+          var selectedTablon = null;
+          for (i = 0; i < self.tablones.length; i++) { 
+            if (self.tablones[i].id == tablonId) {
+              selectedTablon = self.tablones[i];
+              break;
+            }
+          }
+          self.openTablon(selectedTablon);
+        }
+        else {
+          self.openPage(pageId);
+        }
+      //alert(id);
+      }
+    },
+    
     openPage: function (page) {
       var self = this;
       self.currentPage = page;
