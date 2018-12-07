@@ -315,7 +315,7 @@ Vue.component('app', {
     +       '<tablon v-for="tablon in tablones" v-bind:value="tablon" :key="tablon.id" @open="openTablon(tablon)" />'
     +     '</template>'
     +   '</template>'
-    +   '<template v-elseif="currentPage === \'contacto\'">'
+    +   '<template v-else-if="currentPage === \'contacto\'">'
     +     '<contact v-for="contacto in contacts" v-bind:value="contacto" :key="contacto.id" />'
     +   '</template>'
     +   '<template v-else>'
