@@ -156,7 +156,8 @@ Vue.component('app', {
     +     '</div>'
 
     +     '<!-- Navbar on small screens -->'
-    +     '<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">'
+//    +     '<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">'
+    +     '<div id="navDemo" class="w3-bar-block w3-white w3-hide">'
 //    +       '<a href="#about" class="w3-bar-item w3-button" @click="toggleFunction()">ABOUT</a>'
     +       '<a href="javascript:void(0)" class="w3-bar-item w3-button" @click="openPageSmall(\'home\')"><i class="fas fa-home"></i> Inicio</a>'
     +       '<a href="javascript:void(0)" class="w3-bar-item w3-button" @click="openPageSmall(\'tablones\')"><i class="far fa-envelope"></i> Tablones</a>'
