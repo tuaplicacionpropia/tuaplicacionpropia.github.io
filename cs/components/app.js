@@ -17,20 +17,24 @@ Vue.component('app', {
 
   computed: {
 
-    pageTitle () {
-      var result = null;
+    pageTitle: {
+      get: function() {
+        var result = null;
       
-      result = "Canterbury School";
+        result = "Canterbury School";
       
-      var self = this;
-      if (self.currentPage == 'tablones') {
-        result = "Tablones";
+        var self = this;
+        if (self.currentPage == 'tablones') {
+          result = "Tablones";
+        }
+        else if (self.currentPage == 'contact') {
+          result = "Contactos";
+        }
+      
+        return result;
+      },
+      set: function () {
       }
-      else if (self.currentPage == 'contact') {
-        result = "Contactos";
-      }
-      
-      return result;
     },
     
   },
