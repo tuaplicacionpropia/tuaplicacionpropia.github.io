@@ -50,10 +50,6 @@ body, html {
   z-index: 1;
 }
 
-.border_menu {
-    border-bottom: 10px #c21d1c solid;
-}
-
 .nav_menu {
   float: left;
   /* background: #EDEDED; */
@@ -65,4 +61,8 @@ body, html {
   margin-bottom: 10px;
   width: 100%;
   position: relative;
+}
+
+.border_menu {
+    border-bottom: 10px #c21d1c solid;
 }
