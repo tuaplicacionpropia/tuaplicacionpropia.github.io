@@ -49,6 +49,7 @@ function DAO () {
       web: "http://www.canterburyschool.com",
       icon: "statics/oficina_big.jpg"
     });
+/*
     result.push({
       title: "Rubén Darío", 
       subtitle: "Infantil", 
@@ -60,6 +61,19 @@ function DAO () {
       email: "rubendario@canterburyschool.com",
       web: "http://www.canterburyschool.com",
       icon: "statics/rubendario_big.jpg"
+    });
+*/
+    result.push({
+      title: "Milton", 
+      subtitle: "Infantil", 
+      address1: "c/ Plaza Milton, 3, C.P. 35005",
+      address2: "Las Palmas de Gran Canaria", 
+      mapUrl: "https://goo.gl/maps/ry8gpKHu3Xy",
+      tlf: "828 11 30 23",
+      fax: "928 43 98 19",
+      email: "milton@canterburyschool.com",
+      web: "http://www.canterburyschool.com",
+      icon: "statics/milton.jpg"
     });
     result.push({
       title: "Maspalomas", 
