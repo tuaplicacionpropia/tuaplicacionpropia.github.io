@@ -75,3 +75,11 @@ body, html {
     font-size: 18px;
     font-family: Matura;
 }
+
+@font-face {
+  font-family: Matura;
+  font-style: normal;
+  font-weight: 400;
+/*  src: url(http://allfont.ru/cache/fonts/matura-mt-script-capitals_989e9dd79daefd9b9eceee5ccfd4ece3.ttf) format('truetype');*/
+  src: url(../statics/matura-mt-script-capitals.ttf) format('truetype');
+}
