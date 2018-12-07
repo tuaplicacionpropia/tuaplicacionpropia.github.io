@@ -12,28 +12,6 @@ var DB_VERSION = "0.26";
 
 function DAO () {
 
-  this._buildPosts = function () {
-    var result = [];
-    result.push({
-      id: 1,
-      title: "ERROR333",
-      created: "20/04/2018T01:27",
-      subtitle1: "1If you want to enable the fading transition effect while closing the alert boxes, apply the classes <code>.fade</code> and <code>.in</code> to them along with the contextual class.",
-      subtitle2: "2If you want to enable the fading transition effect while closing the alert boxes, apply the classes <code>.fade</code> and <code>.in</code> to them along with the contextual class.",
-      type: "error"
-    });
-    result.push({
-      id: 2,
-      title: "2ERROR333",
-      created: "20/04/2018T01:27",
-      subtitle1: "3If you want to enable the fading transition effect while closing the alert boxes, apply the classes <code>.fade</code> and <code>.in</code> to them along with the contextual class.",
-      subtitle2: "4If you want to enable the fading transition effect while closing the alert boxes, apply the classes <code>.fade</code> and <code>.in</code> to them along with the contextual class.",
-      type: "error"
-    });
-
-    return result;
-  };
-
   this.buildContacts = function() {
     var result = [];
     
@@ -44,7 +22,7 @@ function DAO () {
       address2: "Las Palmas de Gran Canaria",
       mapUrl: "https://goo.gl/maps/GyHCGHvvzd82",
       tlf: "828 113 400",
-      fax: "928 43 98 19",
+      fax: "928 439 819",
       email: "info@canterburyschool.com",
       web: "http://www.canterburyschool.com",
       icon: "statics/oficina_big.jpg"
@@ -69,8 +47,8 @@ function DAO () {
       address1: "c/ Plaza Milton, 3, C.P. 35005",
       address2: "Las Palmas de Gran Canaria", 
       mapUrl: "https://goo.gl/maps/ry8gpKHu3Xy",
-      tlf: "828 11 30 23",
-      fax: "928 43 98 19",
+      tlf: "828 113 023",
+      fax: "928 439 819",
       email: "milton@canterburyschool.com",
       web: "http://www.canterburyschool.com",
       icon: "statics/milton.jpg"
@@ -81,8 +59,8 @@ function DAO () {
       address1: "Ctra. a Palmitos Park, 8, C.P. 35100",
       address2: "Maspalomas, Las Palmas",
       mapUrl: "https://goo.gl/maps/TotnCW4RKNP2",
-      tlf: "928 14 28 89",
-      fax: "928 14 28 89",
+      tlf: "928 142 889",
+      fax: "928 142 889",
       email: "maspalomas@canterburyschool.com",
       web: "http://www.canterburyschool.com",
       icon: "statics/maspalomas_big.jpg"
@@ -93,8 +71,8 @@ function DAO () {
       address1: "Lomo del Diviso s/n, C.P. 35018",
       address2: "San Lorenzo, Las Palmas de Gran Canaria",
       mapUrl: "https://goo.gl/maps/GyHCGHvvzd82",
-      tlf: "828 11 34 00",
-      fax: "928 43 98 19",
+      tlf: "828 113 400",
+      fax: "928 439 819",
       email: "info@canterburyschool.com",
       web: "http://www.canterburyschool.com",
       icon: "statics/sanlorenzo_big.jpg"
