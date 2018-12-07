@@ -46,12 +46,6 @@ Vue.component('app', {
       window.onscroll = function() {self.changeStyleNavbar()};
     }
     
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var id = url.searchParams.get("id");
-    console.log(id);
-    //alert(id);
-    
     self.menuPosts = [];
     self.menuPosts.push({
       id: 'tablones',
@@ -68,6 +62,17 @@ Vue.component('app', {
     
     self.contacts = _dao.buildContacts();
 
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var id = url.searchParams.get("id");
+    if (id) {
+      console.log(id);
+      var arrayId = id.split("/");
+      var pageId = arrayId[0];
+      self.openPage(pageId);
+      //alert(id);
+    }
+    
   },
 
   methods: {
