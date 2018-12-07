@@ -246,3 +246,11 @@ img {
   padding: 0px;
   border: 0px;
 }
+
+.recipe-card article p a {
+  text-decoration: none;
+}
+
+.recipe-card article p span {
+  font-weight: normal;
+}
