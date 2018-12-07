@@ -68,6 +68,7 @@ Vue.component('contact', {
 //    +        '<span class="icon icon-play"></span>'
     +        '<i class="fa fa-envelope" style="color: #ffffff; font-size: 12px;"></i>'
     +      '</a>'
+    +      '<div class="footer"></div>'
     +    '</aside>'
     +    '<article>'
     +      '<h2>{{ value.title }}</h2>'
