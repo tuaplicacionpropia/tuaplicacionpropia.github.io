@@ -144,7 +144,7 @@ Vue.component('app', {
     
     +         '<i class="fa fa-bars"></i>'
     +       '</a>'
-    +       '<a href="javascript:void(0)" class="w3-bar-item w3-button title_option" @click="openPage(\'home\')"><img src="img/logo_icon.png" style="height: 24px;" /> {{ pageTitle }}</a>'
+    +       '<a href="javascript:void(0)" class="w3-bar-item w3-button title_option" @click="openPage(\'home\')"><img src="img/logo_icon.png" style="height: 24px; vertical-align: middle;" /> {{ pageTitle }}</a>'
 //    +       '<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>'
     +       '<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-small" @click="openPage(\'tablones\')"><i class="fa fa-th"></i> Tablones</a>'
     +       '<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-small" @click="openPage(\'contact\')"><i class="fa fa-envelope"></i> Contacto</a>'
