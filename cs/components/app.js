@@ -71,7 +71,9 @@ Vue.component('app', {
       var self = this;
       self.currentTablon = tablon;
       
-      navigator.share({title: tablon.name, text: tablon.description, url: window.location.href});
+      if (navigator.share) {
+        navigator.share({title: tablon.name, text: tablon.description, url: window.location.href});
+      }
       
       self.posts = [];
       _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); });
