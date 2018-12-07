@@ -38,7 +38,9 @@ Vue.component('app', {
   created() {
     // Change style of navbar on scroll
     var self = this;
-    window.onscroll = function() {self.changeStyleNavbar()};
+    if (false) {
+      window.onscroll = function() {self.changeStyleNavbar()};
+    }
     
     self.pageTitle = "Canterbury School";
     
