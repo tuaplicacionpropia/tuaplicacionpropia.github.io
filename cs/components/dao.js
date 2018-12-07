@@ -34,6 +34,65 @@ function DAO () {
     return result;
   };
 
+  this.buildContacts = function() {
+    var result = [];
+    
+    result.push({
+      title: "Administración", 
+      subtitle: "Oficina principal", 
+      address1: "c/ Lomo del Diviso s/n, C.P. 35018",
+      address2: "Las Palmas de Gran Canaria",
+      mapUrl: "https://goo.gl/maps/GyHCGHvvzd82",
+      tlf: "828 113 400",
+      fax: "928 43 98 19",
+      email: "info@canterburyschool.com",
+      web: "http://www.canterburyschool.com",
+      icon: "statics/oficina_big.jpg"
+    });
+    result.push({
+      title: "Rubén Darío", 
+      subtitle: "Infantil", 
+      address1: "c/ Rubén Darío, 4, C.P. 35005",
+      address2: "Las Palmas de Gran Canaria",
+      mapUrl: "https://goo.gl/maps/A8yhucZeH5A2",
+      tlf: "928 24 00 94",
+      fax: "928 43 98 19",
+      email: "rubendario@canterburyschool.com",
+      web: "http://www.canterburyschool.com",
+      icon: "statics/rubendario_big.jpg"
+    });
+    result.push({
+      title: "Maspalomas", 
+      subtitle: "Infantil y Primaria", 
+      address1: "Ctra. a Palmitos Park, 8, C.P. 35100",
+      address2: "Maspalomas, Las Palmas",
+      mapUrl: "https://goo.gl/maps/TotnCW4RKNP2",
+      tlf: "928 14 28 89",
+      fax: "928 14 28 89",
+      email: "maspalomas@canterburyschool.com",
+      web: "http://www.canterburyschool.com",
+      icon: "statics/maspalomas_big.jpg"
+    });
+    result.push({
+      title: "San Lorenzo", 
+      subtitle: "Primaria y Secundaria", 
+      address1: "Lomo del Diviso s/n, C.P. 35018",
+      address2: "San Lorenzo, Las Palmas de Gran Canaria",
+      mapUrl: "https://goo.gl/maps/GyHCGHvvzd82",
+      tlf: "828 11 34 00",
+      fax: "928 43 98 19",
+      email: "info@canterburyschool.com",
+      web: "http://www.canterburyschool.com",
+      icon: "statics/sanlorenzo_big.jpg"
+    });
+    
+    return result;
+  };
+  
+  
+  
+  
+  
   this.loadItems = function (fileAddr, attr, callback) {
     var _callback = callback;
     var _attr = attr;
