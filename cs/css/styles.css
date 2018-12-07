@@ -66,3 +66,12 @@ body, html {
 .border_menu {
     border-bottom: 10px #c21d1c solid;
 }
+
+.title_option {
+    float: left;
+    padding-top: 16px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Matura;
+}
