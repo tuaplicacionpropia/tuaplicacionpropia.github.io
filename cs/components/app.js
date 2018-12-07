@@ -72,7 +72,7 @@ Vue.component('app', {
       self.currentTablon = tablon;
       
       if (navigator.share) {
-        navigator.share({title: tablon.name, text: tablon.description, url: window.location.href});
+        navigator.share({title: tablon.name, text: tablon.description, url: window.location.href + "?id=" + tablon.id});
       }
       
       self.posts = [];
