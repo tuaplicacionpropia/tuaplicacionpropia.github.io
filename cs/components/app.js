@@ -131,7 +131,7 @@ Vue.component('app', {
       }
       
       self.posts = [];
-      _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); });
+      _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); }, function () {alert("LOAD TABLONES");});
       
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
