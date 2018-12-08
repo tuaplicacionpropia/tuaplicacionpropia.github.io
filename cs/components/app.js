@@ -101,8 +101,6 @@ Vue.component('app', {
       }
     },
     
-    autoOpenTablon: function 
-    
     addTablon: function (tablon) {
       var self = this;
       self.tablones.push(tablon);
