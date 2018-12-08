@@ -398,7 +398,10 @@ Vue.component('app', {
     +   '</template>'
   
     +   '<template v-else>'
-    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
+    +     '<template v-for="post in menuPosts" :key="post.id">'
+    +       '<post v-bind:value="post" mold="home" @open="openMenuOption(post)" />'
+    +     '</template>'
+//    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
     +   '</template>'
     
   
