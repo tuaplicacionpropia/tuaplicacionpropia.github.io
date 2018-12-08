@@ -98,13 +98,23 @@ Vue.component('app', {
       }
     },
     
+    addTablon: function (tablon) {
+      var self = this;
+      self.tablones.push(tablon);
+    },
+    
+    addPost: function (post) {
+      var self = this;
+      self.posts.push(post);
+    },
+    
     openPage: function (page) {
       var self = this;
       self.currentPage = page;
       if (page == 'tablones') {
         self.currentTablon = null;
         self.tablones = [];
-        _dao.loadItems('tablones.hjson', 'tablones', function (tablon) { self.tablones.push(tablon); });
+        _dao.loadItems('tablones.hjson', 'tablones', self.addTablon);
       }
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
@@ -131,7 +141,7 @@ Vue.component('app', {
       }
       
       self.posts = [];
-      _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); }, function () {alert("LOAD TABLONES");});
+      _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); }, function () {alert("LOAD POSTS");});
       
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
