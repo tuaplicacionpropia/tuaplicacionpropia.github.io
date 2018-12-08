@@ -78,18 +78,21 @@ Vue.component('app', {
         var arrayId = id.split("/");
         var pageId = arrayId[0];
         if (pageId == 'tablones') {
-          self.openPage(pageId);
           var tablonId = arrayId[1];
-          
-          var i;
-          var selectedTablon = null;
-          for (i = 0; i < self.tablones.length; i++) { 
-            if (self.tablones[i].id == tablonId) {
-              selectedTablon = self.tablones[i];
-              break;
+          var onLoadTablonFunction = function() {
+            var i;
+            var selectedTablon = null;
+            for (i = 0; i < self.tablones.length; i++) { 
+              if (self.tablones[i].id == tablonId) {
+                selectedTablon = self.tablones[i];
+                break;
+              }
             }
-          }
-          self.openTablon(selectedTablon);
+            self.openTablon(selectedTablon);
+          };
+          
+          self.openPage(pageId, onLoadTablonFunction);
+          
         }
         else {
           self.openPage(pageId);
@@ -97,6 +100,8 @@ Vue.component('app', {
       //alert(id);
       }
     },
+    
+    autoOpenTablon: function 
     
     addTablon: function (tablon) {
       var self = this;
@@ -108,13 +113,13 @@ Vue.component('app', {
       self.posts.push(post);
     },
     
-    openPage: function (page) {
+    openPage: function (page, successFn) {
       var self = this;
       self.currentPage = page;
       if (page == 'tablones') {
         self.currentTablon = null;
         self.tablones = [];
-        _dao.loadItems('tablones.hjson', 'tablones', self.addTablon);
+        _dao.loadItems('tablones.hjson', 'tablones', self.addTablon, successFn);
       }
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
@@ -141,7 +146,7 @@ Vue.component('app', {
       }
       
       self.posts = [];
-      _dao.loadItems(tablon.id + '.hjson', 'posts', function (post) { self.posts.push(post); }, function () {alert("LOAD POSTS");});
+      _dao.loadItems(tablon.id + '.hjson', 'posts', self.addPost);
       
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
