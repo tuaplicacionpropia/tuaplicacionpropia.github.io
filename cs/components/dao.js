@@ -85,8 +85,9 @@ function DAO () {
   
   
   
-  this.loadItems = function (fileAddr, attr, callback) {
+  this.loadItems = function (fileAddr, attr, callback, successFn) {
     var _callback = callback;
+    var _successFn = successFn;
     var _attr = attr;
     var self = this;
     self.loadData(fileAddr, function (data) {
@@ -96,6 +97,9 @@ function DAO () {
         var index = i;
         var post = postsId[i];
         _callback(post);
+      }
+      if (_successFn) {
+        _successFn();
       }
     });
   };
