@@ -108,6 +108,10 @@ Vue.component('app', {
     
     addPost: function (post) {
       var self = this;
+      post.render = true;
+      if (self.posts.length > 0) {
+        post.render = false;
+      }
       self.posts.push(post);
     },
     
@@ -398,7 +402,7 @@ Vue.component('app', {
     +   '</template>'
   
     +   '<template v-else>'
-    +     '<template v-for="post in menuPosts" :key="post.id">'
+    +     '<template v-for="post in menuPosts" :key="post.id" v-if="render">'
     +       '<post v-bind:value="post" mold="home" @open="openMenuOption(post)" />'
     +     '</template>'
 //    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
