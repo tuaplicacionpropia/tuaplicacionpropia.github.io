@@ -7,7 +7,10 @@ Vue.component('post', {
     },
 
     sharePost: function () {
-      this.value.open = !this.value.open;
+      var post = this.value;
+      if (navigator.share) {
+        navigator.share({title: post.title, text: post.subtitle, url: window.location.href + "?id=tablones/" + post.tablon.id + "/" + post.id});
+      }
     },
 
     openOption: function () {
@@ -19,6 +22,15 @@ Vue.component('post', {
   },
   
   computed: {
+    
+    checkShare() {
+      var result = false;
+      if (navigator.share) {
+        result = true;
+      }
+      return result;
+    },
+    
     image() {
       var result = null;
       if (this.value.image) {
@@ -189,7 +201,7 @@ Vue.component('post', {
 
 //    +     '<a href="#" class="button"><span class="icon icon-play"></span></a>'
 //    +     '<a href="javascript:void(0)" class="button" @click="openPost()"><i v-bind:class="btnOpenClass"></i></a>'
-    +     '<a href="javascript:void(0)" class="button" @click="sharePost()"><i class="fas fa-share-alt"></i></a>'
+    +     '<a href="javascript:void(0)" class="button" @click="sharePost()" v-if="checkShare"><i class="fas fa-share-alt"></i></a>'
   
     //<i class="far fa-folder"></i>
     //<i class="far fa-folder-open"></i>
