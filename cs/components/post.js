@@ -9,8 +9,8 @@ Vue.component('post', {
     sharePost: function () {
       var post = this.value;
       if (navigator.share) {
-        var text = post.subtitle;
-        text += "\n";
+        var text = post.title + ": " + post.subtitle;
+        //text += "\n";
         text += post.content;
         navigator.share({title: post.title, text: text, url: window.location.href + "?id=tablones/" + post.tablon.id + "/" + post.id});
       }
