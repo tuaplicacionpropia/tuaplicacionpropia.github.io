@@ -90,11 +90,11 @@ Vue.component('app', {
               for (i = 0; i < self.posts.length; i++) { 
                 if (self.posts[i].id == postId) {
                   selectedPost = self.posts[i];
-                  selectedPost.open = true;
-                  selectedPost.render = true;
+                  self.posts[i].open = true;
+                  self.posts[i].render = true;
                 }
                 else {
-                  selectedPost.render = false;
+                  self.posts[i].render = false;
                 }
               }
             };
