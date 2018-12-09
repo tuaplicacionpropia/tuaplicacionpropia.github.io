@@ -11,7 +11,7 @@ Vue.component('post', {
       if (false || navigator.share) {
         var text = post.title + ": " + post.subtitle;
         //text += "\n";
-        text += post.content;
+        //text += post.content;
         var url = window.location.href;
         var idxUrl = url.indexOf("?");
         if (idxUrl > -1) {
