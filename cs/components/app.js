@@ -108,10 +108,8 @@ Vue.component('app', {
     
     addPost: function (post) {
       var self = this;
+      post.open = false;
       post.render = true;
-      if (self.posts.length > 0) {
-        post.render = false;
-      }
       self.posts.push(post);
     },
     
