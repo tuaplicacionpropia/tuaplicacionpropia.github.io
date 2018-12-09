@@ -6,6 +6,10 @@ Vue.component('post', {
       this.value.open = !this.value.open;
     },
 
+    sharePost: function () {
+      this.value.open = !this.value.open;
+    },
+
     openOption: function () {
       this.$emit('open', this.value);
     },
@@ -176,7 +180,7 @@ Vue.component('post', {
   //https://codepen.io/klesht/pen/pjjegK
   template: ''
     + '<div v-if="moldDefault">'
-    + '<div class="recipe-card">'
+    + '<div class="recipe-card" @click="openPost()">'
     +   '<aside>'
 
     +     '<div v-bind:class="imgOpenClass">'
@@ -184,7 +188,9 @@ Vue.component('post', {
     +     '</div>'
 
 //    +     '<a href="#" class="button"><span class="icon icon-play"></span></a>'
-    +     '<a href="javascript:void(0)" class="button" @click="openPost()"><i v-bind:class="btnOpenClass"></i></a>'
+//    +     '<a href="javascript:void(0)" class="button" @click="openPost()"><i v-bind:class="btnOpenClass"></i></a>'
+    +     '<a href="javascript:void(0)" class="button" @click="sharePost()"><i class="fas fa-share-alt"></i></a>'
+  
     //<i class="far fa-folder"></i>
     //<i class="far fa-folder-open"></i>
     
