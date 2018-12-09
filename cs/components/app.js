@@ -130,6 +130,7 @@ Vue.component('app', {
       var self = this;
       post.open = false;
       post.render = true;
+      post.tablon = self.currentTablon;
       self.posts.push(post);
     },
     
