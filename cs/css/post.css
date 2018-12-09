@@ -254,3 +254,7 @@ img {
 .recipe-card article p span {
   font-weight: normal;
 }
+
+.shareBtn {
+  background: #005A3D;
+}
