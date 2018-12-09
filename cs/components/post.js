@@ -210,7 +210,7 @@ Vue.component('post', {
 
 //    +     '<a href="#" class="button"><span class="icon icon-play"></span></a>'
 //    +     '<a href="javascript:void(0)" class="button" @click="openPost()"><i v-bind:class="btnOpenClass"></i></a>'
-    +     '<a href="javascript:void(0)" class="button" @click="sharePost()" v-if="checkShare"><i class="fas fa-share-alt"></i></a>'
+    +     '<a href="javascript:void(0)" class="button shareBtn" @click="sharePost()" v-if="checkShare"><i class="fas fa-share-alt"></i></a>'
   
     //<i class="far fa-folder"></i>
     //<i class="far fa-folder-open"></i>
