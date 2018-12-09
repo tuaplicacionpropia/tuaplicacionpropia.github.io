@@ -12,7 +12,12 @@ Vue.component('post', {
         var text = post.title + ": " + post.subtitle;
         //text += "\n";
         text += post.content;
-        navigator.share({title: post.title, text: text, url: window.location.href + "?id=tablones/" + post.tablon.id + "/" + post.id});
+        var url = window.location.href;
+        var idxUrl = url.indexOf("?");
+        if (idxUrl > -1) {
+          url = url.substring(0, idxUrl);
+        }
+        navigator.share({title: post.title, text: text, url: url + "?id=tablones/" + post.tablon.id + "/" + post.id});
       }
     },
 
