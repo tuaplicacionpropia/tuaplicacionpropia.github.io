@@ -25,7 +25,12 @@ Vue.component('app', {
       
         var self = this;
         if (self.currentPage == 'tablones') {
-          result = "Tablones";
+          if (self.currentTablon != null) {
+            result = self.currentTablon.name;
+          }
+          else {
+            result = "Tablones";
+          }
         }
         else if (self.currentPage == 'contact') {
           result = "Contactos";
