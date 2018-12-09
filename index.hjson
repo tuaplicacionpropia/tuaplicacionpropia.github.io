@@ -4,6 +4,7 @@ mainPost: presentaciones/slideshow_primaria
 
 postsWeek: 
 [
+  games/assets
   games/kenney
   apps/designs
   games/guide_platforms
@@ -18,6 +19,7 @@ postsWeek:
 
 posts:
 [
+  games/assets
   games/kenney
   apps/designs
   games/guide_platforms
