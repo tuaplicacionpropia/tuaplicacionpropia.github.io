@@ -94,6 +94,7 @@ Vue.component('app', {
                   self.posts[i].render = true;
                 }
                 else {
+                  self.posts[i].open = false;
                   self.posts[i].render = false;
                 }
               }
@@ -129,6 +130,9 @@ Vue.component('app', {
     addPost: function (post) {
       var self = this;
       post.open = false;
+      if (self.posts.length <= 0) {
+        post.open = true;
+      }
       post.render = true;
       post.tablon = self.currentTablon;
       self.posts.push(post);
