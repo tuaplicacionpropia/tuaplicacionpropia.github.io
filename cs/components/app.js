@@ -102,6 +102,7 @@ Vue.component('app', {
                   selectedPost = self.posts[i];
                   self.posts[i].open = true;
                   self.posts[i].render = true;
+                  self.posts[i].closeable = false;
                 }
                 else {
                   self.posts[i].open = false;
