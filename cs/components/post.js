@@ -8,7 +8,7 @@ Vue.component('post', {
 
     sharePost: function () {
       var post = this.value;
-      if (navigator.share) {
+      if (true || navigator.share) {
         var text = post.title + ": " + post.subtitle;
         //text += "\n";
         text += post.content;
@@ -36,6 +36,7 @@ Vue.component('post', {
       if (navigator.share) {
         result = true;
       }
+      result = true;
       return result;
     },
     
