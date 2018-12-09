@@ -74,11 +74,32 @@ Vue.component('app', {
       var url = new URL(url_string);
       var id = url.searchParams.get("id");
       if (id) {
-        console.log(id);
+        //console.log(id);
         var arrayId = id.split("/");
         var pageId = arrayId[0];
-        if (pageId == 'tablones') {
+        if (pageId == 'tablones' && arrayId.length > 1) {
           var tablonId = arrayId[1];
+          
+          var onLoadPostFunction = null;
+          
+          if (arrayId.length > 2) {
+            var postId = arrayId[2];
+            onLoadPostFunction = function () {
+              var i;
+              var selectedPost = null;
+              for (i = 0; i < self.posts.length; i++) { 
+                if (self.posts[i].id == postId) {
+                  selectedPost = self.posts[i];
+                  selectedPost.open = true;
+                  selectedPost.render = true;
+                }
+                else {
+                  selectedPost.render = false;
+                }
+              }
+            };
+          }
+          
           var onLoadTablonFunction = function() {
             var i;
             var selectedTablon = null;
@@ -88,11 +109,10 @@ Vue.component('app', {
                 break;
               }
             }
-            self.openTablon(selectedTablon);
+            self.openTablon(selectedTablon, onLoadPostFunction);
           };
           
           self.openPage(pageId, onLoadTablonFunction);
-          
         }
         else {
           self.openPage(pageId);
@@ -137,7 +157,7 @@ Vue.component('app', {
       self.openPage(menuOption.id);
     },
 
-    openTablon: function (tablon) {
+    openTablon: function (tablon, successFn) {
       var self = this;
       self.currentTablon = tablon;
       
@@ -146,7 +166,7 @@ Vue.component('app', {
       }
       
       self.posts = [];
-      _dao.loadItems(tablon.id + '.hjson', 'posts', self.addPost);
+      _dao.loadItems(tablon.id + '.hjson', 'posts', self.addPost, successFn);
       
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
