@@ -4,7 +4,6 @@ posts:
     id: artista_oton
     title: Javier Otón de Y9D
     subtitle: Artista de la semana
-    open: true,
     sentDate: 02/12/2018 02:24
     eventDate2: 04/12/2018 17:00
     content: 
@@ -22,7 +21,6 @@ El artista de la semana es Javier Oton de Y9D. Su hermoso dibujo de un tigre mue
     id: horario_mocks_Y12_Y13
     title: Horario Mocks Y12-Y13
     subtitle: Horario provisional
-    open: false,
     sentDate: '30/11/2018',
     eventDate: '09/01/2019 08:00',
     content:
