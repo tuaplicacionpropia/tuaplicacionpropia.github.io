@@ -77,9 +77,15 @@ Vue.component('app', {
 
     //https://stackoverflow.com/questions/8038726/how-to-trigger-change-when-using-the-back-button-with-history-pushstate-and-pops
     setupBackButton: function() {
-      $(window).on("popstate", function(e) {
-        self.setupOnpopState(e.originalEvent.state);
-      });
+      var self = this;
+      
+      window.onpopstate = function(event) {
+        //alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
+        self.setupOnpopState(event.originalEvent.state);
+      };
+      //$(window).on("popstate", function(e) {
+      //  self.setupOnpopState(e.originalEvent.state);
+      //});
 
       //$("a").click(function(e) {
       //  e.preventDefault();
