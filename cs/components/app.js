@@ -98,9 +98,11 @@ Vue.component('app', {
     setupOnpopState: function (state) {
       if(state === null) { // initial page
         //$("div").text("Original");
+        ;
       } else { // page added with pushState
         //$("div").text(state.url);
-        self.openOnStart();
+        //self.openOnStart();
+        ;
       }
     },
     
@@ -192,6 +194,7 @@ Vue.component('app', {
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
       //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
+      window.history.pushState({ url: "/page2" }, "/page2", "page 2");
     },
 
     openPageSmall: function (page) {
@@ -218,6 +221,7 @@ Vue.component('app', {
       _dao.loadItems(tablon.id + '.hjson', 'posts', self.addPost, successFn);
       
       window.scrollTo(0, 0);
+      window.history.pushState({ url: "/page2" }, "/page2", "page 2");
       //document.title = self.title + " - " + self.currentPost.title;
       //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
     },
