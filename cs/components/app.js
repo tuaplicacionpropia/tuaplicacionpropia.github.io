@@ -102,6 +102,7 @@ Vue.component('app', {
     },
     
     setupOnpopState: function (state) {
+      var self = this;
       if(state === null) { // initial page
         //$("div").text("Original");
         ;
