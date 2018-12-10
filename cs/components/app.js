@@ -177,6 +177,7 @@ Vue.component('app', {
       var self = this;
       self.currentTablon = tablon;
       
+      //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath 
       //if (navigator.share) {
       //  navigator.share({title: tablon.name, text: tablon.description, url: window.location.href + "?id=" + tablon.id});
       //}
