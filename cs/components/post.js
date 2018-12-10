@@ -203,7 +203,7 @@ Vue.component('post', {
     + '<div v-if="moldDefault">'
   //v-on="{ mouseover: condition ? handler : null }"
   //  + '<div class="recipe-card" @click="openPost()">'
-    + '<div class="recipe-card" v-on="{ click: ignoreClose ? null : openPost}">'
+    + '<div class="recipe-card" v-on="{ click: value.ignoreClose ? null : openPost}">'
     +   '<aside>'
 
     +     '<div v-bind:class="imgOpenClass">'
