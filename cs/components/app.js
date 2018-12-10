@@ -201,7 +201,7 @@ Vue.component('app', {
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
       //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
-      window.history.pushState({ url: "/?id=" + page }, "/?id=" + page, "/?id=" + page);
+      window.history.pushState({ url: "/cs/?id=" + page }, "/cs/?id=" + page, "/cs/?id=" + page);
     },
 
     openPageSmall: function (page) {
@@ -228,7 +228,7 @@ Vue.component('app', {
       _dao.loadItems(tablon.id + '.hjson', 'posts', self.addPost, successFn);
       
       window.scrollTo(0, 0);
-      window.history.pushState({ url: "/?id=tablones/" + tablon.id }, "/?id=tablones/" + tablon.id, "/?id=tablones/" + tablon.id);
+      window.history.pushState({ url: "/cs/?id=tablones/" + tablon.id }, "/cs/?id=tablones/" + tablon.id, "/cs/?id=tablones/" + tablon.id);
       //document.title = self.title + " - " + self.currentPost.title;
       //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
     },
