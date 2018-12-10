@@ -201,7 +201,9 @@ Vue.component('post', {
   //https://codepen.io/klesht/pen/pjjegK
   template: ''
     + '<div v-if="moldDefault">'
-    + '<div class="recipe-card" @click="openPost()">'
+  //v-on="{ mouseover: condition ? handler : null }"
+  //  + '<div class="recipe-card" @click="openPost()">'
+    + '<div class="recipe-card" v-on="{ click: ignoreClose ? null : openPost}">'
     +   '<aside>'
 
     +     '<div v-bind:class="imgOpenClass">'
