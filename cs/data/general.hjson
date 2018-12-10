@@ -4,7 +4,6 @@ posts:
     id: asistencia_y_puntualidad
     title: Asistencia y Puntualidad
     subtitle: Información
-    open: true,
     sentDate: 24/10/2018 21:43
     eventDate2: 15/12/2018 17:00
     content: 
@@ -34,7 +33,6 @@ Muchas gracias por su cooperación y comprensión,
     id: actividades_2018_2019
     title: Actividades 2018-2019
     subtitle: Información
-    open: false,
     sentDate: '23/09/2018 23:49',
     eventDate2: '',
     content:
