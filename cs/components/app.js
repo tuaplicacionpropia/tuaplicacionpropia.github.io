@@ -47,6 +47,9 @@ Vue.component('app', {
   created() {
     // Change style of navbar on scroll
     var self = this;
+    
+    self.setupBackButton();
+    
     if (false) {
       window.onscroll = function() {self.changeStyleNavbar()};
     }
@@ -72,6 +75,35 @@ Vue.component('app', {
 
   methods: {
 
+    //https://stackoverflow.com/questions/8038726/how-to-trigger-change-when-using-the-back-button-with-history-pushstate-and-pops
+    setupBackButton: function() {
+      $(window).on("popstate", function(e) {
+        self.setupOnpopState(e.originalEvent.state);
+      });
+
+      //$("a").click(function(e) {
+      //  e.preventDefault();
+      //  history.pushState({ url: "/page2" }, "/page2", "page 2");
+      //});
+
+      (function(original) { // overwrite history.pushState so that it also calls
+                      // the change function when called
+        history.pushState = function(state) {
+          self.setupOnpopState(state);
+          return original.apply(this, arguments);
+        };
+      })(history.pushState);
+    },
+    
+    setupOnpopState: function (state) {
+      if(state === null) { // initial page
+        //$("div").text("Original");
+      } else { // page added with pushState
+        //$("div").text(state.url);
+        self.openOnStart();
+      }
+    },
+    
     goToTheTop: function() {
       var self = this;
       window.scrollTo(0, 0);
