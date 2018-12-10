@@ -4,7 +4,6 @@ posts:
     id: fechas_navidad_maspalomas
     title: Fechas Navidad Maspalomas
     subtitle: Navidad
-    open: true,
     sentDate: 01/12/2018 01:34
     eventDate2: 04/12/2018 17:00
     content: 
@@ -49,7 +48,6 @@ Paula Hill/Directora
     id: open_days_maspalomas
     title: Open Days Maspalomas
     subtitle: Días de puertas abiertas
-    open: false,
     sentDate: '08/11/2018 07:21',
     eventDate2: '',
     content: 
