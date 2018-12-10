@@ -467,8 +467,8 @@ Vue.component('app', {
 
     +   '<template v-if="currentPage === \'tablones\'">'
     +     '<template v-if="currentTablon">'
-    +       '<template v-for="post in posts" :key="post.id">'
-    +         '<post v-bind:value="post" v-if="post.render" />'
+    +       '<template v-for="post in posts">'
+    +         '<post v-bind:value="post" v-if="post.render" :key="post.id" />'
     +       '</template>'
 //    +       '<post v-for="post in posts" v-bind:value="post" :key="post.id" />'
     +     '</template>'
@@ -482,8 +482,8 @@ Vue.component('app', {
     +   '</template>'
   
     +   '<template v-else>'
-    +     '<template v-for="post in menuPosts" :key="post.id">'
-    +       '<post v-bind:value="post" mold="home" @open="openMenuOption(post)" />'
+    +     '<template v-for="post in menuPosts">'
+    +       '<post v-bind:value="post" mold="home" @open="openMenuOption(post)" :key="post.id" />'
     +     '</template>'
 //    +     '<post v-for="post in menuPosts" v-bind:value="post" :key="post.id" mold="home" @open="openMenuOption(post)" />'
     +   '</template>'
