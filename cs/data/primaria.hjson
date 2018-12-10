@@ -4,7 +4,6 @@ posts:
     id: fechas_navidad_primaria
     title: Fechas Navidad Primaria
     subtitle: Navidad
-    open: true,
     sentDate: 30/11/2018 01:01
     eventDate2: 04/12/2018 17:00
     content: 
@@ -48,7 +47,6 @@ Les deseamos una Feliz Navidad y un Próspero Año Nuevo.
     id: y4c_educacion_vial
     title: Y4C Educacion Vial
     subtitle: Charlas sobre educación vial
-    open: false,
     sentDate: '19/11/2018 23:09',
     eventDate: '30/11/2018 08:30',
     content:
