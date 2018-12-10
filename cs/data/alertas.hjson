@@ -4,7 +4,6 @@ posts:
     id: excursion_p4_cancelada
     title: Excursión P4 Cancelada
     subtitle: Cancelación
-    open: true,
     sentDate: 28/02/2018 10:04
     eventDate: 28/02/2018 14:00
     content: 
@@ -22,7 +21,6 @@ Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
     id: suspension_de_clases
     title: Suspensión de Clases
     subtitle: AVISO URGENTE
-    open: false,
     sentDate: '27/02/2018 21:00'
     eventDate: '28/02/2018 08:30'
     content:
@@ -39,7 +37,6 @@ Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
     id: reanudacion_de_clases_incendio
     title: Reanudación de Clases
     subtitle: AVISO
-    open: false
     sentDate: '27/03/2017 22:00'
     eventDate: '28/03/2017 08:00'
     content: 
@@ -54,7 +51,6 @@ Les informaremos de la nueva fecha pronto. Gracias por su comprensión.
     id: suspension_de_clases_incendio
     title: Suspensión de Clases
     subtitle: AVISO URGENTE
-    open: false
     sentDate: '27/03/2017 08:58'
     eventDate: '27/03/2017 10:00'
     content: 
