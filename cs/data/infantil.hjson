@@ -4,7 +4,6 @@ posts:
     id: fechas_navidad_infantil
     title: Fechas Navidad Infantil
     subtitle: Fiestas de La Navidad
-    open: true,
     sentDate: 03/12/2018 09:25
     eventDate2: 06/12/2018 08:00
     content: 
@@ -56,7 +55,6 @@ Pam Ainsworth
     id: post2
     title: Inauguración Oficial Milton
     subtitle: Nuevo Departamento de Infantil
-    open: false,
     sentDate: '19/11/2018 22:50',
     eventDate: '29/11/2018 18:00',
     content:
