@@ -81,7 +81,8 @@ Vue.component('app', {
       
       window.onpopstate = function(event) {
         //alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
-        self.setupOnpopState(event.originalEvent.state);
+        //self.setupOnpopState(event.originalEvent.state);
+        self.setupOnpopState(event.state);
       };
       //$(window).on("popstate", function(e) {
       //  self.setupOnpopState(e.originalEvent.state);
@@ -91,7 +92,7 @@ Vue.component('app', {
       //  e.preventDefault();
       //  history.pushState({ url: "/page2" }, "/page2", "page 2");
       //});
-
+/*
       (function(original) { // overwrite history.pushState so that it also calls
                       // the change function when called
         history.pushState = function(state) {
@@ -99,11 +100,14 @@ Vue.component('app', {
           return original.apply(this, arguments);
         };
       })(history.pushState);
+*/
     },
     
     setupOnpopState: function (state) {
       var self = this;
+/*
       if(state === null) { // initial page
+        
         //$("div").text("Original");
         ;
       } else { // page added with pushState
@@ -111,6 +115,8 @@ Vue.component('app', {
         self.openOnStart();
         ;
       }
+*/
+      self.openOnStart();
     },
     
     goToTheTop: function() {
@@ -204,7 +210,11 @@ Vue.component('app', {
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
       //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
-      window.history.pushState({ url: "/cs/?id=" + page }, "/cs/?id=" + page, "/cs/?id=" + page);
+      var histPage = "/cs/";
+      if (page != null) {
+        histPage += "?id=" + page;
+      }
+      window.history.pushState({ url: histPage }, histPage, histPage);
     },
 
     openPageSmall: function (page) {
