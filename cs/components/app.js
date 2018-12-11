@@ -174,12 +174,12 @@ Vue.component('app', {
           self.openPage(pageId, onLoadTablonFunction);
         }
         else {
-          self.openPage(pageId);
+          self.openPage(pageId, null, true);
         }
       //alert(id);
       }
       else {
-        self.openPage(null);
+        self.openPage(null, null, true);
       }
     },
     
@@ -199,7 +199,7 @@ Vue.component('app', {
       self.posts.push(post);
     },
     
-    openPage: function (page, successFn) {
+    openPage: function (page, successFn, ignoreHistory) {
       var self = this;
       self.currentPage = page;
       if (page == 'tablones') {
@@ -209,12 +209,14 @@ Vue.component('app', {
       }
       window.scrollTo(0, 0);
       //document.title = self.title + " - " + self.currentPost.title;
-      //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
-      var histPage = "/cs/";
-      if (page != null) {
-        histPage += "?id=" + page;
+      if (!ignoreHistory) {
+        //window.history.pushState({"currentPost": self.currentPost, "currentOption": self.currentOption, "posts": self.posts}, "", null);//null=urlPath      
+        var histPage = "/cs/";
+        if (page != null) {
+          histPage += "?id=" + page;
+        }
+        window.history.pushState({ url: histPage }, histPage, histPage);
       }
-      window.history.pushState({ url: histPage }, histPage, histPage);
     },
 
     openPageSmall: function (page) {
