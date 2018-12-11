@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 280px;
-  height: 500px;
+  height: 337px;
   margin: 30px auto;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .card-head {
   position: relative;
-  height: 252px;
+  height: 102px;
   background: #fa782e;
   /* Old browsers */
   background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
@@ -45,8 +45,9 @@ body {
 .product-img {
   position: absolute;
   left: 0;
-  margin-top: -16px;
-  margin-left: 50px;
+  margin-top: -50px;
+  margin-left: 124px;
+  height: 200px;
 }
 
 .product-detail {
