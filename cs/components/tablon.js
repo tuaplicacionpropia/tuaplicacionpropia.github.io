@@ -36,10 +36,10 @@ Vue.component('tablon', {
       };
 */
       if (this.value.suscrito && this.value.suscrito == true) {
-        result += " subscribe_green";
+        result += " subscribe_gray";
       }
       else {
-        result += " subscribe_gray";
+        result += " subscribe_green";
       }
       
       return result;
@@ -56,10 +56,10 @@ Vue.component('tablon', {
       result['product-price'] = true;
       
       if (this.value.suscrito && this.value.suscrito == true) {
-        result['subscribe_green'] = true;
+        result['subscribe_gray'] = true;
       }
       else {
-        result['subscribe_gray'] = true;
+        result['subscribe_green'] = true;
       }
       
       return result;
