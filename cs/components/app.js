@@ -95,7 +95,7 @@ Vue.component('app', {
       (function(original) { // overwrite history.pushState so that it also calls
                       // the change function when called
         history.pushState = function(state) {
-          self.setupOnpopState(state);
+          //self.setupOnpopState(state);
           return original.apply(this, arguments);
         };
       })(history.pushState);
@@ -171,6 +171,9 @@ Vue.component('app', {
           self.openPage(pageId);
         }
       //alert(id);
+      }
+      else {
+        self.openPage(null);
       }
     },
     
