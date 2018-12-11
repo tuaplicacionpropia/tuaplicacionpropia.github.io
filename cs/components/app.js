@@ -489,6 +489,7 @@ Vue.component('app', {
 //    +       '<post v-for="post in posts" v-bind:value="post" :key="post.id" />'
     +     '</template>'
     +     '<template v-else>'
+    +       '<div style="margin-top: 120px;"></div>'
     +       '<tablon v-for="tablon in tablones" v-bind:value="tablon" :key="tablon.id" @open="openTablon(tablon)" />'
     +     '</template>'
     +   '</template>'
