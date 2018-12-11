@@ -171,6 +171,7 @@ Vue.component('app', {
               }
             }
             self.openTablon(selectedTablon, onLoadPostFunction);
+            window.scrollTo(0, 0);
           };
           
           self.openPage(pageId, onLoadTablonFunction);
