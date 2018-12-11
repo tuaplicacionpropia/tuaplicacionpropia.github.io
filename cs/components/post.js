@@ -46,7 +46,8 @@ Vue.component('post', {
         result = this.value.image;
       }
       else {
-        result = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/oatmeal.jpg";
+        //result = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/oatmeal.jpg";
+        result = "statics/logo_menu.png";
       }
       return result;
     },
