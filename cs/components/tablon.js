@@ -100,9 +100,11 @@ Vue.component('tablon', {
     +       '<div class="product-desc">'
     +         '<span class="product-title">'
     +           '{{ value.name }}'//'Hartbee<b>spoort</b>'
+/*
     +           '<span class="badge">'
     +             'New'
     +           '</span>'
+*/
     +         '</span>'
     +         '<span class="product-caption">'
     +           '{{ value.description }}'//'Basket Ball Collection'
