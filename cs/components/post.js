@@ -4,6 +4,7 @@ Vue.component('post', {
   methods: {
     openPost: function () {
       this.value.open = !this.value.open;
+      this.$el.scrollIntoView();      
     },
 
     sharePost: function () {
