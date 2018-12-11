@@ -179,7 +179,9 @@ img {
 */
 
 .recipe-card .crop img {
-  filter: blur(6px);
+  filter: blur(2px);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   margin: 0;
   position: absolute;
   clip: rect(0px 496px 150px 0px);
