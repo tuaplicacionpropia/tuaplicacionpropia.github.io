@@ -36,10 +36,10 @@ Vue.component('tablon', {
       };
 */
       if (this.value.suscrito && this.value.suscrito == true) {
-        result += " subscribe_gray";
+        result += " subscribe_green";
       }
       else {
-        result += " subscribe_green";
+        result += " subscribe_gray";
       }
       
       return result;
