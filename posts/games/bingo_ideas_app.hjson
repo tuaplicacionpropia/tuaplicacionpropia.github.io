@@ -126,6 +126,14 @@ Screenshots Juego Android 'Loco Bingo Playspace'.
 
 [Otras muestras en freepik][freepik_assets].
 
+
+##### 8. Buen tutorial sobre cómo crear juegos multijugador dentro de la misma
+
+[Tutorial][tutorial_multiplayer].
+[Código fuente del proyecto Godot][multi_godot].
+
+[multi_godot]: https://github.com/GDquest/Godot-engine-tutorial-demos/tree/master/2018/07-30-2018-multiplayer-high-level-api
+[tutorial_multiplayer]: https://www.youtube.com/watch?v=Xu3LtVihYoo
 [freepik_assets]: https://www.freepik.es/search?format=search&page=1&query=bingo&sort=popular
 [url_assets]: https://graphicriver.net/item/bingo-game-assets/19339879
 [home_page]: https://www.playspace.com/es-es/jugar/bingo-online
