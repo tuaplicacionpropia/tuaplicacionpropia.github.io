@@ -1,0 +1,36 @@
+title: Items gratuitos para los juegos
+subtitle: Free items
+image: https://i.imgur.com/CUHMI5Il.jpg
+subtitle1:
+  '''
+  Descripción1 Items
+  '''
+subtitle2:
+  '''
+  Descripción2 Items
+  '''
+  
+tag: games
+description:
+  '''
+Items gratuitos para los juegos
+  '''
+content:
+  '''
+
+A continuación se lista una serie de items para ayudar en la creación de juegos.
+
+##### [][bgUrl1]
+![][bgImg1]
+[bgImg1]: 
+[bgUrl1]: 
+
+##### [][bgUrl]
+![][bgImg]
+[bgImg]: 
+[bgUrl]: 
+
+
+
+
+  '''
