@@ -4,6 +4,7 @@ mainPost: presentaciones/slideshow_primaria
 
 postsWeek: 
 [
+  presentaciones/blender_footage
   games/assets
   games/kenney
   apps/designs
@@ -19,6 +20,7 @@ postsWeek:
 
 posts:
 [
+  presentaciones/blender_footage
   games/assets
   games/kenney
   apps/designs
