@@ -1,0 +1,114 @@
+title: Blender: Añadir footage a video
+subtitle: Añadir footage a video
+image: https://i.imgur.com/Y8nmGwdl.gif
+subtitle1:
+  '''
+  Descripción1 Design2
+  '''
+subtitle2:
+  '''
+  Descripción2 Design2
+  '''
+  
+tag: blender
+description:
+  '''
+Añadir footage a video
+  '''
+content:
+  '''
+
+
+
+### Plugin para añadir footage a video
+ 
+```md
+
+#!/usr/bin/env python2.7
+#coding:utf-8
+
+
+import bpy
+
+context = bpy.context
+scene = context.scene
+scene.sequence_editor_create()
+sed = scene.sequence_editor
+sequences = sed.sequences
+# add an image strip
+filepath = "/media/jmramoss/ALMACEN/pypi/slideshow/image.jpg"#"/home/batfinger/Pictures/BGLTest.png"
+frame_start = 1
+frame_end = 90
+
+#https://docs.blender.org/api/2.79/bpy.types.Sequences.html#bpy.types.Sequences
+'''
+# add an image strip.
+image_strip = sequences.new_image("Image", filepath, 1, frame_start)
+# give it a duration
+image_strip.frame_final_end = frame_end
+
+color_strip = sequences.new_effect("Color", 'COLOR', 2,
+       frame_start=frame_start, 
+       frame_end=frame_end)
+
+color_strip.color = (1, 0, 0)
+
+gamma_strip = sequences.new_effect("GammaX", 'GAMMA_CROSS', 3,
+       frame_start=frame_start, 
+       frame_end=frame_end, 
+       seq1=color_strip,
+       seq2=image_strip)
+'''
+video1 = sequences.new_movie("video1", "/media/jmramoss/ALMACEN/pypi/slideshow/video1.mp4", 1, 1)
+
+foreground = sequences.new_movie("fg1", "/media/jmramoss/ALMACEN/pypi/slideshow/foreground2.mp4", 2, 1)
+
+print("LENGTH FOREGROUND = " + str(foreground.frame_duration))
+print("LENGTH VIDEO = " + str(video1.frame_duration))
+
+add_strip = sequences.new_effect("minameAdd", 'ADD', 3,
+       frame_start=1, 
+#       frame_end=frame_end, 
+       seq1=foreground,
+       seq2=video1)
+
+if foreground.frame_duration < video1.frame_duration:
+  foreground2 = sequences.new_movie("fg2", "/media/jmramoss/ALMACEN/pypi/slideshow/foreground2.mp4", 4, foreground.frame_duration + 1)
+  add_strip = sequences.new_effect("minameAdd2", 'ADD', 5,
+       frame_start=foreground.frame_duration + 1, 
+#       frame_end=frame_end, 
+       seq1=foreground2,
+       seq2=video1)
+
+  
+
+
+scene.frame_start = 1
+scene.frame_end = video1.frame_duration
+scene.frame_step = 1
+
+
+scene.render.resolution_x = 1920
+scene.render.resolution_y = 1080
+scene.render.resolution_percentage = 10#100
+
+
+#Type: enum in [‘BMP’, ‘IRIS’, ‘PNG’, ‘JPEG’, ‘JPEG2000’, ‘TARGA’, ‘TARGA_RAW’, ‘CINEON’, ‘DPX’, ‘OPEN_EXR_MULTILAYER’, ‘OPEN_EXR’, ‘HDR’, ‘TIFF’, ‘AVI_JPEG’, ‘AVI_RAW’, ‘FRAMESERVER’, ‘H264’, ‘FFMPEG’, ‘THEORA’, ‘XVID’], default ‘TARGA’
+scene.render.image_settings.file_format = 'FFMPEG'
+
+#audio_codec #FFmpeg audio codec to use
+#Type:	enum in [‘NONE’, ‘MP2’, ‘MP3’, ‘AC3’, ‘AAC’, ‘VORBIS’, ‘FLAC’, ‘PCM’], default ‘NONE’
+scene.render.image_settings.color_mode = 'RGB'
+scene.render.ffmpeg.audio_codec = 'MP3'
+scene.render.ffmpeg.audio_bitrate = 192
+
+scene.render.filepath = '/home/jmramoss/movie_add.avi'
+bpy.ops.render.render(animation=True)
+
+
+```
+
+
+
+ 
+  '''
