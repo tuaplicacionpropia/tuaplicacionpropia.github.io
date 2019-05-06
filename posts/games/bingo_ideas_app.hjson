@@ -18,6 +18,10 @@ Screenshots Juego Android 'Loco Bingo Playspace'
 content:
   '''
 
+Utilizar la librería [GodotAds][GodotAds] para incluir publicidad.
+
+[GodotAds]: https://github.com/FrogSquare/GodotAds
+
 Screenshots Juego Android 'Loco Bingo Playspace'.
 
 - [Página web del juego][home_page].
