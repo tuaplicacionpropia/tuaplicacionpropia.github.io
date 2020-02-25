@@ -1,0 +1,51 @@
+posts: 
+[
+  {
+    id: asistencia_y_puntualidad
+    title: Asistencia y Puntualidad
+    subtitle: Información
+    sentDate: 24/10/2018 21:43
+    eventDate2: 15/12/2018 17:00
+    content: 
+      '''
+*Estimados padres de alumnos Canterbury*: recuerden que la jornada escolar comienza a las 8:30 am y que los alumnos deben estar en el patio antes de este horario.
+
+Llegar al colegio con puntualidad y bien preparados ayuda a los niños a tener éxito en los estudios. Los niños que llegan a tiempo a la escuela, bien desayunados, con el material escolar correcto de lo que van a necesitar y los trabajos hechos tienen más seguridad en sí mismos y asisten más contentos a las clases. Cuando un alumno llega tarde la colegio, altera el registro de entrada, interrumpe al profesor/a y a sus compañeros/as, se pierde la introducción de la jornada y la explicación de las tareas a llevar a cabo. Los retrasos afectan al aprendizaje.
+
+Les rogamos encarecidamente que, en la medida de lo posible y sabiendo de la densidad del tráfico por las mañanas en muchas zonas de Las Palmas, hagan el mayor esfuerzo posible para que su hijo esté en el colegio, *como muy tarde a las 8.25 am*.
+
+Tengan en cuenta que en el boletín de notas trimestrales aparece el número de ausencias y retrasos (justificados e injustificados).
+
+Aprovechamos para recordarles que cualquier ausencia debe ser justificada por escrito (les adjuntamos un [formulario de justificación][pdf], para su comodidad).
+[pdf]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/general/asistencia_y_puntualidad/Asistencia_y_Puntualidad.pdf
+
+Muchas gracias por su cooperación y comprensión,
+
+* **Miss Pam Ainsworth** (Directora de Infantil Milton).
+* **Miss Paula Hill** (Directora Colegio Maspalomas).
+* **Miss Lindsay Gale** (Directora Primaria San Lorenzo).
+* **Mr Pedro Tomás** (Director Secundaria San Lorenzo).
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/general/asistencia_y_puntualidad/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-asistencia2.jpg
+  }
+  {
+    id: actividades_2018_2019
+    title: Actividades 2018-2019
+    subtitle: Información
+    sentDate: '23/09/2018 23:49',
+    eventDate2: '',
+    content:
+      '''
+- [Actividades Infantil][pdf_infantil].
+- [Actividades Primaria][pdf_primaria].
+- [Actividades Secundaria][pdf_secundaria].
+
+[pdf_infantil]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/general/actividades/Actividades_Infantil_2018.pdf
+[pdf_primaria]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/general/actividades/Actividades_Primaria_2018.pdf
+[pdf_secundaria]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/general/actividades/Actividades_Secundaria_2018.pdf
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2015-2016/circulares/general/actividades/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-actividades.jpg
+  }
+]

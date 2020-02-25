@@ -1,0 +1,87 @@
+posts: 
+[
+  {
+    id: fechas_navidad_infantil
+    title: Fechas Navidad Infantil
+    subtitle: Fiestas de La Navidad
+    sentDate: 03/12/2018 09:25
+    eventDate2: 06/12/2018 08:00
+    content: 
+      '''
+      
+Estimados Padres: una vez más estamos llegando a las fiestas de La Navidad. En esta época tan ajetreada del año, nos complace poder informarles de las actividades pendientes de este trimestre y recordarles los días festivos que no habrá clase.
+
+- **Jueves, 6 Diciembre** - Día de la Constitución Española.
+- **Viernes, 7 Diciembre** - Día del Enseñante y del Estudiante.
+
+#### NOTAS 1º TRIMESTRE
+
+**Del 13 al 19 de Diciembre** – Días de reuniones con los padres de los alumnos del Departamento de Infantil (Nursery, Reception y Year 1).
+
+Podrán recibir las notas de este trimestre y comentar su progreso con la respectiva profesora. 
+
+Durante la semana, las profesoras citarán a los padres por la mañana o por la tarde (8:00-8:30 o 15:35-17:00). 
+
+Se les enviará una carta con el día y la hora de la cita.
+
+#### SHOW DE NAVIDAD EN EL TEATRO CHAUCER EN SAN LORENZO: BORN IN A BARN
+
+- **Martes, 11 Diciembre y Jueves, 13 Diciembre**: Ensayo en el Teatro Chaucer (solo alumnos).
+- **Martes, 18 Diciembre a las 10:30 horas**: Todos los padres de los alumnos de NURSERY, RECEPTION A Y B están invitados al Show.
+- **Miércoles, 19 Diciembre a las 10:30 horas**: Todos los padres de los alumnos de RECEPTION C y YEAR 1 están invitados al Show.
+- **Todos los alumnos actúan ambos días** (*Si tienen hermanos, elegir una de las dos funciones)
+- **Los días 13, 18 y 19 de Diciembre** TODOS LOS ALUMNOS tienen que venir desde casa con la ropa del Show puesta y el uniforme de educación física en la mochila.
+- **Vestimenta para el show de Navidad**: En la hoja adjunta se les indica la ropa que debe traer puesta su hijo/a.
+
+*Pre-Nursery*: Como los alumnos de Pre-Nursery son muy pequeñitos todavía para subir a San Lorenzo y actuar en el escenario, esos días se quedarán en el colegio. Ellos ofrecerán a sus padres una pequeña asamblea de Navidad el jueves, 20 de diciembre a las 9:00 horas en Milton House.
+
+**Viernes 21 de Diciembre**, último día del primer trimestre:
+
+Los alumnos podrán venir con ropa de calle. Cada clase organizará una pequeña fiesta y si lo desean, pueden traer algo de comida (no bebida y que sea una sola cosa) para compartir. (Por motivos de salud e higiene, no podemos aceptar productos elaborados en casa. Los productos deberán estar empaquetados comercialmente).
+Además, Papa Noel hará una visita a cada una de las clases para que los niños/as puedan entregar la carta con "SUS DESEOS", que han preparado en el colegio.
+
+**Piojos**: Como en todos los colegios, tenemos casos de piojos. Por favor, revisen el pelo de sus hijos/as con regularidad. Todos los que tengan el pelo largo, deberán traerlo recogido siempre.
+
+Recordamos a los padres de los alumnos de Nursery, Reception y Year 1, que la jornada escolar comienza a las 8:30. Por favor, rogamos sean puntuales a la hora de la llegada para no interrumpir la rutina de la clase y no perjudicar el aprendizaje de su hijo/a.
+
+**El segundo trimestre comenzará el martes 8 de Enero de 2019**.
+
+Nos gustaría aprovechar esta oportunidad para desearles una **¡Feliz Navidad y un Próspero Año Nuevo!**
+
+[PDF ADJUNTO][pdf_adjunto].
+
+[pdf_adjunto]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/fechas_navidad/Calendario_de_Navidad_Infantil_2018.pdf
+
+Atentamente,
+
+Pam Ainsworth      
+    
+      '''
+    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/fechas_navidad/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-calendar2.jpg
+  }
+  {
+    id: inauguracion_oficial_milton
+    title: Inauguración Oficial Milton
+    subtitle: Nuevo Departamento de Infantil
+    sentDate: '19/11/2018 22:50',
+    eventDate: '29/11/2018 18:00',
+    content:
+      '''
+**Queridos padres**: el jueves 29 de noviembre de 2018 tendremos nuestra celebración oficial de apertura del Nuevo Departamento de Infantil Milton House.
+
+Durante el día, los alumnos/as disfrutarán participando en diferentes actividades para celebrar la ocasión, que incluye un almuerzo especial y una breve visita del Embajador Británico en España.
+
+Después de finalizar la jornada escolar, entre las **18:00 - 20:00** horas, habrá una celebración para los padres en Milton House.
+
+Este evento es __sólo para adultos__, los niños ya lo han disfrustado juntos durante el día. Habrán bebidas y tapas disponibles y nos encantaría que nos acompañaran en ese día tan especial.
+
+**Por favor**, si van a asistir a la celebración, rogamos nos **devuelvan el [formulario][pdf]**, ya que necesitamos saber el número de padres aproximado que van a venir.
+
+**Gracias**.
+
+[pdf]: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/inauguracion/Inauguracion_Milton.pdf
+
+      '''
+    image: https://www.canterburyschool.com/images/stories/2018-2019/circulares/infantil/inauguracion/Colegio-Privado-Internacional-Britanico-Ingles-Las_Palmas-Maspalomas-English-School-inauguracion2.png
+  }
+]

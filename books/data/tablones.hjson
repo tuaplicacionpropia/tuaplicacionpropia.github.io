@@ -1,0 +1,51 @@
+tablones: 
+[
+  {
+    id: alertas
+    name: "Alertas"
+    description: "Alertas, emergencias o urgencias"
+    suscrito: true, 
+    logo: "img/logo_tablon.png"
+    image: "img/emergencias.png"
+  }
+  {
+    id: general
+    name: "General"
+    description: "Eventos generales sobre el colegio"
+    suscrito: false
+    logo: "img/logo_tablon.png"
+    image: "img/info.png"
+  }
+  {
+    id: primaria
+    name: "Primaria"
+    description: "Eventos sobre el centro de primaria Lomo Diviso I"
+    suscrito: true
+    logo: "img/logo_tablon.png"
+    image: "img/centro_primaria.png"
+  }
+  {
+    id: secundaria
+    name: "Secundaria"
+    description: "Eventos sobre el centro de secundaria Lomo Diviso II"
+    suscrito: false
+    logo: "img/logo_tablon.png"
+    image: "img/centro_secundaria.png"
+  }
+  {
+    id: infantil
+    name: "Infantil"
+    description: "Eventos sobre el centro de infantil Milton"
+    suscrito: false
+    logo: "img/logo_tablon.png"
+    image: "img/centro_milton.png"
+  }
+  {
+    id: maspalomas
+    name: "Maspalomas"
+    description: "Eventos sobre el centro de Maspalomas"
+    suscrito: false
+    logo: "img/logo_tablon.png"
+    image: "img/centro_maspalomas.png"
+  }
+]
