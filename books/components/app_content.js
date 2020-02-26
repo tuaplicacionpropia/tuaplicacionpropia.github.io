@@ -39,7 +39,7 @@ Vue.component('app_content', {
     +   '<app_content_carousel />'
 
     +   '<div class="row">'
-    +     '<div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-4" v-for="item in books">'
+    +     '<div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-6" v-for="item in books">'
     +       '<book v-bind:value="item" :key="item.id" mold="home" />'
     +     '</div>'
     +   '</div>'
