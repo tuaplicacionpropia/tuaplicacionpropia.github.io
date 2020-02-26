@@ -19,7 +19,12 @@ Vue.component('app_content', {
     self.books = [];
     var urlBooks = "https://api.apify.com/v2/key-value-stores/EjCix12SYKQpYbdf5/records/OUTPUT?disableRedirect=true";
     _dao.loadData(urlBooks, function (data) { 
-		self.books = data["books"];
+		var books = data["books"];
+	        self.books = [];
+	    	var i = 0;
+	    for (i = 0; i < Math.min(25, books.length); i++) {
+		    self.books.append(books[i]);
+	    }
 	});
   },
 
