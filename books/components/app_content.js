@@ -23,7 +23,7 @@ Vue.component('app_content', {
 	        self.books = [];
 	    	var i = 0;
 	    for (i = 0; i < Math.min(25, books.length); i++) {
-		    self.books.append(books[i]);
+		    self.books.push(books[i]);
 	    }
 	});
   },
